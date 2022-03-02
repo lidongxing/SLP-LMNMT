@@ -1,0 +1,1677 @@
+acum câțiva ani în urmă , aici la ted , peter skillman a prezentat o problemă de design numită problema bezelei .
+și ideea este destul de simplă .
+echipe de câte patru trebuie să construiască cea mai înaltă structură de sine stătătoare din 20 de bețe de spaghete , un iard de bandă adezivă , un iard de ață şi o bezea .
+bezeaua trebuie să stea în vârf .
+și , deşi pare destul de simplu , e de fapt destul de greu , deoarece forțează oamenii să colaboreze foarte rapid .
+și deci am considerat că aceasta e o idee interesantă , și am încorporat @-@ o într @-@ un seminar de design .
+și a fost un mare succes .
+și de atunci , am ţinut aproape 70 de seminarii de design în toată lumea cu studenți și designeri și arhitecți , chiar directori tehnici din top 50 fortune , și ceva din acest exerciţiu scoate la iveală învățăminte bune despre natura relației de colaborare , și aș dori să vă împărtășesc câteva .
+deci , în mod normal oamenii încep prin a evalua sarcina .
+discută despre ea , își imaginează cum va arăta , se luptă pentru putere , apoi își petrec ceva timp planificând , organizând .
+schițează și aranjează spaghetele își petrec majoritatea timpului asamblând bețele în structuri care se înalță și apoi , la final , chiar când nu mai au timp , cineva ia bezeaua , și o pune delicat în vârf , se dau la o parte , și ta @-@ da !
+își admiră munca .
+&quot; dar , ce se întâmplă de fapt , în majoritatea cazurilor , este că &quot; &quot; ta @-@ da &quot; &quot; -ul se transformă într @-@ un &quot; &quot; oh @-@ oh &quot; &quot; , deoarece greutatea bezelei face ca întreaga structură să se deformeze și să cadă . &quot;
+&quot; și există un număr de oameni care au parte de mult mai multe momente &quot; &quot; oh @-@ oh &quot; &quot; decât alții , și printre cei mai neîndemânatici se regăsesc absolvenții facultăților de afaceri . &quot;
+ei mint , trișează , își pierd concentrarea , şi realizează structuri jalnice .
+&quot; și , desigur , sunt echipe care au mult mai multe structuri &quot; &quot; ta @-@ da &quot; &quot; , și , printre cei mai buni , sunt proaspeții absolvenți de gradiniță . &quot;
+și e destul de uimitor .
+aşa cum ne spune peter , nu numai că produc cele mai înalte structuri , ci şi cele mai interesante dintre toate .
+deci ați vrea să întrebați : cum de ? de ce ? de ce ei ?
+&quot; și lui peter îi place să zică : &quot; &quot; niciunul dintre copii nu pierde timpul încercând să fie director general la spaghetti srl &quot; &quot; . așa e . &quot;
+și nu pierd timpul luptându @-@ se pentru putere .
+dar mai este și un alt motiv .
+acesta este că studenţii sunt instruiți să găsească singurul plan corect , nu @-@ i așa ?
+și îl execută .
+și ceea ce se întâmplă e că , atunci când pun bezeaua în vârf , sunt în criză de timp , și ce se întâmplă ?
+e o criză .
+sună cunoscut ? așa e .
+ceea ce fac diferit copiii de grădiniță , este că ei încep cu bezeua , și construiesc prototipuri , prototipuri succesive , păstrând în vârf bezeaua , deci au mai multe ocazii să remedieze prototipurile greșit construite pe parcurs .
+deci designerii recunosc acest tip de colaborare ca esența procesului iterativ .
+și la fiecare versiune , copiii au un răspuns imediat referitor la ce funcționează și la ce nu funcționează .
+deci capacitatea de a construi în prototipuri este esențială , și hai să vedem cum se comportă diferite echipe .
+deci media majorității este în jur de 20 țoli , studenții , sunt cam la jumătate , avocații , un pic mai bine , dar nu cu mult , copiii de grădiniță , mai bine ca majoritatea adulților .
+cine e cel mai bun ?
+arhitecții și inginerii , din fericire , cea mai înaltă structură pe care am văzut @-@ o are 39 țoli .
+și de ce e așa ? pentru că ei înțeleg că triunghiurile și modelele geometrice auto @-@ portante sunt cheia construcției de structuri stabile .
+deci , directorii generali , puțin mai bine decât media .
+dar aici devine interesant .
+dacă adaugi echipei un om de la administrativ rezultatul se îmbunătățește semnificativ .
+&quot; e incredibil. vedeți , vă uitați în jur și spuneți : &quot; &quot; asta e echipa câștigatoare &quot; &quot; . &quot;
+poți spune asta dinainte. și de ce e așa ?
+deoarece au aptitudini speciale de facilitare .
+conduc procesul , înțeleg procesul .
+și orice echipă care monitorizează și este atentă la lucrare își va îmbunătăţii performanţa .
+competențe tehnice și de facilitare , și combinația lor duce la succes garantat .
+dacă ai 10 echipe care încep să construiască , vei avea în jur de șase structuri ce vor sta în picioare .
+și am încercat ceva interesant .
+m @-@ am gândit , hai să creștem miza .
+și am oferit un premiu de 10 mii de dolari în programe informatice pentru echipa câștigătoare .
+și ce credeți că s @-@ a întâmplat cu acei studenți la design ?
+care a fost rezultatul ?
+iată ce s @-@ a întâmplat .
+nicio echipă nu a construit ceva care să stea în picioare .
+dacă vreo echipă ar fi construit , să zicem , o structură de trei centimetri , ar fi putut lua acasă premiul .
+deci , nu e interesant că mizele mari au un impact puternic ?
+am repetat exercițiul cu aceiași studenți .
+ce credeți că s @-@ a întâmplat ?
+abia acum au realizat valoarea prototipului .
+și aceeaşi echipă a trecut de la cel mai slab rezultat la unul dintre cele mai bune rezultate .
+au costruit cea mai înaltă structură în cel mai scurt timp .
+așadar , iată niște lecții profunde pentru noi despre natura motivațiilor și despre succes .
+deci , aţi putea întreba : de ce și @-@ ar pierde cineva timp scriind o astfel de problemă ?
+şi motivul este , eu ajut la creerea instrumentelor digitale și a proceselor folosite de echipele ce construiesc mașini și jocuri video și efecte vizuale .
+și ceea ce face această provocare a bezelei este că îi ajută la identificarea presupunerilor ascunse .
+pentru că , de fapt , fiecare proiect are propria bezea , nu @-@ i așa ?
+această provocare ne asigură o experiență comună , un limbaj comun , o poziție comună în construcția unui prototipului potrivit .
+și deci , aceasta este valoarea acestei experiențe , acestui exercițiu atât de simplu .
+și pentru cei interesați , puteți accesa www.marshmallowchallenge.com este un blog unde puteţi vedea cum să construiți cu bezele .
+sunt și instrucțiuni pas cu pas despre asta .
+sunt și exemple neobișnuite din toată lumea de cum oamenii schimbă și ajustează sistemul .
+puteți găsi și recorduri mondiale .
+și lecția fundamentală , cred că este faptul că designul este cu adevărat un sport de contact .
+ne cere să dedicăm sarcinii toate simțurile , și să aplicăm ce avem mai bun în gândire , sentimente și fapte pentru provocarea din fața noastră .
+&quot; și , uneori , un simplu prototip al acestei experiențe este singurul lucru necesar pentru a transforma un moment &quot; &quot; oh @-@ oh &quot; &quot; într @-@ un moment &quot; &quot; ta @-@ da &quot; &quot; . &quot;
+și asta poate face diferenţa .
+vă mulţumesc foarte mult .
+să presupunem că avem aici o maşinărie , o maşinărie mare , formidabilă , stil ted , şi anume o maşină a timpului .
+şi toţi cei aflaţi în această încăpere trebuie să intre în ea .
+puteţi merge înapoi sau înainte , dar nu puteţi rămâne unde sunteţi .
+mă întreb ce @-@ aţi alege , căci eu le @-@ am pus prietenilor această întrebare în ultima vreme şi toţi au vrut să călătorească înapoi în timp .
+&quot; nu ştiu. vor să se întoarcă înainte de inventarea automobilului , înainte de twitter sau de &quot; &quot; american idol &quot; &quot; . &quot;
+nu ştiu .
+sunt sigur că există o anume atracţie a nostalgiei , a dorinţei de a crede ceva anume .
+înţeleg asta .
+dar trebuie să menţionez că nu fac parte din acest grup .
+nu vreau să mă întorc în timp şi nu pentru că nu am spirit de aventură , ci pentru că paleta de opţiuni de pe această planetă nu regresează , ci avansează .
+aşadar , vreau să intru în maşină şi să merg înainte .
+e cea mai bună perioadă a acestei planete din orice punct de vedere aţi privi : sănătate , bogăţie , mobilitate , şanse , rată descendentă a îmbolnăvirilor .
+nu a mai existat nicicând o asemenea perioadă .
+toţi străbunicii mei au murit înainte să împlinească 60 de ani .
+bunicii mei au ajuns până la 70 .
+părinţii mei se apropie de 80 .
+aşa că ar fi bine să existe cifra nouă la începutul vârstei la care voi muri .
+dar nici măcar nu e vorba despre oameni asemenea nouă , deoarece e mult mai important decât atât .
+un copil care se naşte astăzi în new delhi are o speranţă de viaţă mai mare decât avea cel mai bogat om din lume acum 100 de ani .
+gândiţi @-@ vă la asta. e un fenomen incredibil .
+şi de ce e adevărat ?
+variola. variola a omorât miliarde de oameni .
+a reprofilat datele demografice ale planetei într @-@ un mod neegalat de nimic altceva .
+nu mai e. a dispărut .
+am învins @-@ o. puf !
+în lumea bogată , bolile care ameninţau milioane de oameni cu doar o generaţie în urmă nu mai există .
+difteria , rubeola , poliomielita ...
+mai ştie cineva ce înseamnă toate astea ?
+vaccinurile , medicamentele moderne , capacitatea noastră de a hrăni miliarde de oameni sunt triumfuri ale metodei ştiinţifice .
+iar eu consider că metoda ştiinţifică , a pune lucrurile la încercare , a vedea dacă funcţionează , a le schimba dacă nu , reprezintă una dintre cele mai mai realizări ale omenirii .
+acestea sunt veştile bune .
+din păcate , nu mai există şi altele deoarece sunt alte probleme , menţionate de multe ori , una dintre ele fiind că în ciuda tuturor realizărilor noastre , un miliard de oameni se culcă flămânzi în fiecare zi .
+acest număr crește foarte rapid şi e de @-@ a dreptul condamnabil .
+nu doar atât , dar ne @-@ am folosit imaginaţia ca să distrugem complet această planetă .
+apa potabilă , terenul agricol , pădurile tropicale , ţiţeiul , benzina : sunt toate pe ducă şi vor dispărea curând .
+dacă nu inventăm o modalitate de a ieşi din această încurcătură , vom dispărea şi noi .
+întrebarea este : putem face asta ? eu cred că da .
+cred că e evident că putem produce hrană care să hrănească miliarde de oameni fără devastarea pământului pe care locuiesc .
+cred că putem alimenta această lume cu energie care nu o va distruge .
+chiar cred asta şi nu e doar o iluzie .
+dar iată ce nu mă lasă să dorm noaptea - unul dintre lucrurile care nu mă lasă să dorm .
+n @-@ am avut niciodată mai mare nevoie de progresul ştiinţei decât acum şi nici nu ne @-@ am mai aflat vreodată în situaţia de a o folosi în modul în care @-@ o putem face astăzi .
+suntem în pragul unor evenimente absolut uluitoare în mai multe domenii .
+totuşi , cred că ar trebui să ne întoarcem cu trei sute de ani în timp , înainte de epoca iluminismului , pentru a descoperi o perioadă în care ne @-@ am luptat pentru progres , pentru toate aceste lucruri cu mai multă forţă şi pe mai multe fronturi decât acum .
+oamenii se cramponează fanatic de convingerile lor , încât nu @-@ i mai poţi elibera .
+nici măcar adevărul nu @-@ i va elibera .
+toată lumea are dreptul la o opinie ; ba chiar are dreptul să aibă o opinie despre progres , dar ştiţi la ce nu aveţi dreptul ?
+nu aveţi dreptul la propriile voastre adevăruri. îmi pare rău , dar aşa e .
+şi mi @-@ a luat ceva vreme să @-@ mi dau seama de asta .
+&quot; acum vreo zece ani , am scris un articol despre vaccinuri pentru &quot; &quot; the new yorker &quot; &quot; ; un articol de mică întindere . &quot;
+am fost uimit să am parte de împotriviri , împotriviri faţă de ceea ce , la urma urmei , e cea mai eficientă măsură de sănătate publică din întreaga istorie a omenirii .
+n @-@ am ştiut ce să fac , aşa că am făcut ce fac de obicei , am scris un articol şi @-@ am mers mai departe .
+curând după aceea , am scris un articol despre alimentele modificate genetic .
+acelaşi lucru , numai că mai important .
+oamenii au luat @-@ o razna .
+&quot; aşa că am scris un articol şi despre asta şi nu puteam înţelege de ce oamenii credeau că este &quot; &quot; mâncare de tip frankenstein &quot; &quot; , de ce credeau că a schimba molecule într @-@ un mod anume , nu într @-@ unul aleatoriu , însemna a încălca legile naturii . &quot;
+dar , după cum ştiţi deja , fac ceea ce fac. am scris articolul , am mers mai departe .
+doar sunt jurnalist ; tastăm , arhivăm , mergem la cină , totul e @-@ n regulă .
+dar aceste articole m @-@ au deranjat şi nu @-@ mi dădeam seama de ce. apoi am înţeles .
+era deoarece acei fanatici care mă scoteau din minţi nu erau deloc fanatici .
+erau oameni cu bun @-@ simţ , educaţi , la locul lor .
+erau exact ca oamenii din această încăpere .
+şi m @-@ a deranjat atât de mult ...
+dar apoi m @-@ am gândit : hai să fim sinceri .
+suntem în punctul în care nu mai avem aceeaşi relaţie cu progresul ca până acum .
+vorbim despre el ambivalent .
+&quot; vorbim despre el în termeni ironici şi @-@ l punem între ghilimele : &quot; &quot; progres &quot; &quot; . &quot;
+ok , există motive pentru asta şi cred că ştim care sunt aceste motive .
+ne @-@ am pierdut încrederea în instituţii , în autoritate şi uneori chiar în ştiinţă .
+şi avem dreptul să o facem .
+poţi rosti câteva nume şi oamenii vor înţelege .
+cernobîl , bhopal , naveta challenger , vioxx , armele de distrugere în masă , numărătoarea greşită a voturilor .
+puteţi alcătui propria listă .
+sunt întrebări şi probleme referitoare la persoane despre care consideram că au întotdeauna dreptate .
+aşadar , fiţi circumspecţi .
+puneţi întrebări , solicitaţi dovezi şi probe .
+nu luaţi nimic de bun .
+dar iată care e ideea : când obţineţi dovezi , trebuie să le acceptaţi. nu ne prea pricepem la asta .
+şi o pot spune pentru că suntem în mijlocul unei epidemii a fricii de dimensiuni nemaiîntâlnite până acum şi pe care sper să nici nu le mai întâlnesc .
+acum vreo 12 ani , s @-@ a publicat un articol , unul îngrozitor , care făcea legătura între epidemia de autism şi vaccinul împotriva pojarului , oreionului şi rubeolei .
+foarte înspăimântător .
+s @-@ au făcut nenumărate studii pentru a verifica dacă acest lucru e adevărat .
+chiar trebuiau să se facă nenumărate studii ; e o problemă importantă .
+au venit şi rezultatele .
+rezultate din statele unite , din marea britanie , din suedia , din canada şi toate ziceau acelaşi lucru : nu există nicio corelaţie , nicio legătură , absolut niciuna .
+nu contează. nu contează , căci noi luăm în serios glumele , credem ceea ce vedem , ceea ce ni se pare că vedem , ceea ce ne face să ne simţim reali .
+nu credem o grămadă de documente provenind de la un funcţionar guvernamental care ne oferă date şi înţeleg asta , cred că înţelegem cu toţii .
+dar ştiţi ceva ?
+rezultatele au fost dezastruoase şi iată de ce : statele unite este una dintre puţinele ţări din lume în care rata de vaccinare împotriva rujeolei e în scădere .
+asta @-@ i de neîngăduit , ar trebui să ne fie ruşine .
+e groaznic .
+ce s @-@ a întâmplat de am ajuns aici ?
+înţeleg , chiar înţeleg .
+are cineva de @-@ aici pojar ?
+a văzut cineva din public pe altcineva murind vreodată de pojar ?
+nu prea se întâmplă .
+în ţara asta nu se întâmplă deloc , dar s @-@ a întâmplat de 160.000 de ori în întreaga lume anul trecut .
+o mulţime de decese din cauza pojarului , 20 de cazuri pe oră .
+dar , pentru că aici nu s @-@ a întâmplat , putem să nu ne gândim la asta şi oameni precum jenny mccarthy pot să propovăduiască mesaje de frică şi ignoranţă folosind emisiuni precum oprah şi larry king live .
+şi pot face asta deoarece nu fac diferenţa dintre cauzalitate şi corelaţie .
+ei nu înţeleg că acestea par acelaşi lucru , dar nu coincid mai niciodată .
+şi trebuie să învăţăm asta cât de curând .
+acest tip , jonas sulk , a fost un erou .
+ne @-@ a scăpat de una dintre cele mai mari năpaste ale omenirii .
+fără frică , fără agonie , poliomielita a dispărut .
+tipul din mijloc - nu prea .
+îl cheamă paul offit .
+tocmai ce a dezvoltat un vaccin împotriva unui rotavirus împreună cu alţi câţiva .
+salvează 400 @-@ 500.000 de vieţi de copii din ţările în curs de dezvoltare în fiecare an .
+bun rezultat , nu @-@ i așa ?
+e bun , doar că paul vorbeşte întruna despre vaccinuri şi cât sunt de preţioase şi că oamenii ar trebui să înceteze pur şi simplu să se mai plângă .
+chiar aşa formulează .
+aşadar , paul e un terorist .
+când paul vorbeşte într @-@ o audiere publică , nu poate depune mărturie fără să fie protejat de gărzi înarmate .
+e sunat acasă pentru că oamenilor le place să @-@ i spună că ştiu la ce şcoală merg copiii lui .
+de ce ? pentru că paul a făcut un vaccin .
+nu @-@ i nevoie să spun asta , dar vaccinurile sunt esenţiale .
+dacă le îndepărtezi , boala revine , boli groaznice , şi chiar asta se petrece acum .
+în această ţară avem acum rujeolă .
+e din ce în ce mai rău şi , în curând , copiii vor muri din nou din cauza asta , căci e doar o problemă statistică .
+şi nu vor muri doar de rujeolă .
+cum rămâne cu poliomielita ? să avem şi de @-@ asta. de ce nu ?
+acum două săptămâni un fost coleg de facultate mi @-@ a scris şi mi @-@ a spus că i se pare că sunt cam strident .
+nimeni nu mi @-@ a mai zis aşa ceva .
+nu avea de gând să @-@ şi vaccineze copilul împotriva poliomielitei .
+în niciun caz .
+în regulă .
+de ce ? pentru că nu avem poliomielită. ştiţi ceva ?
+ieri nu existau cazuri de poliomielită în acestă ţară .
+azi însă nu ştiu , poate un tip s @-@ a urcat de dimineaţă într @-@ un avion dinspre lagos şi va ateriza pe aeroportul din los angeles , acum se află deasupra statului ohio .
+va ateriza peste două ore , va închiria o maşină şi va veni în long beach şi va participa la una dintre aceste minunate dineuri ted din această seară .
+nu ştie că e infectat cu o boală care provoacă paralizie şi nici noi nu ştim , pentru că aşa funcţionează lumea .
+asta e planeta pe care trăim. să nu ne prefacem că nu e aşa .
+ne place să ne învăluim în minciuni. ne place asta la nebunie .
+şi @-@ a luat toată lumea vitaminele de dimineaţă ?
+echinacea , puţin antioxidant ca să funcţionezi .
+ştiu că aţi făcut asta pentru că jumătate din populaţia sua face asta zilnic .
+iau lucrurile astea şi apelează la medicina alternativă şi nu contează cât de des constatăm că sunt complet inutile .
+datele arată de fiecare dată acelaşi lucru .
+îţi fac urina mai închisă la culoare şi , de obicei , nimic mai mult .
+e în regulă , vreţi să plătiţi 28 de miliarde de dolari pentru urină închisă la culoare .
+n @-@ aveți decât .
+urină închisă la culoare. închisă la culoare .
+de ce facem aşa ceva ?
+cred că înţeleg - urâm marii producători de farmaceutice .
+urâm guvernul. nu avem încredere .
+şi nici n @-@ ar trebui să avem. sistemul nostru de sănătate publică e nasol .
+e crud faţă de milioane de oameni .
+e incredibil de rece şi de distrugător de suflete faţă de cei care ni @-@ l permitem .
+aşa că fugim de el. şi încotro fugim ?
+drept în braţele marelui placebo .
+e fantastic. iubesc marele placebo .
+dar , de fapt , e ceva foarte serios pentru că lucrurile astea sunt nişte tâmpenii şi cheltuim pe ele miliarde de dolari .
+am aici tot felul de obiecte de decor .
+niciunul dintre ele - ginkgo , ţeapă , echinacea , ţeapă , acai , asta nici măcar nu ştiu ce e , dar cheltuim miliarde de dolari pe asta , ţeapă .
+&quot; şi ştiţi ceva ? când zic asta , oamenii ţipă la mine şi zic &quot; &quot; ce @-@ ţi pasă ţie ? lasă oamenii să facă ce vor , îi face să se simtă bine . &quot; &quot; &quot;
+ştiţi ceva ? vă înşelaţi .
+&quot; pentru că nu @-@ mi pasă dacă secretarul de stat din ministerul sănătăţii e cel care spune spune &quot; &quot; hmm , n @-@ o să iau în considerare dovezile experţilor mei cu privire la mamografii &quot; &quot; sau e vreun şarlatan care vrea să @-@ şi trateze pacientul de cancer folosind clisme cu cafea . &quot;
+când o apuci pe drumul pe care credinţa şi magia înlocuiesc dovezile şi ştiinţa , ajungi într @-@ un loc în care nu @-@ ţi doreşti să te afli .
+ajungi în africa de sud a lui thabo mbeki .
+a omorât 400.000 de oameni insistând că sfecla roşie , usturoiul şi uleiul de lămâie sunt mult mai eficiente decât medicamentele antiretrovirale despre care ştim că încetinesc progresul sida .
+sute de mii de decese absolut gratuite într @-@ o ţară devastată mai mult decât oricare alta de această boală .
+vă rog , nu @-@ mi spuneţi că nu există consecinţe pentru aşa ceva .
+există. mereu există .
+cea mai lipsită de sens epidemie care ne @-@ a cuprins chiar acum e această luptă absurdă dintre apărătorii alimentelor modificate genetic şi elita susţinătorilor alimentelor organice .
+e o controversă tâmpită. trebuie să înceteze .
+e o controversă privitoare la cuvinte , la metafore .
+e ideologie , nu ştiinţă .
+orice am mânca , fiecare bob de orez , fiecare fir de pătrunjel , fiecare varză de bruxelles a fost modificată de om .
+în grădina edenului nu existau mandarine .
+şi nici pepeni galbeni .
+nu existau brazi de crăciun. noi i @-@ am făcut .
+am făcut asta în ultimii 11.000 de ani .
+unele au fost în regulă , altele nu .
+am scăpat de cele care nu erau .
+acum o putem face într @-@ un mod mai exact .
+sigur , există riscuri .
+dar putem pune vitamina a în orez , iar asta poate ajuta milioane de oameni , pur şi simplu milioane de oameni , prelungindu @-@ le vieţile .
+nu vreţi să faceţi asta ?
+trebuie să mărturisesc că nu înţeleg .
+protestăm împotriva alimentelor modificate genetic .
+de ce facem asta ?
+păi , mereu auzim lucruri ca : prea multe chimicale , pesticide , hormoni , monoculturi , nu vrem suprafeţe uriaşe pe care se cultivă un singur lucru , e greşit .
+nu ne dorim companii care să breveteze viaţa .
+nu ne dorim companii care să deţină seminţe .
+ştiţi care @-@ i răspunsul meu la toate astea ?
+da , aveţi dreptate. hai să reparăm asta .
+aşa e , avem o mare problemă cu mâncarea , dar asta nu @-@ i ştiinţă .
+asta n @-@ are nimic de @-@ a face cu ştiinţa .
+e lege , e moralitate , chestiune de brevete .
+ştiţi că ştiinţa nu e reprezentată de o companie .
+nu este o ţară .
+nu este nici măcar o idee ; e un proces .
+e un proces care uneori funcţionează , iar alteori nu , dar ideea că n @-@ ar trebui să @-@ i permitem ştiinţei să @-@ şi facă treaba pentru că ne este teamă este foarte descurajant şi împiedică milioane de oameni să prospere .
+în următorii 50 de ani va trebui să producem cu 70 % mai multă mâncare decât în prezent .
+70 la sută .
+iată ce investiţii s @-@ au făcut în africa din ultimii 30 de ani .
+ruşinos. ruşinos .
+au nevoie de asta , iar noi nu le dăm .
+de ce ? alimente modificate genetic .
+nu vrem să @-@ i încurajăm pe oameni să mănânce porcăriile alea cum ar fi maniocul .
+500 de milioane de oameni mănâncă manioc .
+e cam ca un cartof .
+doar calorii. e groaznic .
+n @-@ are substanţe nutritive , n @-@ are proteine , iar oamenii de ştiinţă introduc toate astea în el chiar în acest moment .
+iar apoi oamenii îl vor putea mânca fără să orbească .
+nu vor suferi de foame şi ştiţi ceva ?
+ar fi bine. n @-@ ar fi ca la chez panisse , dar ar fi bine .
+tot ce pot spune este : de ce ne împotrivim ?
+hai să ne punem întrebarea asta : de ce ne împotrivim ?
+pentru că nu vrem să modificăm genele ?
+e vorba doar despre a modifica genele. nu despre chimicale .
+nu e vorba despre pasiunea noastră ridicolă pentru hormoni , despre insistenţa de a avea alimente de dimensiuni mai mari , alimente mai bune , alimente deosebite .
+nu e vorba despre cereale pentru micul dejun , ci despre a ţine oamenii în viaţă şi a venit timpul să înţelegem ce înseamnă asta .
+deoarece , ştiţi ceva ?
+dacă n @-@ o facem , dacă vom continua să ne purtăm aşa cum ne purtăm acum , vom fi vinovaţi de ceva pentru care nu cred că vrem să fim vinovaţi şi anume colonizare high @-@ tech .
+nu putem descrie altfel ce se petrece .
+e egoist , e urât , e sub nivelul nostru şi chiar trebuie să încetăm .
+&quot; aşadar , după această discuţie incredibil de distractivă , poate aţi zice &quot; &quot; aşadar , tot mai vrei să intri în această caraghioasă maşină a timpului să călătoreşti în viitor ? &quot; &quot; &quot;
+sigur. sigur că da .
+acum e înţepenită în prezent , dar avem o ocazie uluitoare .
+putem programa maşina timpului oricum dorim .
+o putem muta oriunde ne dorim şi chiar asta vom face .
+trebuie să purtăm aceste discuţii şi trebuie să gândim , dar când ne urcăm în maşina timpului şi mergem înainte , o să fim mulţumiţi că facem asta .
+ştiu că putem și după părerea mea , tocmai de asta are nevoie lumea acum .
+vă mulţumesc .
+vă mulţumesc .
+într @-@ o zi ziarisul steve lopez de la los angeles times mergea pe străzile din centrul los angelesului când a auzit o muzică frumoasă .
+și sursa era un om , un african @-@ american , încântător , necizelat , un om al străzii , cântând la o vioară care avea doar două coarde .
+și vă spun o poveste pe care mulți o știți , pentru că steve a scris multe articole care au devenit baza unei cărți , după care s @-@ a făcut un film , cu robert downey jr ca steve lopez , și jamie fox ca nathaniel anthony ayers , contrabasistul cu educație la juilliard a cărui carieră promițătoare a fost scurtată de o tragică nenorocire , schizofrenie paranoidă .
+nathaniel a renunțat la școală , a trecut printr @-@ o cădere totală , și 30 de ani mai târziu , fără casă , trăia pe străzile din skid row în centrul los angelesului .
+vă recomand tuturor să citiți cartea lui steve sau să vedeți filmul să înțelegeți nu numai frumoasa legătură care s @-@ a format între acești doi oameni , ci și cum muzica a ajutat la formarea acelei legături , și până la urmă a fost instrumentală , scuze pentru jocul de cuvinte , în a @-@ l ajuta pe nathaniel să nu mai stea pe străzi .
+l @-@ am întâlnit pe domnul ayers în 2008 , acum doi ani , la sala de concerte walt disney .
+tocmai ascultase interpretarea a simfoniilor întâia și a patra ale lui beethoven și a venit în spatele scenei și s @-@ a prezentat .
+vorbea într @-@ un mod foarte jovial și sociabil despre yo @-@ yo ma și hillary clinton , și cum cei de la dodgers nu vor ajunge niciodată în finală , totul din cauza unui pasaj înșelător de vioară din ultima parte a simfoniei a patra a lui beethoven .
+și @-@ am vorbit despre muzică. și @-@ am primit un email de la steve câteva zile mai târziu zicând că nathaniel era interesat de o lecție de vioară cu mine .
+acum , trebuie să menționez că nathaniel refuză să facă tratament pentru că atunci când făcea era tratat cu terapie de șoc și thorazine și cătușe , și asta a lăsat cicatrici care îi vor rămâne toată viața .
+dar , ca un rezultat acum , e predispus la aceste episoade schizofrenice .
+cele mai rele dintre ele se pot manifesta ca el explodând , și dispărând mai multe zile , rătăcind pe străzile din skid row , expus la acele orori , cu tortura din mintea lui dezlănțuită asupră @-@ i .
+și nathaniel era foarte agitat când am început prima noastră lecție la sala walt disney avea un fel de scânteiere de nebun în privire , era pierdut .
+și vorbea despre demoni invizibili și fum , și cum cineva îl otrăvea în somn .
+și mi @-@ a fost frică , nu pentru mine , dar mi @-@ a fost frică că îl voi pierde , că se va scufunda în una din stările lui , și că voi distruge relația lui cu vioara dacă voi începe să vorbesc despre game și arpegii și alte forme încântătoare de pedagogie didactică a viorii .
+așa că am început să cânt .
+și am cântat prima parte din concertul pentru vioară al lui beethoven .
+și pe măsură ce cântam am înțeles că o schimbare profundă apărea în ochii lui nathaniel .
+era ca și cum era sub influența unor medicamente invizibile , o reacție chimică , pentru care muzica cântată de mine era catalizatorul .
+și turbarea maniacală a lui nathaniel s @-@ a tranformat în înțelegere , o curiozitate tăcută și grație .
+și ca într @-@ un miracol , şi @-@ a ridicat propria vioară , și a început să cânte , după ureche , unele fragmente din concerte pentru vioară pe care m @-@ a rugat să le completez , mendelssohn , tchaikovsky , sibelius .
+și am început să vorbim despre muzică , de la bach la beethoven , și brahms , bruckner , toți de la litera b , de la bartók , până la esa @-@ pekka salonen .
+și am înțeles că el nu numai că avea cunoștințe enciclopedice despre muzică , dar avea o legătură personală cu muzica .
+vorbea despre ea cu acea pasiune și înțelegere pe care o împărtășesc cu colegii mei de la filarmonica din los angeles .
+și în timp ce interpretam și vorbeam muzică omul acesta s @-@ a transformat dintr @-@ un om paranoid , deranjat care tocmai venise de pe străzile din centrul los angelesului , în acest muzician încântător , erudit , genial , educat la juilliard .
+muzica este terapie. muzica ne schimbă .
+iar pentru nathaniel , muzica este sănătate psihică .
+pentru că muzica îi permite să @-@ și ia propriile gânduri și iluzii , și să le transforme prin imaginația și creativitatea lui , în realitate .
+și asta este o evadare din starea lui de suferință .
+și am înțeles că asta este esența artei .
+acesta este motivul pentru care facem muzică , luăm ceva ce există în noi , în esența noastră fundamentală , emoțiile noastre , și cu ajutorul filtrelor noastre artistice , cu creativitatea noastră , modelăm acele emoții în realitate .
+și realitatea acelei expresii ne atinge pe toți , și ne impresionează , ne inspiră și ne unește .
+și pentru nathaniel , muzica l @-@ a adus înapoi în îmbrățișarea prietenilor .
+puterea eliberatoare a muzicii l @-@ a adus înapoi într @-@ o familie de muzicieni care îl înțeleg , care îi recunosc talentele și îl respectă .
+întotdeauna voi face muzică cu nathaniel , fie că suntem la sala walt disney , sau în skid row , pentru că îmi aduce aminte de ce am devenit muzician .
+mulțumesc .
+bruno giussani : vă mulțumesc. mulțumesc .
+robert gupta .
+robert gupta : vreau să cânt ceva ce am furat fără rușine de la violonceliști .
+așa că , vă rog să mă iertați .
+sunt jane mcgonigal. sunt un designer de jocuri .
+creez jocuri online de 10 ani deja .
+și scopul meu pentru următoarea decadă este să încerc să ușurez salvarea lumii în viața reală la fel cum se poate salva lumea în jocurile online .
+acum , am un plan pentru asta , și implică să conving mai multă lume , inclusiv pe cei prezenți aici , să petreacă mai mult timp jucându @-@ se jocuri mai mari și mai bune .
+în prezent petrecem trei miliarde de ore pe săptămână jucându @-@ ne jocuri online .
+&quot; unii dintre voi s @-@ ar putea gândi , &quot; &quot; este foarte mult timp petrecut jucând jocuri . &quot; &quot; &quot;
+poate prea mult timp , ținând cont de câte probleme urgente trebuie să rezolvăm în lumea reală .
+însă , conform cercetărilor mele , la institutul pentru viitor , este exact pe dos .
+trei miliarde de ore pe săpmămână nu este nici pe departe suficient timp de joc pentru a rezolva cele mai urgente probleme ale lumii .
+de fapt , eu cred că , dacă vrem să supraviețuim viitorului secol pe această planetă , trebuie să creștem dramatic acest număr de ore .
+am calculat totalul de care avem nevoie la 21 de miliarde de joc în fiecare săptămână .
+deci , asta este probabil o idee puțin contra @-@ intuitivă .
+așa că o voi spune din nou , o voi lăsa să pătrundă .
+dacă vrem să rezolvăm probleme precum foametea , sărăcia , schimările de climat , conflictele globale , obezitatea , eu cred că trebuie să aspirăm la a juca jocuri online pentru cel putin 21 de miliarde de ore pe săptămână până la finele acestei decade. nu. sunt serioasă. sunt !
+iată de ce. această imagine reușește să reliefeze de ce cred eu că jocurile sunt atât de esențiale pentru viitorul supraviețuirii speciei umane. pe bune .
+acesta este un portret realizat de un fotograf numit phil toledano .
+el a vrut să captureze emoția jucatului .
+așadar , a aranjat o cameră în fața jucătorilor , în timp ce aceștia se jucau .
+și aceasta este o emoție clasică jocului .
+acum , dacă nu ești un gamer s @-@ ar putea să pierzi o parte din nuanțele acestei fotografii .
+probabil că observi nevoia de acţiune , puțină frică , dar concentraţie intensă , atenție puternică pentru desluşirea unei probleme foarte dificile .
+dacă ești un jucător , vei observa câteva amănunte precum ridurile ochilor ușor ridicați și în jurul gurii sunt semne de optimism .
+iar sprâncenele ridicate sunt un semn de surpriză .
+acesta este un gamer care este aproape de ceva numit un câștig epic .
+oh , ați auzit de asta. ok. bine .
+deci avem ceva gameri printre noi .
+un câștig epic este un rezultat care este atât de extraordinar de pozitiv încât nici nu ai crezut că îl poți atinge până când nu l @-@ ai câștigat .
+era aproape dincolo de limitele imaginației .
+și când ajungi acolo ești atât de șocat să descoperi că ești într @-@ adevăr capabil. acesta este un câștig epic .
+acesta este un jucător pe cale de a obține un câștig epic .
+și aceasta este fața pe care avem nevoie să o vedem la milioanele de oameni care rezolvă probleme din toată lumea pe măsură ce încercăm să îndepărtăm obstacolele secolului viitor .
+fața cuiva care , împotriva sorții , este pe cale de a obține un câștig epic .
+acum din păcate , aceasta este o față pe care o vedem mai des în viața de zi cu zi , pe măsură ce ne ne izbim de probleme urgente .
+&quot; asta este ceea ce eu numesc fața de &quot; &quot; nu sunt bun la a trăi &quot; &quot; . &quot;
+iar aici sunt chiar eu , făcând această față. puteți vedea ? da. bine .
+&quot; aceasta sunt chiar eu făcând fața de &quot; &quot; nu sunt bună la a trăi &quot; &quot; . &quot;
+iată o piesă de graffiti în vechiul meu cartier .
+din berkley , california , unde mi @-@ am luat doctoratul despre motivele pentru care suntem mai buni în jocuri decât în viața reală .
+iar asta este o problemă pe care mulți gameri o au .
+simțim că nu suntem la fel de buni în realitate pe cât suntem în jocuri .
+&quot; și nu mă refer la buni ca în &quot; &quot; de succes &quot; &quot; , chiar dacă și asta este o componentă noi chiar realizăm mai multe în jocuri decât în viața reală dar când spun bun mă refer și la motivarea de a face ceva ce contează , inspirat să colaborezi și să cooperezi . &quot;
+iar când suntem în lumi virtuale eu cred că mulți dintre noi devin cea mai bună versiune a noastră , cea mai dispusă să ajute într @-@ un moment dat , cea mai probabilă să se concentreze pe o problemă atât cât este necesar , să se ridice după un eșec și să încerce iar .
+în viața reală , când suntem puși față în față cu eșecul , când ne confruntăm cu obstacole , cel mai des nu ne simțim așa .
+ne simțim slabi .
+ne simțim depășiți .
+ne simțim anxioși , poate deprimați , frustrați sau cinici .
+niciodată nu avem astfel de sentimente când ne jucăm , ele pur și simplu nu există în jocuri .
+deci , asta am vrut să studiez când mi @-@ am terminat facultatea .
+ce anume din jocuri face imposibil sentimentul de siguranță că nu e nimic ce nu putem face ?
+cum putem lua aceste sentimente din jocuri și să le aplicăm la munca din viața reală ?
+astfel , m @-@ am uitat la jocuri precum world of warcraft , care este cu adevărat un mediu de colaborare pentru rezolvarea problemelor .
+și am început să observ câteva lucruri care fac câștigurile epice atât de plauzibile în lumile online .
+așadar , primul lucru este că , oricând intri într @-@ unul din astfel de jocuri online mai ales în world of warcraft , întâlnești multe , multe personaje care sunt dispuse să își încreadă o misiune care ar salva lumea , imediat .
+dar nu orice misiune , ci o misiune perfect potrivită cu nivelul tău curent din joc. corect ?
+deci , poți să o duci la îndeplinire .
+nu îți dau niciodată o încercare pe care nu o poți îndeplini .
+dar aceasta este la limita a ceea ce poți înfăptui. deci , trebuie să te strădui destul de mult .
+însă nu există șomaj în world of warcraft .
+nu există statul degeaba și pierderea vremii .
+există întotdeauna ceva clar și important de făcut .
+și de asemenea , sunt și tone de colaboratori .
+oriunde te duci , sute de mii de persoane gata să lucreze cu tine pentru a @-@ ți duce la îndeplinire misiunea ta epică .
+nu este ceva ce e posibil cu ușurință în viața reală , acest sentiment că la degele tale sunt tone de colaboratori .
+și în plus , este și această poveste epică , această poveste plină de inspirație despre de ce suntem acolo și despre ceea ce facem .
+iar apoi primimi tot acest feedback pozitiv .
+voi ați auzit de creșterea în nivel și plus unu la putere , și plus unu la inteligență .
+nu primim astfel de feedback constant în viața reală .
+când voi pleca de pe această scenă nu voi avea plus unu la vorbit și plus unu la idei trăznite , de fapt plus 20 la idei trăznite .
+nu primesc astfel de feedback în viața reală .
+acum , problema cu mediile online de colaborare precum world of warcraft este că este atât de satisfăcător să fii pe punctul de a câștiga ceva epic tot timpul încât ne decidem să ne petrecem tot timpul în aceste lumi virtuale .
+este pur și simplu mai bine ca în realitate .
+aștfel , până acum , în colectiv toți jucătorii de world of warcraft au petrecut 5.93 milioane de ani rezolvând problemele virtuale ale azeroth @-@ ului .
+acum , asta nu este neapărat un lucru rău .
+ar putea suna ca și cum ar fi un lucru rău .
+dar să pun asta în context : acum 5.93 milioane de ani era momentul în care primul nostru strămoș uman a stat în picioare .
+acela a fost prima primată care a stat în picioare .
+ok , deci când vorbim despre cât de mult timp investim în prezent jucând jocuri , singurul mod în care are sens să ne gândim măcar la asta , este să vorbim despre timp la magnitudinea evoluției umane , ceea ce este un lucru extraordinar .
+dar este și potrivit. pentru că se dovedește că prin cheltuirea a atât de mult timp jucând jocuri , noi chiar schimbăm ceea ce suntem capabili să facem ca ființe umane .
+noi evoluăm către o specie mai colaborativă și mai inimoasă .
+asta este adevărat. eu asta cred .
+deci , luați în calcul această statistică interesantă .
+a fost publicată recent de un cercetător de la universitatea carnegie mellon .
+media persoanelor tinere din ziua de astăzi dintr @-@ o țară cu o cultură puternică de jocuri va fi petrecut 10.000 de ore jucând jocuri online până la vârsta de 21 de ani .
+acum , 10.000 de ore este un număr foarte interesant din două motive .
+în primul rând , pentru copii din statele unite 10.080 de ore este numărul exact de ore pe care îl vei petrece la școală din clasa a cincea și până când termini liceul dacă nu lipsești niciodată de la ore .
+deci avem un întreg traseu paralel de educație care se petrece în care oamenii tineri învață la fel de mult despre ce este nevoie ca să fii un gamer bun cât despre tot restul în școală .
+și unii dintre voi probabil că ați citit noua carte a lui malcom gladwell , numită outliers .
+deci , veți fi auzit deja teoria lui despre success teoria de 10.000 despre succes .
+se bazează pe aceasă cercetare extraordinară despre domeniul cognitiv care spune că dacă putem rezista 10.000 de ore de studiu greu , la orice până la vârsta de 21 de ani , vom fi specialiști pe acel subiect .
+vom fi la fel de buni la orice facem ca și cele mai mari personalități din lume .
+și astfel , la ceea ce ne uităm acum este o întreagă generație de oameni tineri care sunt jucători specializaţi .
+&quot; astfel , marea întrebare este , &quot; &quot; la ce exact devin jucătorii atât de buni ? &quot; &quot; &quot;
+pentru că , dacă ne @-@ am putea da seama de asta , am avea o resursă umană practic neatinsă la dispoziție .
+iată câți oameni avem acum în lume care petrec măcar o oră pe zi jucând jocuri online .
+aceștia sunt gamerii noștri experți .
+500 de milioane de oameni care sunt extraordinar de buni la ceva .
+iar în viitoarea decadă vom avea încă un miliard de jucători care sunt extraordinar de buni la orice este acest ceva .
+dacă nu știți deja , vine .
+industria jocurilor dezvoltă console care consumă puțină energie și lucrează pe baza rețelelor de telefonie wireless în locul internetului de bandă largă astfel încât gameri din toată lumea mai ales din india , china , brazilia , se pot conecta online .
+ei estimează încă un miliard de gameri în urmâtoarea decadă .
+asta ne va aduce la 1.5 miliarde de jucători .
+astfel , am început să mă gândesc la ce ne fac aceste jocuri experți .
+acestea sunt cele patru lucruri pe care le @-@ am descoperit. primul este optimismul urgent .
+ok. gândiți @-@ vă la asta ca la o motivare interioară extremă .
+optimismul urgent este dorința de a acționa imediat în fața unui obstacol , combinat cu credința că avem o șansă rezonabilă de succes .
+gamerii întotdeauna au crezut că un câștig epic este posibil și că merită întotdeauna să încerci , și merită acum .
+jucătorii nu stau degeaba .
+gamerii sunt experți la cearea unei țesături sociale puternice .
+există foarte multe studii care arată că ne place de oameni mai mult dacă ne jucăm un joc cu ei , chiar și dacă ne @-@ au bătut amarnic .
+iar motivul este că e necesară foarte multă încredere ca să joci un joc cu cineva .
+avem încredere că acel cineva își va petrece timpul cu noi , că va juca după aceleași reguli , vor prețui același scop și că vor sta în joc până la sfârșit .
+și astfel , jucând împreună un joc cu cineva chiar construiește legături și încredere și cooperare .
+și ca rezultat , construim relații sociale mai puternice .
+productivitate fericită. iubesc asta .
+știți , există un motiv pentru care jucătorul mediu de world of warcraft joacă 22 de ore pe săptămână , gândiți @-@ vă la un loc de muncă parțial .
+este pentru că ști , atunci când jucăm un joc , că suntem chiar mai fericiți lucrând din greu , decât atunci când ne relaxăm sau când ieșim cu prietenii .
+știm că suntem optimizați ca ființe umane să facem muncă grea și plină de sens .
+și jucătorii sunt dispuși să lucreze din greu tot timpul , dacă li se dă munca potrivită .
+în fine , sens epic .
+jucătorii iubesc să fie atașați de misiuni care inspiră respect de povești la scară planetară .
+deci , doar puțin trivia ca să ne ajute să vedem lucrurile în perspectivă .
+deci , cu toții știți wikipedia , cea mai mare wiki din lume .
+cea de @-@ a doua cea mai mare wiki , cu aproape 80.000 de articole este world of warcraft wiki .
+cinci milioane de oameni o folosesc în fiecare lună .
+ei au compila mai multă informație despre world of warcraft prin internet decât oricare alt subiect tratat în oricare altă wiki din lume .
+ei clădesc o poveste epică .
+ei constriuesc o resursă epică de cunoștințe despre world of warcraft .
+ok , deci avem acest patru super puteri care se cumulează într @-@ un singur lucru .
+gamerii sunt indivizi puternici și plini de speranță .
+ei sunt oameni care cred că sunt capabili individual să schimbe lumea .
+și singura problemă este că ei cred că sunt capabili să schimbe lumile virtuale dar nu și nu lumea reală .
+aceasta este problema pe care încerc să o rezolv .
+este un economist numit edward castronova .
+munca lui este genială. el studiază de ce oamenii investesc atât de mult timp și energie și bani în lumi virtuale .
+&quot; și el spune , &quot; &quot; suntem martori la ceea ce se concretizeză &#93; n nimic mai puțin decât un exod în masă către lumi virtuale și medii online de joc . &quot; &quot; &quot;
+: i el este un economist. deci este rațional .
+și el spune ... nu ca mine -- eu sunt un designer de jocuri și sunt exuberantă .
+dar el spune , că acest fapt are un sens clar fiindcă jucătorii pot obține mai multe în lumi online decât pot obține în viață .
+pot avea relații sociale mai puternice în jocuri decât în viața reală .
+ei primesc fedback mai bun și se simt mai răsplătiți în jocuri decât în viața reală .
+deci , el spune că acum , are clar un sens pentru jucători să petreacă mai mult timp în lumi virtuale decât în lumea reală .
+acum , și eu sunt de acord că asta este rațional , pentru moment .
+dar nu este , în niciun caz , o situație optimă .
+trebuie să începem să facem lumea reală mai mult ca un joc .
+astfel , îmi trag inspirația din ceva ce s @-@ a întâmplat acum 2,500 de ani .
+acestea sunt zaruri antice , create din oasele unei oi. corect ?
+înainte de a avea controllere extraordinare de jcouri aveam oase de oaie .
+iar acestea reprezintă primul echipament de joc creat de ființele umane .
+și dacă sunteți familiari cu munca istoricului grec herodot , s @-@ ar putea să știți această poveste .
+care este istoria celui care a inventat jocurile și de ce .
+herodot a spus că jocurile , și în mod particular jocurile de zaruri , au fost inventate în regatul lydiei într @-@ un moment de foamete .
+aparent , era așa o foamete mare încât regele lydiei s @-@ a decis că trebuia să facă ceva nebunesc .
+oamenii sufereau. oamenii se luptau .
+era o situație extremă. ei aveau nevoie de o soluție extremă .
+deci , conform lui herodot , ei au inventat jocurile de zaruri și au definit o politică valabilă în tot regatul .
+într @-@ o zi , fiecare dintre ei va mânca .
+iar în ziua următoare , toată lumea se va juca .
+și vor fi atât de concentrați asupra jocurilor de zaruri fiindcă jocurile sunt atât de solicitante și ne învăluie într @-@ o productivitate atât de satisfăcătoare , încât vor ignora faptul că nu aveau ce mânca .
+și astfel în ziua următoate jucau jocuri , și , o zi după , vor mânca .
+și conform cu herodotus , au trăit astfel 18 ani , supravieţuind unei foamete mâncând într @-@ o zi și jucând jocuri în cealaltă .
+acum , asta este exact , cred eu , modul în care folosim jocurile astăzi .
+folosim jocurile pentru a scăpa de suferința din lumea reală .
+folosim jocurile pentru a fugi de tot ceea ce este stricat în mediul real , tot ce nu este satisfăcător legat de viața noastră și primim ceea ce avem nevoie în jocuri .
+dar nu trebuie să se termine aici .
+asta este foarte interesant .
+conform spuselor lui herodot , după 18 ani foametea nu se atenuase .
+astfel , regele a decis că vor juca un ultim joc de zaruri .
+au divizat întregul regat în două .
+au jucat un joc de zaruri , iar câștigătorii au primit șansa de a merge într @-@ o aventură epică .
+ei vor părăsi lydia .
+și vor merge să caute un nou loc în care să trăiască , lăsând în urmă exact atâția oameni cât să supraviețuiască cu puținele resurse care mai erau disponibile , și sperând să conducă civilizația altundeva unde vor putea prospera .
+acum , asta sună nebunesc , nu e așa ?
+dar recent , dovezi dna au arătat că etruscii , care au condus imperiul roman , aveau același dna ca și vechii locuitori ai lydiei .
+și astfel , cercetătorii au sugerat că povestea fantastică a lui herodot ar putea fi adevărată .
+iar geologii au găsit dovezi legate de o răcire globală care a durat aproape 20 de ani și care ar fi putut explica foametea .
+deci , această poveste nebunească ar putea fi adevărată .
+ei ar fi putut chiar să își salveze cultura jucând jocuri , să scape prin intermediul jocurilor pentru 18 ani și apoi să fie atât de inspirați și să știe atât de multe despre cum să se unească prin jocuri încât chiar și @-@ au salvat întreaga civilizație în acest fel .
+ok , putem face asta .
+ne jucăm warcraft din 1994 .
+acela a fost primul joc de strategie în timp real din seria world of warcraft. asta a fost acum 16 ani .
+ei au jucat jocuri de zaruri pentru 18 ani , noi am jucat warcraft pentru 16 ani .
+eu spun că noi suntem gata acum pentru propriul nostru joc epic .
+acum ei au avut jumătate de civilizație care a plecat să caute o lume nouă .
+deci , de aici îmi trag eu cele 21 de miliarde de ore de joc pe săptămână .
+haideți să reușim să convingem pe jumătate dintre noi să fie de acord să joace o jumătate de oră pe zi jocuri video până când rezolvăm problemele vieții reale .
+&quot; acum eu știu că vă întrebați : &quot; &quot; cum putem rezolva problemele vieții reale în jocuri ? &quot; &quot; . ei bine , aceasta este tema căreia mi @-@ am devotat munca în ultimii ani , la institutul pentru viitor . &quot;
+avem acest banner la birourile noastre din palo alto și exprimă opinia noastră despre cum să încercăm să relaționăm cu viitorul .
+nu vrem să încercăm să prezicem viitorul .
+ceea ce vrem să facem este să creem viitorul .
+vrem să ne imaginăm cel mai bun scenariu .
+și apoi vrem să împuternicim oamenii să transforme acest scenariu în realitate .
+vrem să ne imaginăm câștiguri epice și apoi să dăm oamenilor mijloacele să obțină aceste câștiguri epice .
+vreau să vă arăt foarte scurt trei dintre jocurile pe care le @-@ am făcut care încearcă să ofere oamenilor mijloacele de a crea căștiguri epice în propriile lor viitoruri .
+deci , asta este lumea fără petrol .
+am creat acest joc în 2007 .
+acesta este un joc online în care încerci să supraviețuiești unei crize de petrol .
+criza de petrol este fictivă , dar am pus suficient conținut acolo astfel încât să poți crede că este reală , și să îți trăiești viața adevărată ca și cum nu am mai avea petrol. deci , când vii în acest joc te înscrii , ne spui unde trăiești .
+și apoi îți transmitem știri video în timp real surse de date care îți arată exact cât de mult costă petrolul , ce nu este disponibil , cum este afectată sursa de hrană , cum este afectat transportul , dacă școlile se închid , dacă sunt proteste .
+și tu trebuie să îți imaginezi cum ți @-@ ai trăii viața dacă toate acestea ar fi adevărate. și apoi te rugăm să scrii într @-@ un blog despre asta , să publici filme , să publici poze .
+am testat acest joc în 2007 cu 1700 de jucători .
+și i @-@ am urmărit trei ani de atunci .
+și vă pot spune că este o experiență care te transformă .
+nimeni nu vrea să își chimbe modul de viață numai fiindcă este bine pentru lume , sau pentru că așa trebuie .
+&quot; dar dacă îi incluzi într @-@ o aventură epică și le spui , &quot; &quot; vom rămâne fără petrol . &quot; &quot; &quot;
+aceasta este o poveste și o aventură fantastică în care să te îmbarci .
+să te provoci în a vedea cum ai supraviețui .
+majoritatea jucătorilor noștri și @-@ au susținut obiceiurile pe care le @-@ au învățat în acest joc .
+deci , pentru viitorul joc care poate salva lumea am decis să țintim la probleme mai înalte , mai mari decât lipsa petrolului .
+am creat un joc numit superstruct la institutul pentru viitor .
+iar premisa a fost că un supercalculator a calculat că oamenii mai au doar 23 de ani de petrecut pe această planetă .
+supercomputerul se numea global extinction sistem conștient de sine , desigur .
+am rugat oamenii să vină online aproape ca într @-@ un film de jerry bruckheimer .
+știți filmele lui lui jerry bruckheimer , se formează o echipă de vis .
+ai astronautul , omul de știință , fostul prizonier , și ei toți au ceva de făcut pentru a slava lumea .
+dar în jocul nostru , în loc de a avea doar cinci oameni în această echipă de vis , am spus că toți fac parte din echipa de vis și este treaba ta să inventezi viitorul energiei , viitorul hranei , viitorul sănătății , viitorul securității și viitorul siguranței sociale .
+am avut 8000 de oameni care au jucat acest joc pentru 8 săptămâni .
+&quot; ei au inventat 500 soluții nebunesc de creative pe care le puteți vedea dacă mergeți online și căutați &quot; &quot; superstruct &quot; &quot; pe google . &quot;
+așadar , în fine , ultimul joc îl lansăm în 3 martie. acesta este un joc creat în colaborare cu institutul bancar global dacă poți completa jocul vei fi certificat de către world bank institute ca un inovator social , promoția 2010 .
+lucrând cu universității din toată africa sub @-@ sahariană și pe ei îi invităm să învețe tehnici de inovație socială .
+avem un roman grafic. avem creștere în nivel la atribute precum intuiție locală , socializare pe bază de cunoaștere , mijloace de susținere , viziune și capacitatea de a fi plin de resurse .
+aș vrea să vă invit pe toți dintre voi să împărțiți acest joc cu oameni tineri oriunde în lume , mai ales în zonele de dezvoltare care ar putea beneficia din a se întâlni pentru a încerca să înceapă să își imagineze propriile lor companii sociale care ar salva lumea .
+deci , acum voi rezuma .
+vreau să vă întreb ceva .
+ce credeți că se va întâmpla de acum încolo ?
+avem toți acești jucători uimitori , avem aceste jocuri care sunt un fel de versiuni pilot a ceea ce am putea face , dar nici unul dintre acestea nu a salvat încă lumea .
+ei bine sper că veți fi de acord cu mine că jucătorii sunt o resursă umană pe care o putem folosi ca să muncim pentru lumea reală , că jocurile sunt o platformă puternică .
+cu toții avem aceste superputeri uimitoare , productivitate fericită , abilitatea de a țese o pânză solidă de relații sociale , acest sentiment de optimism urgent , și dorința de a avea un sens epic .
+eu sper din suflet că ne putem uni pentru a juca jocuri care contează , pentru a supraviețui pe această planetă pentru încă un secol .
+și este speranța mea că vă veți alătura să creem și să jucăm jocuri ca acestea .
+când mă gândesc la viitoarea decadă , știu două lucruri cu siguranță că putem crea orice viitor ni @-@ l imaginăm și că putem juca orice jocuri vrem .
+deci , eu spun : să înceapă jocurile care schimbă lumea .
+mulțumesc .
+&quot; de ceva timp sunt interesat de efectul placebo , lucru care ar părea ciudat pentru un magician , doar dacă vă gandiţi la el aşa cum mă gândesc eu , şi anume : &quot; &quot; ceva fals crezut cu tărie de către cineva devine un lucru real . &quot; &quot; &quot;
+altfel spus , pastile cu zahăr au un efect măsurabil în anumite feluri de studii , efectul placebo , doar pentru că persoana crede că ceea ce i se întâmplă este un efect farmaceutic sau ceva similar ...
+pentru durere , de exemplu , dacă este crezut cu tărie , în corp are loc un efect măsurabil numit efectul placebo .
+ceva fals devine ceva real datorită felului în care cineva îl percepe .
+pentru a ne întelege vreau să încep prin a vă arăta un truc rudimentar , un truc foarte simplu .
+şi vă voi arăta cum funcţionează. acesta este un truc pe care îl găseşti în fiecare carte de magie pentru copii încă din 1950 .
+şi eu l @-@ am învăţat de la cub scout magic în 1970 .
+vi @-@ l voi arăta şi apoi îl voi explica .
+şi apoi voi explica de ce l @-@ am explicat .
+deci , iată ce se întâmplă .
+cuţitul , pe care îl puteţi examina ; mâna mea , o puteţi vedea .
+voi ţine cuţitul în mână aşa .
+voi trage mâneca mai sus .
+şi pentru a vă asigura că nimic nu intră sau nu iese din mâneca mea voi strânge aici încheietura .
+ca să vedeţi că nimic nu circulă pe aici .
+atât timp cât ţin strâns acolo nu intră şi nu iese nimic din mâneca mea .
+şi este destul de simplu .
+voi deschide mâna , şi , sper , dacă totul merge bine , magnetismul meu animal pur va susţine cuţitul .
+de fapt este atât de bine înţepenit încât pot scutura mâna , şi cuţitul nu cade .
+nu circulă nimic spre sau din mânecă , fără farse. şi puteţi examina totul .
+ta @-@ da !
+adesea îi învăţ pe copii trucul ăsta pe cei interesaţi de magie , pentru că poţi învaţa multe despre păcăleli studiindu @-@ l chiar dacă este foarte simplu de făcut .
+probabil mulţi dintre cei de aici îl stiu deja .
+iată ce se întâmplă .
+ţin cuţitul în mână .
+şi spun că îmi voi ţine încheietura cu mâna ca să mă asigur că nu trece nimic pe acolo , e o minciună .
+motivul pentru care mă ţin de încheietură este de fapt secretul acestei iluzii .
+în momentul în care mâna mea se mişcă din faţa dvs şi nu o mai vedeţi , degetul ăsta , arătătorul se va muta de unde este către o poziţie de genul ăsta .
+bună .
+pe acolo este un copil fără copilărie .
+deci , aşa funcţionează , de aici aşa .
+şi pe măsură ce mă rotesc , degetul meu îşi mută poziţia .
+şi putem discuta de ce vă induce asta în eroare , de ce nu observaţi că sunt doar trei degete aici , pentru că mintea , şi felul în care procesează informaţiile , nu numără , unu , două , trei degete. le grupează .
+dar asta nu e totul. nu @-@ i aşa ? şi apoi deschid mâna .
+evident cuţitul se ţine acolo , nu prin magnetism , ci printr @-@ un truc , îl ţine arătătorul meu .
+şi apoi când închid pumnul , acelaşi lucru , pe măsură ce mă retrag , mişcarea acoperă într @-@ un fel retragerea degetului meu .
+îmi dau mâna la o parte. şi cuţitul .
+trucul ăsta îl puteţi face prietenilor şi vecinilor. mersi .
+acum , care e legătura cu efectul placebo ?
+am citit un studiu , cu un an în urmă , care mi @-@ a deschis mintea .
+nu sunt nici doctor nici cercetător , deci pentru mine ăsta a fost ceva uimitor .
+se pare că dacă administrezi o pilulă placebo în forma unei pastile albe , de forma aspirinei , doar o pastilă albă , are un anumit efect măsurabil .
+dar dacă schimbi forma în care o administrezi , dai o pastilă mai mică , o faci albastră şi ştanţezi pe ea o literă , are un efect măsurabil mai mare .
+deşi nici una din aceste pastile nu au substanţe farmaceutice -- sunt pastile cu zahăr .
+dar pastila albă nu e la fel de bună ca cea albastră .
+cum ? asta m @-@ a lăsat mască .
+şi totuşi se pare că nu se opreşte aici .
+dacă iei capsule , sunt mai eficiente decât tabletele , în orice formă .
+o capsulă colorată , cea galbenă într @-@ un capăt şi roşie la celălalt e mai bună decît capsula albă .
+şi cu dozajul e o chestie .
+o pastilă de două ori pe zi nu e la fel de bună ca trei-- nu mai ţin minte studiul acum. scuze .
+dar ideea e că ...
+... și dozajul contează .
+şi până şi forma are ceva de @-@ a face cu asta .
+şi dacă vrei cel mai tare efect placebo trebuie să apelezi la ac .
+da ? o seringă cu ceva inert-- câţiva centimetri cubi de ceva inert , şi injectezi asta într @-@ un pacient ...
+deci este o imagine atât de puternică pentru ei , mult mai puternică decât pastila albă .
+este real , graficul ăsta , ei bine , o să vi @-@ l arăt altă dată când voi avea slide @-@ urile .
+ideea e că pastila albă nu este la fel de bună ca cea albastră nu este la fel de bună ca şi o capsulă , şi nu este la fel de bună ca şi un ac .
+şi nici una nu are nici o calitate farmaceutică reală .
+ci doar încrederea noastră o face reală în corpul nostru şi produce un efect mai puternic .
+şi am vrut să văd dacă pot aplica ideea asta la un truc magic .
+şi să iau ceva care este evident un truc fals şi să @-@ l fac să pară real .
+şi ştim din acel studiu că dacă vrei realitate , trebuie să foloseşti acul .
+acesta este un ac de pălărie de şapte ţoli. e foarte foarte ascuţit .
+şi îl voi steriliza puţin .
+asta este mâna mea. nu este nimic artificial .
+asta este pielea mea. nu este nici un efect special de hollywood .
+îmi voi găuri pielea şi o voi înţepa cu acest ac .
+dacă sunteţi sensibili-- dacă leşinaţi cu uşurinţă -- făceam asta pentru câţiva prieteni în camera de hotel aseară , şi erau şi nişte persoane pe care nu le cunosc , şi o femeie aproape a leşinat .
+deci , vă sugerez că dacă vi se face repede rău să vă uitaţi în altă parte în următoarele minute-- de fapt , ştiţi ce , nu voi face prima parte mai neplăcută la vedere .
+voi veţi vedea , vă veţi uita în altă parte dacă vreţi .
+deci , asta e , chiar aici , în partea asta în partea de jos a braţului meu voi face o mică gaură .
+îmi pare rău omule. te sperii ?
+şi acum trec acul prin piele puţin , şi îl scot pe partea cealaltă aşa .
+acum , în mare suntem cam în acelaşi punct ca şi la trucul cu cuţitul .
+cam aşa ceva .
+dar acum nu îmi puteţi număra degetele , aşa @-@ i ?
+păi , hai să vi le arăt. uitaţi unu , două , trei , patru , cinci .
+da , bine ...
+ştiu ce gândesc oamenii când văd asta .
+&quot; spun : &quot; &quot; ei bine , nu @-@ i atât de prost încât să se înţepe singur ca să ne distreze pe noi câteva minute &quot; &quot; păi , ia uitaţi @-@ vă puţin . &quot;
+cum arată asta ? destul de bine .
+&quot; da , ştiu. şi cei din spate vor spune : &quot; &quot; ok. de fapt nu am văzut asta &quot; &quot; cei din sala de lângă încep să intre acum . &quot;
+hai să vă arăt mai bine .
+asta chiar este pielea mea. nu e nici un efect special de la hollywood .
+asta este carnea mea , şi o pot răsuci .
+imi cer scuze. dacă vi se face rău , uitaţi @-@ vă în altă parte , nu vă uitaţi la asta .
+&quot; cei din spate sau cei care se vor uita peste ani la înregistrarea video vor zice , &quot; &quot; e , bine , arată destul de curat e o chestie acolo , dar dacă ar fi real , ar trebui-- dacă are o gaură acolo şi alta acolo , dacă ar fi real , ar fi sângerat &quot; &quot; hai să vă fac rost şi de nişte sânge . &quot;
+gata , iată .
+în mod normal , acum aş scoate acul .
+mi @-@ aş scutura mâna si v @-@ aş arăta că nu am nici o rană .
+dar cred că în acest context şi cu ideea de a lua ceva fals şi a @-@ l transforma în ceva real , îl voi lăsa acolo , şi voi pleca de pe scenă .
+ne mai vedem de câteva ori zilele ăstea .
+sper că abia aşteptaţi. vă mulţumesc mult .
+deci , am cunoscut o mulţime de peşti la viaţa mea .
+am iubit doar doi .
+primul a fost mai mult ca o afacere pasională .
+era un peşte frumos , plin de gust , cu textură , cărnos , un star al meniului .
+ce peşte .
+chiar mai bine , a fost crescut la o fermă la , se pare , cele mai înalte standarde ale sustenabilităţii .
+deci te puteai simţi bine când îl vindeai .
+am fost într @-@ o relaţie cu această frumuseţe pe durata a mai multor luni .
+într @-@ o zi , directorul companiei m @-@ a sunat şi m @-@ a întrebat dacă aş vorbi la un eveniment despre sustenabilitatea fermei .
+&quot; &quot; &quot; desigur &quot; &quot; , am spus . &quot;
+iată o companie încercând să rezolve ceea ce a devenit această problemă de neimaginat pentru bucătarii noştri şefi .
+cum să păstrăm peştele pe meniurile noastre ?
+pentru ultimii 50 de ani , am pescuit în mări şi oceane aşa cum am defrişat pădurile .
+este greu să supraestimăm distrugerea .
+90 la sută din peştele mare , cel pe care îl iubim , tonul , halibutul , somonul , peştele sabie , toate s @-@ au prăbuşit .
+aproape că au dispărut .
+aşa că , la bine sau la rău , acvacultura , fermele de peşte , devin o parte a viitorului nostru .
+sunt o mulţime de controverse în legătură cu acvacultura .
+fermele de peşte poluează , cel puţin majoritatea lor o fac , şi au productivitate redusă , vezi tonul .
+o deficienţă majoră .
+tonul are o rată de conversie a hranei de 15 la unu .
+asta înseamnă că e nevoie de 15 livre de peşte sălbatic pentru a obţine o livră de ton crescut la fermă .
+nu este prea sustenabil .
+şi deasemenea nu are gustul prea plăcut .
+deci iată , în sfârşit , era o companie care încerca să o facă bine .
+am vrut să @-@ i sprijin .
+în ziua dinaintea evenimentului am sunat şeful relaţiilor publice din companie .
+să @-@ l numim don .
+&quot; &quot; &quot; don &quot; &quot; , am spus , &quot; &quot; doar ca să punem lucrurile la punct , voi sunteţi vestiţi pentru că creşteţi peştii aşa de departe afară în mare , încât nu poluaţi . &quot; &quot; &quot;
+&quot; &quot; &quot; corect , &quot; &quot; zise el . &quot; &quot; suntem aşa de departe în larg , încât deşeurile de la peştele nostru sunt diluate , nu sunt concentrate . &quot; &quot; &quot;
+&quot; apoi a adăugat , &quot; &quot; suntem de fapt o lume noi înşine . &quot;
+&quot; rata de conversie a hranei ? 2.5 la unu , &quot; &quot; zise el . &quot;
+&quot; &quot; &quot; cea mai bună de pe piaţă . &quot; &quot; &quot;
+2.5 la unu , grozav .
+&quot; &quot; &quot; 2.5 la unu din ce ? ce hrană folosiţi ? &quot; &quot; &quot;
+&quot; &quot; &quot; proteine sustenabile , &quot; &quot; spuse el . &quot;
+&quot; &quot; &quot; grozav , &quot; &quot; am spus. am terminat convorbirea . &quot;
+şi în acea noapte , eram întins în pat şi mă gândeam : ce naiba este o proteină sustenabilă ?
+aşa că a doua zi , chiar înainte de eveniment , l @-@ am sunat pe don .
+&quot; am spus , &quot; &quot; don , dă @-@ mi nişte exemple de proteine sustenabile &quot; &quot; el a spus că nu ştie. va întreba în jur . &quot;
+ei bine , am vorbit la telefon cu câţiva oameni din companie .
+nici unul nu a putut să @-@ mi dea un răspuns clar .
+în sfârşit , am vorbit cu biologistul şef .
+să @-@ l numim şi pe el don .
+&quot; &quot; &quot; don , &quot; &quot; am spus , &quot; &quot; dă @-@ mi nişte exemple de proteine sustenabile &quot; &quot; ei bine , a menţionat nişte alge şi ceva făină de peşte , şi apoi a spus pelete de pui . &quot;
+&quot; eu am spus , &quot; &quot; pelete de pui ? &quot; &quot; &quot;
+&quot; el a spus , &quot; &quot; mda , pene , piele , făină de oase , resturi , uscate şi procesate în hrană . &quot; &quot; &quot;
+&quot; eu am spus , &quot; &quot; ce procent din hrana voastră este pui ? &quot; &quot; &quot;
+gândindu @-@ mă , înţelegeţi , la vreo două procente .
+&quot; &quot; &quot; păi , este cam 30 la sută , &quot; &quot; spuse el . &quot;
+&quot; &quot; &quot; don , ce este sustenabil în hrănirea peştelui cu pui ? &quot; &quot; , am spus eu . &quot;
+&quot; a fost o pauză lungă pe linie , şi el a zis , &quot; &quot; pur şi simplu sunt prea mulţi pui în lume . &quot; &quot; &quot;
+dragostea mea pentru acest peşte a fost înşelată .
+nu , nu fiindcă aş fi un gurmand deosebit de virtuos şi ipocrit .
+de fapt chiar sunt .
+nu , m @-@ am simţit înşelat de acest peşte fiindcă , jur pe dumnezeu , după acea conversaţie , peştele avea gust de pui .
+al doilea peşte , este un alt tip de poveste de dragoste .
+este genul romantic , genul în care , cu cât cunoşti mai bine peştele , cu atât îl iubeşti mai mult .
+întîi l @-@ am mâncat la un restaurant în sudul spaniei .
+un prieten jurnalist vorbea de multă vreme despre acest peşte .
+într @-@ un fel ne @-@ a aranjat întâlnirea .
+a venit la masă într @-@ o culoară albă , luminoasă , aproape sclipitoare .
+bucătarul şef l @-@ a gătit prea mult .
+cam de două ori .
+surprinzător , era totuşi delicios .
+cine poate face ca un peşte să aibă gustul bun după ce a fost gătit prea mult ?
+eu nu pot , dar acest tip poate .
+să @-@ l numim miguel .
+de fapt numele lui este chiar miguel .
+şi nu , el nu a gătit peştele şi el nu este bucătar şef .
+cel puţin nu în modul în care tu şi eu înţelegem asta .
+el este un biolog la veta la palma .
+este o fermă piscicolă în colţul din sud @-@ vest al spaniei .
+este la vărsarea râului guadalquivir .
+până în anii 1980 ferma era în mâinile argentinienilor .
+ei creşteau vite în zona care era de fapt o mlaştină .
+ei l @-@ au creat prin drenarea terenului .
+ei au construit această serie de canale complicate , şi au împins apa în afara zonei , înapoi în râu .
+dar nu au putut să @-@ l facă să funcţioneze economic .
+iar ecologic a fost un dezastru .
+a ucis 90 la sută din păsări , care pentru acest loc însemnă foarte multe păsări .
+aşa că în 1982 o companie spaniolă cu conştiinţă ecologică a cumpărat terenul .
+ce au făcut ?
+au inversat sensul de scurgere al apei .
+au comutat la propriu .
+în loc să împingă apa afară , ei au folosit canalele să aducă apa înapoi .
+au inundat canalele .
+au creat o fermă piscicolă de 11000 de hectare -- biban , babuşcă , creveţi , ţipar -- şi în acest proces miguel şi compania lui , au şters complet efectele distrugerii ecologice .
+ferma este incredibilă .
+vreau să spun că nu aţi mai văzut ceva asemănător .
+te holbezi la orizont care este la milioane de mile depărtare , şi tot ce vezi sunt canale inundate şi pământ mlăştinos , des şi bogat .
+am fost acolo nu demult cu miguel .
+el este un tip nemaipomenit , trei părţi charles darwin şi o parte crocodile dundee .
+în regulă ? iată @-@ ne acolo înaintând greu prin mlaştină , şi eu gâfâi şi transpir , am noroi până la genunchi , iar miguel îşi ţine calm lecţia de biologie .
+aici el arată un erete cu umerii negri .
+acum menţionează nevoile minerale ale fitoplanctonului .
+şi aici el vede un tipar în grupare care îi aminteşte de girafa tanzaniană .
+am aflat că miguel şi @-@ a petrecut majoritatea carierei în parcul naţional mikumi din africa .
+l @-@ am întrebat cum de a devenit un asemenea expert în peşte .
+&quot; el a spus , &quot; &quot; peşte ? nu ştiam nimic despre peşte . &quot;
+&quot; eu sunt expert în relaţii . &quot; &quot; &quot;
+şi apoi se lansează în mai multe discuţii despre păsări rare şi alge şi stranii plante acvatice .
+şi să nu mă înţelegeţi greşit , a fost într @-@ adevăr fascinant , ştiţi , un fel de comunitate biotică în direct .
+a fost grozav , dar eu eram îndrăgostit .
+şi eram leşinat după acea bucată de peşte delicios , gătit prea mult , pe care l @-@ am consumat în seara precedentă .
+&quot; aşa că l @-@ am întrerupt. am zis , &quot; &quot; miguel , ce face peştele tău să fie aşa de gustos ? &quot; &quot; &quot;
+el a arătat spre alge .
+&quot; &quot; &quot; da ştiu , filfizonule , algele , fitoplanctonul , relaţiile , este uimitor . &quot;
+dar ce mănâncă peştele tău ?
+&quot; care este rata de conversie a hranei ? &quot; &quot; &quot;
+ei bine , a început să @-@ mi spună că este un sistem aşa de bogat , că peştele mănâncă ce ar fi mâncat şi în sălbătăcie .
+biomasa plantelor , fitoplanctonul , zooplanctonul , asta hrăneşte peştele .
+sistemul este aşa de sănătos , se reînnoieşte complet singur .
+nu este necesară altă hrană .
+aţi auzit vreodată de o fermă care nu îşi hrăneşte animalele ?
+&quot; mai târziu în acea zi , conduceam maşina prin această proprietate cu miguel , şi l @-@ am întrebat , am spus , &quot; &quot; pentru un loc care pare aşa de natural , &quot; &quot; spre deosebire de orice altă fermă la care am fost vreodată , &quot; &quot; cum măsuraţi voi succesul ? &quot; &quot; &quot;
+în acel moment , era ca şi cum regizorul unui film ar fi cerut schimbarea decorului .
+şi am dat colţul şi am văzut cea mai uimitoare privelişte , mii şi mii de păsări flamingo roz , un adevărat covor roz cât vedeai cu ochii .
+&quot; &quot; &quot; acesta este succesul , &quot; &quot; spuse el . &quot;
+&quot; &quot; &quot; uită @-@ te la burţile lor roz . &quot;
+&quot; se ospătează . &quot; &quot; &quot;
+ospăţ ? eram complet nedumerit .
+&quot; am spus , &quot; &quot; miguel , dar ei nu se ospătează din peştele tău ? &quot; &quot; &quot;
+&quot; &quot; &quot; da , &quot; &quot; a zis el . &quot;
+&quot; &quot; &quot; pierdem 20 de procente din peştele nostru şi din icrele de peşte datorită păsărilor . &quot;
+ei bine , anul trecut , această proprietate a avut 600000 de păsări pe ea , mai mult de 250 de specii diferite .
+&quot; azi a devenit cel mai mare şi unul din cele mai importante sanctuare private de păsări din toată europa . &quot; &quot; &quot;
+&quot; e am spus , &quot; &quot; miguel , oare o populaţie înfloritoare de păsări nu e ultimul lucru pe care @-@ l vrei pe o fermă de peşte ? &quot; &quot; &quot;
+şi @-@ a clătinat capul , nu .
+&quot; a spus , &quot; &quot; noi creştem peştii în mod extensiv , nu intensiv . &quot;
+aceasta este o reţea ecologică .
+păsările flamingo mănâncă crevetele .
+crevetele mănâncă fitoplanctonul .
+&quot; aşa că cu cât burta e mai roz , cu atât e mai bun sistemul . &quot; &quot; &quot;
+în regulă , să recapitulăm .
+o fermă care nu îşi hrăneşte animalele , şi o fermă care îşi măsoară succesul prin sănătatea propriilor animale de pradă .
+o fermă de peşte , dar şi un sanctuar al păsărilor .
+oh , apropo , acele păsări flamingo , nici măcar nu ar trebui să fie acolo .
+ei clocesc într @-@ un oraş la 240 kilometri distanţă , unde condiţiile solului sunt mai bune pentru a îşi clădi cuiburile .
+în fiecare dimineaţă ei zboară 240 kilometri până la fermă .
+şi în fiecare seară , ei zboară 240 kilometri înapoi .
+ei fac asta fiindcă sunt capabili să urmărească linia albă întreruptă a şoselei a92 .
+nu e o glumă .
+îmi imaginam ceva ca marşul pinguinilor , aşa că m @-@ am uitat la miguel .
+&quot; am spus , &quot; &quot; miguel , ei zboară 240 kilometri la fermă , şi apoi ei zboară 240 kilometri înapoi noaptea ? &quot;
+&quot; fac ei asta pentru puii lor ? &quot; &quot; &quot;
+s @-@ a uitat la mine ca şi cum aş fi citat dintr @-@ un cântec al whitney houston .
+&quot; el spuse , &quot; &quot; nu. o fac fiindcă hrana este mai bună . &quot; &quot; &quot;
+nu am menţionat pielea peştelui meu iubit , care a fost delicioasă , iar mie nu îmi place pielea de peşte .
+nu îmi place prăjit. nu îmi place crocant .
+are acel gust neplăcut , ca de gudron .
+când gătesc , o dau la o parte aproape de fiecare dată .
+totuşi , când am gustat @-@ o la acel restaurant din sudul spaniei , nu avea deloc gust de piele de peşte .
+avea un gust dulce şi curat ca şi cum ai fi luat o muşcătură de ocean .
+am menţionat asta lui miguel şi a încuviinţat .
+&quot; a spus , &quot; &quot; pielea acţionează ca un burete . &quot;
+este ultima apărare în calea a orice care intră în corp .
+&quot; a evoluat să absoarbă impurităţile . &quot; &quot; &quot;
+&quot; iar apoi a adăugat , &quot; &quot; dar apa noastră nu are impurităţi . &quot; &quot; &quot;
+în regulă. o fermă care nu îşi hrăneşte peştii .
+o fermă care îşi măsoară succesul prin succesul animalelor de pradă proprii .
+şi apoi am înţeles când a spus , o fermă care nu are impurităţi , el a subevaluat mult chestiunea , fiindcă apa care curge prin fermă vine din râul guadalquivir .
+este un râu care aduce cu el toate lucrurile pe care râurile tind să le aducă în zilele acestea , impurităţi chimice , scurgeri de pesticide .
+şi când îşi face drum prin sistem şi îl părăseşte , apa este mai curată decât la intrare .
+sistemul este aşa de sănătos încât purifică apa .
+deci , nu numai o fermă care nu îşi hrăneşte animalele , nu numai o fermă care îşi măsoară succesul prin sănătatea animalelor de pradă proprii , dar o fermă care este chiar o uzină de purificarea apei , şi nu numai pentru acei peşti , dar şi pentru voi şi pentru mine deasemenea .
+fiindcă atunci când apa pleacă , ea se revarsă în oceanul atlantic .
+o picătură în ocean , ştiu , dar o iau în considerare , şi aşa ar trebui să faceţi si voi , fiindcă această poveste de iubire , deşi romantică , este deasemenea instructivă .
+aţi putea spune că este o reţetă pentru viitorul hranei bune , indiferent că vorbim de biban sau vite .
+ceea ce avem nevoie acum este un concept radical nou de agricultură , unul în care hrana chiar are gust bun .
+dar pentru o mulţime de oameni asta este un pic prea radical .
+noi gurmanzii nu suntem realişti .
+noi suntem îndrăgostiţi .
+noi iubim pieţele fermierilor .
+noi iubim micile ferme familiale .
+noi vorbim de hrana locală .
+noi mâncăm organic .
+&quot; şi când sugeraţi că acestea sunt lucruri care vor asigura viitorul hranei bune , cineva undeva se ridică şi spune , &quot; &quot; hei omule , şi eu iubesc păsările flamingo roz , dar cum vei hrăni lumea ? &quot;
+&quot; cum vei hrăni lumea ? &quot; &quot; &quot;
+pot fi sincer ?
+nu @-@ mi place acea întrebare .
+nu , nu fiindcă deja producem mai multe calorii decât e nevoie pentru lume .
+un miliard de oameni vor fi flămânzi azi .
+un miliard -- asta e mai mult decât oricând înainte -- din cauza marilor inegalităţi în distribuţie nu din cauza cantităţii .
+acum , nu @-@ mi place această întrebare fiindcă a determinat logica sistemului nostru alimentar din ultimii 50 de ani .
+&quot; hrăneşte ierbivorii cu grâne , tratează monoculturile cu pesticide , bagă chimicale în sol , dă pui la peşte , şi toată afacerea agrară întreabă simplu , &quot; &quot; cât de rău poate fi dacă hrănim mai mulţi oameni cu mai puţini bani ? &quot; &quot; &quot;
+aceasta a fost motivaţia .
+a fost justificarea .
+a fost planul afacerii agriculturii americane .
+ar trebui să @-@ i spunem pe nume , o afacere în lichidare , o afacere care erodează repede capitalul ecologic care face acea producţie posibilă .
+aceasta nu este o afacere şi nu este agricultură .
+coşul nostru de pâine este ameninţat azi nu din cauza ofertei în scădere , ci din cauza resurselor în scădere , nu de inventarea ultimului tractor sau combine , ci de lipsa pământului fertil , nu de pompe , ci de lipsa apei proaspete , nu de fierăstraiele cu lanţuri , ci de lipsa pădurilor , şi nu de vase de pescuit şi plase , ci de lipsa peştelui în mări .
+vreţi să hrăniţi lumea ?
+să pornim întrebând : cum ne vom hrăni pe noi înşine ?
+sau mai bine , cum putem crea condiţiile care permit fiecărei comunităţi să se hrănească singură ?
+pentru a face asta , nu mai priviţi la modelul afacerii agricole în viitor .
+este foarte vechi şi este perimat .
+consumă mult capital , chimie şi maşini , şi nu a produs vreodată ceva bun de mâncat .
+în loc de asta , să privim modelul ecologic .
+acesta este cel care se bazează pe miliarde de ani de experienţă la locul de muncă .
+priviţi la miguel , fermieri ca miguel , ferme care nu sunt lumi doar pentru ele însele , ferme care restaurează în loc să epuizeze , ferme care cultivă extensiv în loc de numai intensiv , fermieri care nu sunt doar producători , ci experţi în relaţii , fiindcă ei sunt cei care sunt şi experţi în gusturi .
+şi dacă vreau să fiu într @-@ adevăr sincer ei sunt bucătari şefi mai buni decât voi fi eu vreodată .
+ştiţi , mă împac cu asta , fiindcă dacă asta este viitorul hranei bune , ea va fi delicioasă .
+vă mulţumesc .
+am crescut cu o dietă constantă de science fiction .
+la liceu mergeam cu autobuzul la școală câte o oră dus și una întors în fiecare zi .
+și eram întotdeauna absorbit de o carte , o carte științifico @-@ fantastică , ce îmi purta mintea către alte lumi și îmi satisfăcea , într @-@ o formă narativă , simțul acesta insațiabil de curiozitate pe care îl aveam .
+&quot; și - știți - acea curiozitate se manifesta de asemenea în faptul că , oricând nu eram la școală , eram afară , prin păduri , plimbându @-@ mă și culegând &quot; &quot; mostre &quot; &quot; , broaște și șerpi și gândaci și apă de heleșteu , și le aduceam înapoi , cercetându @-@ le sub microscop . &quot;
+eram un adevărat tocilar în ale științei .
+dar totul avea legătură cu încercarea mea de a înțelege lumea , de a înțelege limitele posibilului .
+iar pasiunea mea pentru științifico @-@ fantastic chiar părea că se regăseşte în lumea din jurul meu , din cauza a ceea ce se întâmpla - asta se petrecea la finele anilor 60 - mergeam pe lună , exploram adâncul oceanelor .
+jacques cousteau venea în sufrageriile noastre cu uimitoarele lui emisiuni speciale care ne arătau animale și locuri dintr @-@ o lume fantastică pe care nu am fi putut să ne @-@ o imaginăm înainte .
+deci , asta părea că rezonează cu întreaga parte științifico @-@ fantastică .
+și eram un artist .
+puteam desena. puteam picta .
+și am descoperit că , pentru că nu existau jocuri video și respectiv această saturație de filme cg și toată această pleiadă de imagini în peisajul media , a trebuit să creez aceste imagini în capul meu .
+știți , cu toții a trebuit , așa cum copii trebuie să citească o carte și , prin intermediul descrierilor autorului , să pună ceva pe ecranul cinematografic din lăuntrul capetelor noastre .
+și astfel , răspunsul meu la toate acestea a fost să desenez , să pictez creaturi şi lumi extraterestre , roboți , nave spațiale , toate aceste lucruri .
+eram mereu prins la ora de matematică măzgălind pe caiet .
+asta se întâmpla pentru că această creativitate trebuia să își găsească , cumva , o cale de ieșire .
+și s @-@ a întâmplat un lucru interesant , emisiunile lui jacques cousteau o lume străină , extraterestră , chiar aici pe pământ .
+nu aș putea merge cu adevărat într @-@ o lume extraterestră , într @-@ o navă spațială , vreodată .
+acest vis părea destul de nerealist .
+dar aceea era o lume în care puteam într @-@ adevăr merge , tocmai aici , pe pământ , și asta era la fel de bogat și de exotic ca orice altceva ce mi @-@ am imaginat citind acele cărți .
+așadar , m @-@ am decis că voi deveni un scufundător la vârsta de 15 ani .
+și singura problemă cu acest fapt era că trăiam într @-@ un mic sătuc în canada , la 600 de mile depărtare de cel mai apropiat ocean .
+dar nu am lăsat acest fapt să mă intimideze .
+l @-@ am pisat pe tatăl meu până când a găsit , într @-@ un final , o clasă de scufunători în buffalo , new york , exact lângă graniţă , aproape de unde trăiam noi .
+și chiar am devenit scufundător certificat într @-@ o piscină în ymca în mijlocul iernii în buffalo , new york .
+și n @-@ am văzut oceanul , un ocean adevărat , pentru încă doi ani , când ne @-@ am mutat în california .
+de atunci , pe parcursul a 40 de ani , am petrecut aproximativ 3000 de ore sub apă și 500 din acele ore au fost în submarine .
+și am învățat că acel mediu adânc al oceanului , și chiar și oceanele mai puțin adânci , sunt atât de pline de viață , încât este cu adevărat dincolo de ceea ce ne putem imagina .
+imaginația naturii este atât de lipsită de limite , în comparație cu a noastră , săracă imaginație umană .
+eu sunt complet uimit încă de ceea ce văd când fac aceste scufundări .
+și povestea mea de dragoste cu oceanul continuă și este la fel de puternică precum a fost dintotdeauna .
+dar , când am ales o carieră , ca adult , aceea fost de regizor .
+și aceasta a părut a fi cel mai bun mod de a împăca această nevoie pe care o aveam de a spune povești cu nevoia de a crea imagini .
+și , în copilările , desenam constant comics @-@ uri , și așa mai departe .
+aşadar , crearea de filme era modul de a pune imaginile și poveștile împreună. și asta a avut sens .
+&quot; și desigur , poveștile pe care am ales să le spun erau povești științifico @-@ fantastice : &quot; &quot; terminator &quot; &quot; , &quot; &quot; aliens &quot; &quot; și &quot; &quot; abisul &quot; &quot; . &quot;
+&quot; și cu &quot; &quot; abisul &quot; &quot; , am împreunat dragostea mea pentru peisajele subacvatice și scufundarea cu creația de filme . &quot;
+combinând astfel cele două pasiuni .
+&quot; ceva interesant a rezultat din &quot; &quot; abisul &quot; &quot; , și anume rezolvarea unei probleme narative specifice acelui film , și anume crearea acestei fiinţe lichide din apă , pentru care am îmbrățișat animația generată de calculator , cg . &quot;
+și aceasta a dus la primul personaj din suprafață lichidă , animat cu ajutorul graficii pe calculator , care a apărut vreodată într @-@ un film .
+și chiar dacă filmul nu a făcut bani , ar trebui să spun că abia și @-@ a câștigat investiția , am fost martor la ceva extraordinar , și anume că audiența , audiența globală , a fost hipnotizată știți , este legea enunțată de arthur clarke că orice tehnologie suficient de avansată este imposibil de distins de magie .
+ei vedeau ceva magic .
+și deci , asta m @-@ a făcut să devin foarte entuziasmat .
+&quot; și m @-@ am gândit , &quot; &quot; wow , asta este ceva ce trebuie să fie adoptat în arta cinematografică . &quot; &quot; &quot;
+&quot; de aceea , în &quot; &quot; terminator 2 &quot; &quot; , care a fost următorul meu film , am dus asta mult mai departe . &quot;
+lucrând cu ilm , am creat pe individul din metal lichid din acel film , succesul depins de cum va funcţiona acest efect special .
+și a funcţionat. și am creat din nou magie .
+și am avut același rezultat cu audiența .
+am făcut şi ceva mai mulţi bani de pe urma acestuia .
+așadar , trăgând o linie între aceste două experienţe , a rezultat în faptul că aceasta va fi o lume complet nouă , o nouă formă a creativităţii pentru artiștii de film .
+în concluzie , am pus bazele unei companii cu stan winston , bunul meu prieten stan winston , care este designer de creaturi şi costume la acea vreme , și am numit @-@ o digital domain .
+și ideea din spatele companiei era că vom sări peste procesele analogice de imprimare optică și așa mai departe și vom intra direct în producția digitală .
+și chiar am făcut asta , ceea ce ne @-@ a oferit un avantaj competitiv pentru o vreme .
+dar am am rămas în urmă la jumătatea anilor &apos; 90 în ceea ce privește partea de design a creaturilor și a personajelor , fapt pentru care compania fusese fondată .
+&quot; și am scris această piesă numită &quot; &quot; avatar &quot; &quot; care a avut rolul de a împinge lucrurile mai departe în ceea ce privește efectele vizuale , efectele de grafică pe calculator și mai mult , cu personaje umane din punct de vedere al emoțiilor , generate în cg . &quot;
+și personajul principal urma să fie cu complet generat în cg .
+și lumea urma să fie toată cg .
+însă planurile nu au mers .
+și oamenii de la compania mea mi @-@ au spus că nu vom putea face asta pentru o vreme .
+așadar , am pus ideea la păstrare și am făcut un alt film despre o barcă mare care se scufundă .
+&quot; știți , am mers și am prezentat @-@ o la studio ca &quot; &quot; romeo și julieta pe o navă &quot; &quot; . &quot;
+urma să fie o poveste romantică de proporții epice , un film pasional .
+în secret , ceea ce vroiam să fac era să mă scufund pentru a cerceta adevărata epavă a titanicului .
+și de aceea am făcut filmul .
+acesta este adevărul. ei bine , studioul nu știa asta .
+&quot; dar i @-@ am convins. le @-@ am spus , &quot; &quot; ne vom scufunda la epavă. o vom filma pe bune . &quot;
+vom folosi asta la începutul filmului .
+&quot; va fi foarte important. va fi un excelent punct de plecare pentru marketing . &quot; &quot; &quot;
+și i @-@ am convins să finanțeze o expediție .
+sună nebuneşte. dar are legătură cu subiectul acela că imaginația ta poate crea o realitate .
+pentru că noi chiar am creat o realitate în care șase luni mai târziu , mă găseam într @-@ un submarin rusesc două mile și jumătate sub nivelul apelor atlanticului de nord , uitându @-@ mă la adevăratul titanic printr @-@ un hublou , nu la un film , nu hd , pe bune .
+acum , asta m @-@ a fascinat .
+și a fost nevoie de multe pregătiri , a trebuit să construim camere și lumini și tot felul de lucruri de acest gen dar , m @-@ a uimit cât de mult această scufundare , această scufundare adâncă era asemănătoare unei misiuni spațiale .
+știți , unde totul era puternic tehnologizat , și care cerea extrem de multă planificare .
+intri în această capsulă , te scufunzi spre acest mediu întunecat și ostil unde nu există speranța de a fi salvat dacă nu te poți întoarce singur .
+&quot; și m @-@ am gândit : &quot; &quot; wow. parcă trăiesc într @-@ un film științifico @-@ fantastic . &quot;
+&quot; asta este într @-@ adevăr cool . &quot; &quot; &quot;
+și astfel am fost cu adevărat cuprins de mania explorării adâncurilor oceanelor .
+desigur , de curiozitate , de aspectul ei științific .
+era totul. era aventură , era curiozitate. era imaginație .
+și era o experiență pe care hollywood @-@ ul nu mi @-@ o putea oferi .
+pentru că , știți , puteam să îmi imaginez o creatură și puteam crea un efect vizual pentru ea. dar nu îmi puteam imagina ceea ce vedeam în timp ce făceam câteva dintre expedițiile ulterioare vedeam creaturi la ventilatoarele hidrotermale și câteodată lucruri pe care nu le @-@ am mai văzut niciodată , câteodată lucruri pe care nimeni nu le @-@ a mai văzut vreodată , care nu erau descrise de știință
+la momentul la care noi de vedeam și le fotografiam .
+așadar , eram complet cucerit de asta și trebuia să am mai mult .
+astfel , am luat o decizie destul de curioasă .
+&quot; după succesul titanic @-@ ului , mi @-@ am spus , &quot; &quot; voi pune o pauză meseriei mele curente de producător hollywood @-@ ian de filme și o să devin explorator cu normă întreagă pentru o vreme . &quot; &quot; &quot;
+și astfel am început să plănuim aceste expediții .
+și am ajuns să mergem la bismark și să îl explorăm cu ajutorul vehiculelor robotizate .
+ne @-@ am întors la epava titanic @-@ ului .
+am luat mici roboți pe care îi creasem pe are am bobinat fibră optică .
+și ideea era de a intra înăuntru și de a face o explorare interioară a navei , ceea ce nu s @-@ a mai făcut până atunci .
+nimeni nu s @-@ a uitat înăuntrul epavei. nu au avut mijloacele de a face asta , așa că noi am creat tehnologia pentru a realiza acest lucru .
+deci , știți , iată @-@ mă pe puntea titanic @-@ ului , într @-@ un submarin și uitându @-@ mă la podele care arătau mult ca cele pe care știam că a cântat orchestra .
+și controlez un mic vehicul robotizat prin coridorul navei .
+când spun , îl controlez , dar mintea mea este în acel vehicul .
+m @-@ am simțit de parcă eram fizic prezent înăuntrul epavei titanic @-@ ului .
+și a fost cea mai ieşită din comun experiență deja vu pe care am avut @-@ o vreodată , pentru că știam înainte de a trece de un colț ceea ce va fi acolo , înainte ca luminile vehicolului să îl dezvăluie , pentru că mă plimbasem pe scenă luni de zile când cream filmul .
+iar scena era construită ca o replică exactă a planurilor vaporului .
+aceasta a fost o experiență absolut remarcabilă .
+și m @-@ a făcut să realizez cu adevărat experiența teleprezentă pe care o poţi avea cu aceşti avatari robotici , când conștiința ta este injectată într @-@ un vehicul , în această altă formă de existență .
+a fost întradevăr un lucru profund .
+și poate o scurtă privire asupra a ceea ce s @-@ ar putea întâmpla peste câteva decenii , pe măsură ce vom începe să avem corp de cyborg pentru explorare sau pentru alte scopuri în multe dintre tipurile de viitoruri post @-@ umane pe care mi le pot imagina ca fan al științifico @-@ fantasticului .
+așadar , făcând aceste expediții și începând să apreciez cu adevărat ceea ce am descoperit acolo , jos , precum aceste zone de venitaliţie din adâncurile oceanului , unde am descoperit aceste animale uimitoare .
+ele sunt în esență extratereștrii care trăiesc chiar aici , pe pământ .
+ele trăiesc într @-@ un mediu de sinteză chimică nu supraviețuiesc într @-@ un sistem bazat pe lumina solară , așa ca noi .
+astfel , vezi animale care trăiesc lângă jeturi de apă cu temperaturi de 500 de grade .
+te gândești că nu ar putea supravieţuii .
+în același timp deveneam foarte interesat de știința spațiului , din nou , influența științifico @-@ fantasticului pe care l @-@ am experimentat în vremea copilăriei .
+și m @-@ am trezit implicat în comunitatea celor interesați de spațiu , foarte implicat cu nasa , făcând parte din consiliul de consultanță nasa , plănuind misiuni spațiale adevărate , mergând în rusia , trecând prin protocoalele biomedicale pentru pre @-@ cosmonauți și toate aceste lucruri , pentru a merge cu adevărat și a zbura spre stația spațială internațională cu sistemul nostru de camere 3d .
+și asta a fost fascinant .
+dar ceea ce până la urmă am ajuns să fac este să aduc oameni de ștință a spațiului cu noi în adâncuri .
+și de a @-@ i conduce jos pentru ca ei să aibă acces , astrobiologi , oameni de știință planetară , oameni care erau interesați de aceste medii extreme , luându @-@ i în adâncuri și lăsându @-@ i să vadă și să ia mostre să să testeze cu instrumente , și așa mai departe .
+aşadar iată @-@ ne făcând filme documentare , dar de fapt studiam , creeam ştiinţa spaţiului .
+am închis complet cercul dintre a fi fan al științifico @-@ fantasticului , știți , ca și copil , și a face lucrurile acestea pe bune . © și știți , pe parcursul acestei călătorii de descoperire , am învățat foarte multe .
+am învățat multe despre știință. dar de asemenea , am învățat foarte multe despre arta de a conduce .
+acum , ai crede că regizorul trebuie să fie un conducător , leader , căpitanul navei , și toate aceste lucruri .
+nu am învățat cu adevărat despre arta de a conduce până când nu am făcut aceste expediții .
+&quot; pentru că a trebuit , la un moment dat , să spun &quot; &quot; ce fac eu aici ? &quot;
+&quot; de ce fac asta ? ce câștig din asta ? &quot; &quot; &quot;
+nu facem bani cu aceste nenorocite de misiuni .
+abia supraviețuim. nu aduc niciun fel de faimă .
+&quot; oameni cam cred că am plecat între &quot; &quot; titanic &quot; &quot; și &quot; &quot; avatar &quot; &quot; și că îmi făceam unghiile undeva , stând la plajă . &quot;
+am făcut toate aceste filme , am făcut toate aceste documentare pentru o audiență foarte limitată .
+fără faimă , fără glorie , fără bani. ce faci ?
+o faci pentru munca în sine , pentru provocare -- și oceanul este cel mai provocator mediu care există , pentru emoția descoperirii și pentru strania legătură care se formează când un mic grup de oameni formează o echipă strâns unită .
+pentru că făceam aceste lucruri cu o echipă de 10 @-@ 12 oameni , lucrând ani de zile .
+câteodată &#91; fiind &#93; pe mare pentru 2 @-@ 3 luni de zile .
+și în această legătură , realizezi că cel mai important lucru este respectul pe care îl ai pentru ei și pe care ei îl au pentru tine , că ai făcut o treabă pe care nu o poți explica altcuiva .
+&quot; când te întorci la țărm și spui &quot; &quot; a trebuit să facem asta , și fibra optică , și atenuarea , și asta și cealaltă , toată tehnologia ce a fost implicată , și dificultatea , aspectele de performanță umană de a lucra pe mare , nu poți explica oamenilor. este acel lucru care poate că polițiștii îl au , sau oamenii din zonele de luptă care au trecut prin ceva similar împreună , și știu că nu îl pot explica niciodată . &quot;
+crează o legătură , crează o legătură de respect .
+&quot; deci , când m @-@ am întors să fac următorul meu film , care a fost &quot; &quot; avatar &quot; &quot; , am încercat să aplic același principiu de a conduce , și anume să îți respecți echipa și să le câștigi în acelaşi timp şi respectul lor . &quot;
+și a schimbat cu adevărat dinamica .
+&quot; iată @-@ mă din nou cu o echipă mică , pe teritoriu necunoscut , făcând &quot; &quot; avatar &quot; &quot; , inventând tehnologie nouă , care nu exista până atunci . &quot;
+extraordinar de interesant .
+extraordinar de provocator .
+și am devenit o familie , pe parcursul unei perioade de patru ani și jumătate .
+și asta a schimbat cu totul modul meu de a face filme .
+așadar oamenii au comentat asubra modului în care , ei bine , știți , ai adus la viață organismele oceanice și le @-@ ai pus pe planeta pandora .
+pentru mine era mai mult un mod fundamental de a face afaceri , procesul în sine , care s @-@ a schimbat ca rezultat al acestui fapt .
+deci , ce putem sintetiza din asta ?
+știți , care sunt lecțiile învățate ?
+păi , cred că prima este curiozitatea .
+este cel mai puternic lucru pe care îl ai .
+imaginația este o forță care se poate manifesta cu adevărat într @-@ o realitate .
+și respectul echipei tale este mai important decât toți laurii din lume .
+&quot; tinerii creatori de filme vin la mine și spun : &quot; &quot; dă @-@ mi un sfat pentru a face asta . &quot; &quot; &quot;
+&quot; și eu le spun , &quot; &quot; nu te limita pe tine însuți . &quot;
+alți oameni vor face asta pentru tine , nu ți @-@ o face singur , nu paria împotriva ta .
+&quot; și asumă @-@ ți riscuri . &quot; &quot; &quot;
+&quot; nasa are fraza aceasta preferată : &quot; &quot; eșecul nu este o opțiune . &quot; &quot; &quot;
+dar eșecul trebuie să fie o opțiune în artă și în explorare , pentru că este o chestiune de încredere .
+și nici o încercare importantă care a cerut inovație nu s @-@ a făcut fără risc .
+trebuie să fii dispus să îți asumi acele riscuri .
+deci , acesta este gândul cu care vă las , anume că în orice faceți , eşecul este o opţiune , dar frica , nu. mulțumesc .
+v @-@ aş lăsa cu o singură idee importantă azi , şi anume că întreaga cantitate de date pe care o consumăm este mai mare decât suma părţilor , şi , în loc să vă gândiţi la supra @-@ încărcare cu informaţie aş prefera să vă gândiţi la modul în care putem folosi informaţia astfel încât să vedem tiparele şi să putem vedea tendinţe care altfel ar fi invizibile .
+acum ne uităm la un grafic obişnuit al mortalităţii organizat după criteriul vârstei .
+programul pe care îl folosesc aici este experimental , se numeşte pivot , şi ce pot să fac cu el este că pot să filtrez o anumită cauză a morţii , accidente de exemplu .
+imediat văd cum apare o altă structură , diferită .
+asta deoarece , aici în mijloc , oamenii sunt în perioada lor cea mai activă , iar aici pentru că devin foarte fragili .
+facem un pas înapoi iar şi aranjăm datele după cauza morţii , vedem că bolile circulatorii şi cancerul sunt suspecţii principali , dar nu pentru toţi .
+dacă continuăm şi filtrăm după vârstă , să zicem 40 de ani sau mai puţin , vedem că accidentele sunt de fapt cauza cea mai frecventă care să îi îngrijoreze pe oameni .
+şi mai departe , este mai ales cazul pentru bărbaţi .
+înţelegeţi că acest mod de vizualizare a datelor , e ca şi cum ai înota într @-@ un grafic de informaţii viu .
+şi dacă putem face asta cu simple date de ce n @-@ am face la fel şi cu conţinutul ?
+aici avem coperta fiecărui număr din sports illustrated care s @-@ a tipărit până acum .
+sunt toate aici. sunt toate pe internet .
+puteţi să încercaţi asta acasă când plecaţi de aici .
+cu pivot , poţi să cauţi anumite perioade .
+apoi anumiţi ani .
+poţi să te duci direct la un anume subiect .
+mă uit la asta - văd atleţii care au apărut în această ediţie de sport .
+sunt mare fan lance armstrong , deci îl selectez , şi asta îmi aduce toate numerele în care a apărut lance armstrong .
+&quot; dacă vreau doar să mă uit pe ele , poate că îmi trece prin minte &quot; &quot; ce @-@ ar fi să văd ce au despre ciclism în general ? &quot; &quot; &quot;
+mă întorc şi deschid asta .
+îl văd pe greg lemond acum .
+şi înţelegeţi că atunci când navighezi prin informaţie în felul ăsta , când specific , când mai general , mergi înainte şi înapoi , nu cauţi , nu navighezi .
+faci ceva ceva puţin diferit .
+este undeva la mijloc , şi credem că schimbă felul în care poate fi folosită informaţia .
+vreau să merg puţin mai departe pe această idee care e puţin cam sonată .
+am luat fiecare pagină din wikipedia şi am redus @-@ o la un rezumat .
+rezumatul e doar o scurtă descriere şi o iconiţă care indică domeniul din care provine .
+vă arăt doar primele 500 cele mai populare pagini chiar aici .
+dar chiar şi în acestă vedere limitată , putem să facem multe lucruri .
+imediat vedem care sunt subiectele principale cele mai populare pe wikipedia .
+acum o să selectez guvernare .
+acum că am ales guvernare , pot să văd categoria din wikipedia care corespunde cel mai frecvent şi anume revista time - personalitatea anului .
+şi asta e important pentru că este un lucru care nu era conţinut în nici o pagină wikipedia .
+poţi să descoperi lucrul ăsta doar dacă faci un pas înapoi şi te uiţi la toate simultan .
+privind toate aceste rezumate particulare , pot apoi să explorez mai atent conceptul revistei time - personalitatea anului , să le aduc pe toate la suprafaţă .
+şi mă uit la aceşti oameni , văd că majoritatea vin din guvern .
+câţiva vin din ştiinţe naturale .
+câţiva , şi mai puţini , vin din afaceri .
+aici e şeful meu .
+şi acesta vine din muzică .
+şi destul de interesant , bono este și un câştigător al premiului ted .
+aşa că mergem să ne uităm la câştigătorii premiului ted .
+vedeţi , navigăm pentru prima oară web @-@ ul ca şi cum ar fi cu adevărat o reţea , şi nu din pagină în pagină , ci la un nivel mai înalt de abstracţie .
+şi vreau să vă mai arăt un lucru care poate o să vă ia prin surprindere .
+vă arăt situl new york times .
+pivot , aplicaţia noastră -- nu vreau s @-@ o numesc browser , pentru că nu este chiar un browser , dar poţi să vezi pagini de web cu ea -- şi folosim tehnologia de mărire şi micşorare în fiecare pagină .
+pot să fac un pas înapoi , să mă întorc înapoi la o anumită secţiune .
+de ce e important , pentru că doar accesând paginile de web în acest fel , pot să îmi văd întreaga istorie de căutare în exact acelaşi fel .
+pot să explorez mai în detaliu ce am făcut în diferite perioade .
+aici este chiar situaţia acestui demo pe care îl facem acum .
+şi pot să mă uit pe chestii pe care le @-@ am făcut azi mai devreme .
+şi dacă vreau să fac un pas înapoi şi să mă uit la tot pot să îmi disec istoricul căutării , de exemplu .
+aici am căutat pentru bing , aici pentru live labs pivot .
+şi de aici pot să aleg o pagină şi să o lansez din nou .
+este o metaforă reutilizată de mai multe ori , şi în fiecare caz face întregul mai mare decât suma părţilor din date .
+acum , în lumea noastră , credem că datele sunt un blestem pentru noi .
+ne plângem de blestemul supra @-@ încărcării cu informaţie .
+spunem că ne sufocăm în date .
+ce @-@ ar fi dacă am întoarce totul invers şi am întoarce şi web @-@ ul invers , aşa că în loc să trecem de la un lucru la următorul , ne obişnuim să mergem de la mai multe la mai multe lucruri , şi să fim în stare să găsim tipare care altfel sunt ascunse ?
+dacă am face asta , în loc să fim prinşi în capcana datelor , am putea de fapt să putem să extragem informaţie .
+şi în loc să avem doar o relaţie primară cu informaţia , am putea chiar să extragem cunoştinţe .
+şi dacă extragem cunoaştere , poate e şi înţelepciune de găsit .
+cu asta , vă mulţumesc .
+toată lumea vorbeşte despre fericire în ziua de azi .
+&quot; am rugat pe cineva să numere câte cărţi care au cuvântul &quot; &quot; fericire &quot; &quot; în titlu au fost publicate în ultimii cinci ani şi a renunţat după vreo 40. sunt mult mai multe . &quot;
+există un imens val de interes pentru fericire printre cercetători .
+se face multă consiliere pentru găsirea fericirii .
+toată lumea ar vrea să @-@ i facă pe oameni mai fericiţi .
+însă , în ciuda numeroaselor activităţi în acest domeniu , există câteva capcane cognitive care ne împiedică să ne facem o imagine clară despre fericire .
+prezentarea mea de azi va face referire în principal la aceste capcane cognitive .
+sunt valabile atât la oamenii obişnuiţi care se gândesc la fericirea proprie , cât şi la cercetătorii care studiază conceptul de fericire , se pare că noi cercetătorii suntem la fel de confuzi ca toţi ceilalţi .
+prima dintre aceste capcane e reticenţa de a admite complexitatea fericirii .
+&quot; se pare că termenul &quot; &quot; fericire &quot; &quot; nu mai este un cuvânt folositor deoarece îl folosim la prea multe lucruri diferite . &quot;
+probabil că există un sens specific la care am putea să @-@ l restrângem dar , în general , va trebui să renunţăm la această noțiune şi să adoptăm o viziune mai amplă a bunăstării .
+a doua capcană e o confuzie între experienţă şi memorie : de fapt , o confuzie între a fi fericit în viaţă şi a fi mulţumit în viaţa proprie sau a fi mulţumit despre viaţa proprie .
+sunt două concepte foarte diferite , îngrămădite amândouă în noţiunea de fericire .
+iar a treia confuzie e iluzia percepţiei , faptul regretabil că nu ne putem gândi la nicio circumstanţă care afectează bunăstarea fără a @-@ i distorsiona importanţa .
+iar asta e o capcană cognitivă serioasă .
+pur şi simplu n @-@ o percepem fidel .
+aş dori să încep cu exemplul unei persoane care în timpul unei sesiuni de întrebări si răspunsuri la sfârşitul unui seminar de @-@ al meu a povestit o întâmplare .
+zicea că ascultase o simfonie şi că muzica fusese absolut minunată .
+însă la sfirşitul înregistrării , s @-@ a auzit un scârţâit groaznic şi a adăugat , destul de afectat , că scârţâitul i @-@ a ruinat întreaga experienţă .
+de fapt nu @-@ i stricase experienţa , ci amintirea experienţei .
+trăise experienţa .
+trăise 20 de minute de muzică minunată .
+dar au fost reduse la zero pentru că ce @-@ i rămăsese era amintirea .
+amintirea îi fusese alterată , iar amintirea era tot ce @-@ i rămăsese .
+concluzia aici este că probabil ne perepem pe noi şi pe ceilalţi ca entităţi cu un sine dublu .
+există un sine în momentul real , care rămâne în prezent , și trăiește prezentul , capabil să retraiască trecutul , dar în esenţă are doar prezentul .
+e sinele prezentului căruia i se adresează doctorul .
+&quot; ştiti , când doctorul întreabă , „ te doare când apăs aici ? &quot; &quot; &quot;
+pe de altă parte există sinele memoriei , şi sinele memoriei e cel care ţine socoteala şi întreţine memoria vieţii noastre .
+&quot; e cel căruia i se adresează doctorul când întreabă : „ cum v @-@ aţi simţit în ultima vreme ? &quot; &quot; &quot;
+&quot; sau „ cum a fost excursia în albania ? &quot; &quot; ș.a.m.d. &quot;
+astea două sunt entităţi foarte diferite , sinele momentului şi sinele memoriei , iar confuzia dintre ele duce la ambiguitatea legată de noţiunea de fericire .
+sinele memoriei e un povestitor .
+începe cu răspunsul de bază al amintirilor noastre , începe imediat .
+nu spunem povești doar când povestim conștient .
+memoria noastră ne spune povești , mai precis , ce reuşim să reţinem din trăirilele noastre reprezintă o poveste .
+daţi @-@ mi voie să încep cu un exemplu .
+există un studiu vechi despre pacienţi care trec printr @-@ o experienţă dureroasă .
+nu intru în detalii. nu mai e dureroasă azi , dar era dureroasă în timpul studiului în &apos; 90 .
+pacienţilor li s @-@ a cerut să @-@ şi descrie durerea la fiecare 60 sec .
+avem aici doi pacienţi şi relatările lor .
+&quot; întrebarea e : &quot; &quot; care a suferit mai mult ? &quot; &quot; &quot;
+e o întrebare foarte simplă .
+evident , pacientul b a suferit mai mult .
+colonoscopia lui a durat mai mult , a trecut prin fiecare minut de durere prin care a trecut și pacientul a , ba chiar ceva mai mult .
+&quot; dar iată o altă întrebare : „ cum şi @-@ au perceput aceşti pacienţi suferinţa &quot; &quot; ? &quot;
+şi aici avem o surpriză : surpriza este că pacientul a a rămas cu o amintire mult mai neplăcută despre colonoscopie decât pacientul b .
+memoriile acestor colonoscopii au fost diferite pentru că o parte crucială a poveștii e cum se încheie .
+niciuna dintre relatări nu e memorabilă sau grandioasă însa una dintre ele ... însă una dintre ele e în mod evident mai neplacută decât cealaltă .
+şi cea mai neplacută a fost aceea în care durerea a fost mai intensă spre sfârşit .
+e o poveste neplăcută .
+de unde ştim ?
+i @-@ am întrebat pe aceşti oameni după colonoscopie , mult mai târziu , cât de neplăcută a fost procedura în ansamblu .
+în memoria lor , a fost mult mai neplăcută pentru pacientul a decât pentru b .
+e un conflict direct , între sinele momentului și sinele memoriei .
+din punctul de vedere al sinelui experimental , e clar că pacientul b a suferit mai mult .
+ceea ce am putea face cu pacientul a , şi am făcut de fapt experimente clinice , care au funcţionat , e să prelungim colonoscopia pacientului a ţinând tubul înăuntru fără să @-@ l mişcăm prea mult .
+asta îl va face pe pacient să sufere , însă puțin , mult mai puţin decât înainte .
+dacă facem asta vreo două minute înrăutăţim experienţa sinelui de moment al pacientului a , dar îmbunătăţim pe cea a sinelui memoriei în mod considerabil deoarece acum l @-@ am lăsat pe pacientul a cu o amintire mai bună a experienţei sale .
+ce anume defineşte o poveste ?
+şi e valabil pentru poveştile pe care ni le furnizează memoria , dar şi pentru poveştile pe care le inventăm .
+ceea ce defineşte o poveste sunt schimbările , momentele semnificative şi sfârşitul .
+sfârşitul e foarte , foarte important .
+în acest caz , sfârşitul a fost hotărâtor .
+sinele momentan işi trăieste viaţa continuu .
+are momente succesive de trăire , şi te intrebi : ce se întâmplă cu aceste momente ?
+iar răspunsul e foarte simplu .
+sunt pierdute pentru totdeauna .
+majoritatea momentelor vieţii -- şi am calculat : prezentul psihologic , se zice că durează aprox . 3 secunde .
+înseamnă că într @-@ o viaţă avem cam 600 milioane de astfel de momente .
+într @-@ o lună avem cam 600.000 .
+majoritatea nu lasă nicio urmă .
+majoritatea sunt complet ignorate de sinele memoriei .
+şi totuși , cumva avem impresia că ar trebui să conteze , că ceea ce se întâmplă în aceste momente de trăire e însăşi viaţa noastră .
+e resursa finită pe care o consumăm în timpul existenţei noastre pe pământ .
+şi felul în care o petrecem ar trebui să fie relevant , însă nu aceasta e povestea pe care sinele memoriei o păstrează .
+deci avem sinele memoriei și sinele momentului , care sunt distincte .
+cea mai mare diferenţă dintre ele e felul în care e procesat timpul .
+din punctul de vedere al sinelui momentan , dacă pleci în vacanţă şi a doua săptămână e la fel de bună ca prima , vacanţa de două săptămâni e de două ori mai bună decât vacanţa de o săptămână .
+pentru sinele memoriei , lucrurile nu funcţionează deloc aşa .
+pentru sinele memoriei , o vacanţă de două săptămâni e nesemnificativ mai bună decât o vacanţă de o săptămână deoarece nu se adaugă amintiri noi .
+povestea n @-@ a fost schimbată .
+prin urmare , timpul devine variabila esenţială care distinge sinele memoriei de sinele momentului .
+durata are un impact redus asupra poveștii .
+sinele memoriei nu face numai să @-@ şi aminteasca şi să spună poveşti .
+e de fapt cel care ia decizii deoarece , dacă un pacient a avut , de exemplu , doua colonoscopii cu doi chirurgi diferiţi şi decide pe care să @-@ l aleagă , cel ales va fi cel a cărui amintire e mai puţin neplăcută , întrucât acesta e lucrul care determină alegerea .
+sinele experimental nu are nimic de zis în această alegere .
+noi nu alegem de fapt între experienţe , ci între amintirile experienţelor .
+şi chiar când ne gândim la viitor , în mod normal nu ne gândim la viitor ca la un set de experienţe .
+ne gândim la viitorul nostru ca la nişte amintiri anticipate .
+şi în esenţă puteţi considera acest lucru , drept o tiranie a sinelui memoriei , şi puteţi considera sinele memoriei drept ceva care trage după el sinele experimental prin experienţe de care sinele experimental nu are nevoie .
+am senzaţia că atunci când mergem în vacanţă şi asta se întâmplă foarte des , adică mergem in vacanţe , într @-@ o foarte mare măsură , în serviciul sinelui memoriei .
+şi acest lucru este cam greu de justificat , mi se pare .
+adică , în ce măsură ne consumăm noi amintirile ?
+acesta este unul dintre lucrurile care explică dominaţia sinelui memoriei .
+şi când mă gândesc la acest lucru , mă gândesc la o vacanţă pe care am petrecut @-@ o în antarctica acum câţiva ani , care a fost în mod clar cea mai frumoasă vacanţă pe care am avut @-@ o şi mă gândesc la ea destul de des , faţă de cât de mult mă gândesc la alte vacanţe .
+şi probabil că am consumat amintirile acelei vacanţe de trei săptămâni să zicem timp de aproximativ 25 de minute în ultimii patru ani .
+daca aş fi deschis vreodata albumul cu cele 600 de poze , aş fi petrecut încă o oră .
+avem deci , pe de o parte , trei săptămâni şi , pe de altă parte , cel mult o oră şi jumătate .
+pare să existe o discrepanţă .
+s @-@ ar putea să fiu un pic extrem prin zgârcenia cu care îmi consum amintirile , dar chiar dacă le consumaţi într @-@ o măsură mai mare , întrebarea rămâne valabilă .
+de ce acordăm atât de multă importanţă memoriei prin comparaţie cu experienţa ?
+asadar , as vrea să vă gândiţi la un experiment de gândire .
+imaginaţi @-@ vă că la următoarea voastră vacanţă ştiţi că la sfârşitul vacanţei toate pozele voastre vor fi distruse , şi că o sa luaţi un medicament care provoacă amnezia astfel încât să nu vă mai amintiţi nimic .
+aţi alege aceeaşi vacanţă ?
+şi dacă aţi alege o altă vacanţă , există un conflict între sinele experimental şi sinele memoriei , şi trebuie să vă gândiţi cum să tranşaţi acest conflict , şi de fapt nu este deloc uşor pentru că , dacă luaţi timpul ca criteriu , veţi avea un răspuns .
+şi dacă luaţi amintirile ca criteriu , s @-@ ar putea să aveţi alt răspuns .
+de ce alegem vacanţele pe care le alegem ?
+este o problemă în care ne confruntăm cu o alegere între sinele experimental şi cel al memoriei .
+sinele experimental şi sinele memoriei fac referire la două noţiuni diferite de fericire .
+există de fapt două concepte de fericire pe care le putem aplica , una pentru fiecare sine .
+aşa că puteţi intreba : cât de fericit este sinele experimental ?
+şi , pe de altă parte : cât de fericite sunt momentele din viaţa sinelui experimental ?
+şi sunt toate fericiri de moment .
+este un proces destul de complicat .
+care sunt emoţiile care pot fi măsurate ?
+şi , apropos , acum suntem în măsură să ne facem o idee destul de bine conturată despre fericirea sinelui experimental de @-@ a lungul timpului .
+în schimb , fericirea sinelui memoriei , este un lucru complet diferit .
+nu este vorba despre cât de fericit îşi trăieşte viaţa o persoană .
+ci despre cât de satisfăcută ori încântată este această persoană când se gândeşte la viaţa sa .
+este o noţiune foarte diferită .
+cine nu face distincţia între aceste noţiuni , va compromite studiul fericirii , şi eu aparţin unui grup de cercetători ai bunăstării care au compromis studiul fericirii pentru multă vreme tocmai în acest fel .
+distincţia dintre fericirea sinelui experimental şi satisfacţia sinelui memoriei a fost recunoscută în ultimii ani , şi se fac acum eforturi de a le măsura pe ambele separat .
+organizaţia gallup face un sondaj de opinie la nivel mondial în care mai bine de jumătate de milion de oameni au fost intrebaţi ce cred despre viaţa lor si despre experienţele lor .
+şi au mai fost făcute şi alte eforturi similare .
+aşa că în ultimii ani am început să învăţăm unele lucruri despre cele două tipuri de fericire .
+şi cred că lecţia principală pe care am învăţat @-@ o , este faptul că sunt realmente diferite .
+poţi să stii cat de satisfăcuţi sunt unii cu viaţa lor , si acest lucru de fapt nu indica mult despre cat de fericiţi sunt in viaţa lor , si vice versa .
+&quot; doar ca sa va dau un exemplu de corelatie , corelatia este aproximativ 0.5 asta inseamna ca daca intalnesti pe cineva si ti se spune , &quot; &quot; oh tatal lui este inalt de 1.80 metri &quot; &quot; cit de mult ai sti despre inaltimea acestei persoane ? &quot;
+pai , ai sti ceva despre inaltima lui , dar exista foarte multa incertitudine ai atat de multa incertitudine .
+daca ti @-@ as spune ca cineva si @-@ a evaluat viata la opt pe o scala de zece ai avea multa incertitudine despre cit de fericiti sunt cu sinele experimental .
+asadar corelatia este mica .
+stim ceva despre ce anume controleaza satisfactia sinelui fericirii .
+stim ca banii sunt foarte importanti , scopurile sunt foarte importante .
+stim ca fericirea inseamna mai degraba sa fim satisfacuti cu oamenii care ne plac , sa petrecem timp cu oamenii care ne plac .
+exista alte placeri , insa acestea sunt dominante .
+asa ca daca vreti sa maximizati fericirea celor doua sine , veti ajunge sa faceti lucruri diferite .
+concluzia la ceea ce am zis aici este fatpul ca de fapt noi nu ar trebui sa gindim despre fericire ca un substitut pentru bunastare .
+este o notiune complet diferita .
+acum , foarte rapid , alt motiv pentru care nu putem gindi in mod simplist despre fericire este faptul ca nu ne referim la aceleasi lucruri cind ne gandim la viata si cand traim efectiv .
+asadar , daca pui o intrebare simpla despre cat de fericiti sunt oamenii din california nu vei ajunge la raspunsul corect .
+cind pui aceasta intrebare , ai crede ca oamenii trebuie sa fie mai fericiti in california daca , de exemplu , tu traiesti in ohio .
+şi ceea ce se întâmplă este faptul că atunci când te gândeşti la traiul din california , te gândeşti la contrastul dintre california şi alte locuri , si la faptul ca acest contrast este , de exemplu , clima .
+se pare însă că de fapt clima nu este foarte importantă pentru sinele experimantal si nu este foarte importantă pentru sinele reflectiv care decide cât de fericiţi sunt oamenii .
+însă , datorită faptului ca sinele reflectiv este la conducere aţi putea ajunge -- unii oameni ar putea ajunge sa se mute în california .
+si este destul de interesant să urmărim ce se va întampla cu oamenii care se mută în california sperând că vor fi mai fericiti .
+aşadar , sinele lor experimental nu va deveni mai fericit .
+noi ştim asta .
+însă un lucru se va intâmpla. ei vor crede că sunt mai fericiţi .
+deoarece , când se gindesc la acest lucru , işi vor aminti cât de oribilă era vremea în ohio şi vor simţi ca au luat decizia bună .
+este foarte dificil sa gândim simplist despre bunăstare , şi sper ca v @-@ am oferit o imagine despre cât de dificil este .
+va multumesc .
+chris anderson : vă multumesc. am o întrebare pentru dumneavoastră .
+vă mulţumesc mult .
+acum câteva săptamâni , când am vorbit la telefon , aţi mentionat faptul ca aţi obţinut un rezultat interesant in urma sondajului de opinie gallup .
+credeţi ca puteţi împărtăşi acest lucru dat fiind că înca mai aveţi câteva minute ?
+daniel kahneman : sigur .
+cred că cel mai interesant rezultat al sondajului gallup este un număr pe care nu ne @-@ am aşteptat deloc să @-@ l obţinem .
+ceea ce am aflat se referă la fericirea sinelui experimental .
+ne @-@ am uitat la cum variază sentimentele in funcţie de venit .
+şi se pare ca sub un venit de 60,000 de dolari pe an , pentru americani , si aceasta reprezintă un număr mare de americani interogaţi , cam 600,000 ceea ce este un eşantion reprezentativ mare , sub un venit de 600,000 de dolari pe an ...
+ca : 60,000 .
+dk : 60,000 60,000 de dolari pe an , oamenii sunt nefericiţi , şi devin progresiv mai nefericiţi pe măsura ce devin mai săraci peste acest nivel , obţinem o linie absolut plată .
+vreau sa zic ca rareori am mai văzut o asemenea linie plată .
+e clar că banii nu aduc fericirea sinelui experimental dar lipsa lor aduce nefericire , si putem masura această nefericire foarte , foarte exact .
+în ceea ce priveşte celălalt sine , sinele memoriei , avem de @-@ a face cu o altă situaţie .
+cu cât ai mai mulţi bani cu atât eşti mai satisfacut .
+acest lucru nu este adevărat în cazul emoţiilor .
+ca : dar danny , tot visul american este despre viată , libertate , căutarea fericirii .
+dacă lumea ar lua acestă descoperire în serios , vreau sa zic , totul pare să fie pe dos tot ceea ce credem , de exemplu , politica fiscală şi aşa mai departe .
+există vreo şansă ca oamenii politici , ca statul in general , să ia o asemenea constatare în mod serios si să elaboreze politici în domeniul public bazându @-@ se pe ea ?
+dk : stii , cred că există o recunoastere a rolului cercetării fericirii în politica publică .
+recunoaşterea va fi lentă în us , neîndoielnic , dar în uk , se întâmplă , şi în alte ţări se întâmplă .
+oamenii îşi dau seama de faptul că ar trebui să se gândeasca la fericire atunci când se gândesc la politica publică .
+va dura ceva timp , si lumea va dezbate daca vor vrea să studieze fericirea experimentală , sau dacă vor vrea să studieze evaluarea vieţii , aşa că trebuie să avem această dezbatere destul de curând , pentru ca să îmbunătăţim fericirea , există maniere diferite , în funcţie de cum gândim , si dacă ne gândim la sinele memoriei sau dacă ne gândim la sinele experimental .
+acest lucru va influenţa politica , cred , în anii următori .
+în us , se fac eforturi în vederea măsurării fericirii experimentale a populaţiei aceasta va constitui , cred , în următoarea sau următoarele două decade , o parte din statisticile naţionale ca : se pare că acest subiect va fi , sau cel putin ar trebui să fie , dezbatere politică cea mai interesantă de urmarit de @-@ a lungul anilor care vin .
+ma mulţumesc mult pentru că aţi inventat economia comportamentală .
+mulţumesc danny kahneman .
+voi vorbi astăzi despre energie și climă .
+și asta poate părea puțin surprinzător pentru că munca mea cu normă întreagă la fundație este legată în mare parte de vaccinuri și semințe , de lucrurile pe care e nevoie să le inventăm și livrăm pentru a @-@ i ajuta pe cei mai săraci două miliarde să trăiască mai bine .
+dar energia și clima sunt extrem de importante pentru acești oameni , chiar mai importante decât pentru oricine altcineva de pe planetă .
+înrăutățirea climei înseamnă că mulți ani recoltele lor nu vor mai crește .
+va fi prea multă ploaie , nu va fi destulă ploaie .
+lucrurile se vor schimba în moduri pe care mediul lor fragil pur și simplu nu le poate îndura .
+iar asta duce la foamete. duce la nesiguranță. duce la neliniște .
+schimbările climatice vor fi groaznice pentru ei .
+de asemenea , prețul energiei este foarte important pentru ei .
+de fapt , dacă am putea alege un singur lucru căruia să @-@ i scădem prețul pentru a reduce sărăcia , am alege de departe energia .
+ei , prețul energiei s @-@ a redus în timp .
+chiar așa , civilizația avansată e bazată pe progresul energetic .
+revoluția cărbunelui a alimentat revoluția industrială și chiar în anii 1990 prețul electricității a cunoscut un declin rapid și de aceea avem frigidere , aer condiționat , putem crea materiale moderne și face atâtea lucruri .
+și astfel suntem într @-@ o situație minunată în ceea ce privește electricitatea în lumea bogată .
+dar , odată ce o facem mai ieftină — și să încercăm s @-@ o facem de două ori mai ieftină — trebuie să respectăm o nouă constrângere , iar această constrângere are de @-@ a face cu co2 .
+co2 încălzește planeta , iar ecuația privitoare la co2 este chiar una foarte simplă .
+dacă adunăm cantitățile de co2 emise , acest lucru duce la o creștere a temperaturii , iar creșterea de temperatură duce la niște efecte foarte negative .
+efectele asupra vremii și , poate mai grav , efectele indirecte așa încât ecosistemele naturale nu se pot adapta acestor schimbări rapide , și așa se ajunge la colapsul ecosistemului .
+ei , măsura exactă a corelării dintre creșterea co2 și creșterea temperaturii și unde există reacții inverse pozitive , încă mai are o oarecare incertitudine , dar nu foarte mare .
+și există cu siguranță incertitudine despre cât de grave vor fi aceste efecte , dar ele vor fi extrem de grave .
+am întrebat oamenii de știință marcanți , în repetate rânduri : chiar trebuie să ajungem aproape de zero ?
+nu putem să reducem la jumătate sau la un sfert ?
+iar răspunsul este că , până nu vom ajunge aproape de zero , temperatura va continua să crească .
+așa că avem în față o mare problemă .
+nu e totuna cu un camion înalt de 4 m care trebuie să treacă pe sub un pod de 3 m și pe care l @-@ am putea cumva turti încât să treacă .
+aici avem ceva ce trebuie redus la zero .
+ei , noi emitem o grămadă de dioxid de carbon în fiecare an , peste 26 de miliarde de tone .
+pentru fiecare american sunt aproximativ 20 de tone .
+pentru oamenii din țările sărace este mai puțin de o tonă .
+în medie la nivelul planetei sunt vreo cinci tone pentru fiecare om .
+și , cumva , trebuie să facem schimbări care să reducă asta la zero .
+a crescut constant .
+numai diferite schimbări economice au produs o oarecare stabilizare , așa că trebuie să trecem de la o creștere rapidă la scădere , și scădere până la zero .
+ecuația are patru factori .
+puțină înmulțire .
+deci , avem ceva în stânga , co2 , care vrem să fie ajungă la zero , iar asta se va baza pe numărul de oameni , serviciile pe care fiecare persoană le folosește în medie , energia medie pentru fiecare serviciu și co2 @-@ ul emis pe unitatea de energie .
+hai să ne uităm la fiecare dintre ele și să vedem cum putem ajunge la zero .
+probabil unul dintre aceste numere va trebui să se apropie destul de mult de zero .
+ei , asta e din algebra de liceu , dar hai să aruncăm o privire .
+mai întâi avem populația .
+ei , lumea are astăzi 6,8 miliarde de oameni .
+se îndreaptă spre aproximativ nouă miliarde .
+ei , dacă facem o treabă grozavă cu vaccinurile noi , serviciile medicale și de sănătate reproductivă , am putea să scădem asta cu poate 10 sau 15 la sută , dar aici vedem o creștere de aproximativ 1,3 .
+al doilea factor sunt serviciile pe care le folosim .
+asta include totul , mâncarea pe care o mâncăm , îmbrăcămintea , televiziunea , încălzirea .
+astea sunt lucruri foarte bune și a scăpa de sărăcie înseamnă a oferi aceste servicii aproape oricui de pe planetă .
+și este un lucru grozav ca acest număr să crească .
+în lumea bogată , poate în primul miliard , probabil că am putea să ne limităm și să folosim mai puțin , dar în fiecare an , această cifră , în medie , va crește , așa că , în general , serviciile oferite fiecărei persoane aici avem un serviciu foarte elementar .
+aveți lumină în casă pentru a vă putea citi temele ?
+ei bine , acești copii nu au , așa că ies afară și @-@ și citesc temele la lumina becurilor de la stâlpi .
+apoi eficiența , e , energia pentru fiecare serviciu , aici avem în sfârșit ceva vești bune .
+avem ceva ce nu crește .
+prin diferite invenții și moduri de iluminare , prin diferite tipuri de mașini , diferite moduri de a construi clădiri , există multe servicii unde poți reduce energia pentru acel serviciu destul de substanțial , în cazul anumitor servicii , chiar cu până la 90 la sută .
+există alte servicii , de exemplu cum facem îngrășământ sau cum facem transportul aerian , unde e mult mai puțin loc pentru îmbunătățiri .
+așa că , în medie , dacă suntem optimiști , s @-@ ar putea să obținem o reducere de trei până la , poate , șase ori .
+dar pentru acești trei factori de până acum , ajungem de la 26 de miliarde la , în cel mai bun caz , poate 13 miliarde de tone , iar asta nu e suficient .
+așa că hai să ne uităm la al patrulea factor — acesta va fi un factor cheie — care este cantitatea de co2 emisă pe unitatea de energie .
+iar întrebarea este : chiar se poate să o reducem la zero ?
+dacă arzi cărbune , nu .
+dacă arzi gaz natural , nu .
+aproape fiecare metodă de a produce electricitate astăzi , cu excepția metodelor regenerabile emergente și nucleare , emană co2 .
+ceea ce va trebui să facem la scară globală , este să creăm un nou sistem .
+deci , avem nevoie de miracole ale energiei .
+ei , când folosesc termenul miracol , nu mă refer la ceva ce este imposibil .
+microprocesorul este un miracol. calculatorul personal este un miracol .
+internetul și serviciile lui sunt un miracol .
+oamenii de aici au contribuit la crearea multor miracole .
+în mod normal nu avem un termen , ca să obții un miracol până la o dată anume .
+în mod normal doar aștepți și unele vin , unele nu .
+acesta e un caz în care chiar trebuie să accelerăm la maximum și să obținem un miracol într @-@ un interval destul de scurt .
+m @-@ am gândit : oare cum aș putea zugrăvesc ideea ?
+există vreo ilustrare naturală , vreo demonstrație care ar putea stimula imaginația oamenilor ?
+m @-@ am gândit că anul trecut am adus țânțari și se pare că unora le @-@ a plăcut .
+chiar i @-@ a implicat în ideea că , știți , sunt oameni care trăiesc cu țânțari .
+ei , cu energia , tot ce am putut găsi a fost asta .
+m @-@ am gândit să dau drumul câtorva licurici și asta să fie contribuția mea la mediul de aici în acest an .
+așa că aici avem niște licurici naturali .
+mi s @-@ a spus că nu mușcă. de fapt s @-@ ar putea să nici nu iasă din borcan .
+ei , există tot felul de soluții șmechere ca aceasta , dar ele n @-@ au cine știe ce valoare .
+avem nevoie de soluții , una sau mai multe , care au o scară incredibilă și sunt de mare încredere și , deși oamenii caută în multe direcții , eu văd doar cinci care pot să producă numere mari .
+am lăsat deoparte energia mareelor , geotermică , fuziunea , biocombustibilii .
+ele s @-@ ar putea să contribuie întrucâtva , iar dacă vor îmi vor întrece așteptările , cu atât mai bine .
+dar ce vreau să subliniez aici este că va trebui să lucrăm la fiecare din acestea cinci și că nu putem renunța la nici una dintre ele chiar dacă par copleșitoare , pentru că toate prezintă dificultăți semnificative .
+hai să ne uităm mai întâi la arderea combustibililor fosili , fie arderea cărbunelui , fie a gazului natural .
+ceea ce trebuie făcut aici , pare simplu , dar nu este , este să luăm co2 @-@ ul , după ce l @-@ am ars și iese pe horn , să @-@ l presurizăm , să @-@ l lichefiem , să @-@ l punem undeva și să sperăm că rămâne acolo .
+acum avem niște chestii pilot care fac asta la nivelul de 60 până la 80 la sută , dar creșterea până la procentajul plin , asta va fi foarte dificil , și va fi greu să ne înțelegem unde să punem cantitățile acestea de co2 , dar aici cea mai grea este problema pe termen lung .
+cine va fi sigur ?
+cine va garanta ceva care e literalmente de miliarde de ori mai mare decât orice tip de reziduu la care vă puteți gândi , nuclear sau de alt fel ?
+e un volum foarte mare .
+e o problemă grea .
+următoarea ar fi energia nucleară .
+are și ea trei probleme mari .
+costul , în special în țări strict regularizate , e mare .
+problema siguranței , să fim liniștiți că nimic nu se poate întâmpla , că , deși există acești operatori umani , combustibilul nu va fi folosit pentru arme .
+iar apoi ce faci cu reziduurile ?
+și , chiar dacă nu sunt foarte multe , ne preocupă mult asta .
+oamenii trebuie să se simtă bine în legătura cu asta .
+așa că există trei probleme foarte grele care s @-@ ar putea sa aibă soluție și deci ar trebui să lucrăm la ele .
+ultimele trei din cele cinci le @-@ am pus împreună .
+acestea sunt cele pe care lumea le numește surse regenerabile .
+dar ele — chiar dacă este minunat că nu au nevoie de combustibil — au unele dezavantaje .
+unul este că densitatea energiei produse de aceste tehnologii este mult mai mică decât la o centrală electrică .
+acestea sunt ferme energetice , vorbim aici de mulți kilometri pătrați , o suprafață de mii de ori mai mare decât la o centrală electrică normală .
+totodată acestea sunt surse intermitente .
+soarele nu strălucește toată ziua și nu strălucește în fiecare zi , iar vântul nu bate nici el tot timpul .
+dacă depindem de aceste surse , ne trebuie o metodă de a obține energie în acele perioade când ea nu este disponibilă .
+aici avem mari probleme bănești .
+avem dificultăți cu transportul .
+de exemplu , să spunem că o sursă de energie se află în afara țării , nu ai nevoie doar de tehnologie , ci trebuie să te expui și riscului ca energia să provină de altundeva .
+și , în final , există problema înmagazinării .
+și , pentru a înțelege dimensiunea , am luat la mână toate tipurile de baterii care sunt produse , pentru mașini , calculatoare , telefoane , lanterne , orice .
+am comparat cu cantitatea de energie pe care o consumă lumea și am descoperit că toate bateriile pe care le producem acum ar putea înmagazina mai puțin de 10 minute din totalul de energie .
+așa că , de fapt , avem nevoie de un progres semnificativ aici , o soluție de o sută de ori mai bună decât ce avem acum .
+nu e imposibil , dar nu e lucru ușor .
+problema asta apare când vrem ca sursa intermitentă să fie peste , să zicem , 20 – 30 % din consum .
+dacă ne bazăm pe ea pentru 100 % , avem nevoie de o baterie miracol .
+ei , cum vom merge mai departe , care e drumul potrivit ?
+este un proiect manhattan ? ce ne poate ajuta să ajungem acolo ?
+ei bine , avem nevoie de multe firme care să lucreze la asta , sute .
+pe fiecare dintre aceste cinci drumuri , avem nevoie de cel puțin 100 de oameni .
+iar la mulți dintre ei vă veți uita și veți spune că sunt nebuni. asta e bine .
+cred că aici în grupul ted avem mulți oameni care deja sunt pe acest drum .
+bill gross are câteva companii , între care una numită esolar , care are niște tehnologii solare termale excelente .
+vinod khosla investește în zeci de companii care fac lucruri remarcabile și au posibilități interesante , iar eu încerc să @-@ l susțin .
+nathan myhrvold și cu mine chiar susținem o companie care , poate în mod surprinzător , urmează calea nucleară .
+există unele inovații în domeniul nuclear : modularitate , lichid .
+dar inovația chiar s @-@ a oprit în domeniul acesta acum multă vreme , așa că n @-@ ar fi surprinzător să existe niște idei bune pe undeva .
+ideea terrapower este că , în loc să ardem o parte din uraniu , acel 1 % care este u235 , noi ne @-@ am decis să ardem cei 99 % de u238 .
+este o idee cam nebunească .
+de fapt s @-@ a vorbit despre ea de multă vreme , dar nu s @-@ a putut niciodată simula cum trebuie dacă ar funcționa sau nu .
+doar datorită apariției supercomputerelor moderne acum se poate simula și vedea că , într @-@ adevăr , folosind materialele potrivite , se pare că ar funcționa .
+și , pentru că se ard cei 99 % , profilul costurilor e mult îmbunătățit .
+de fapt ardem reziduurile și putem folosi drept combustibil toate reziduurile rămase de la reactoarele de azi .
+în loc să ne facem griji pentru ele , le folosim. e un lucru grozav .
+inspiră uraniul pe măsură ce avansează. e ca un fel de lumânare .
+vedeți aici un fel de buștean , numit adesea „ reactor cu undă progresivă ” .
+în ce privește combustibilul , asta chiar rezolvă problema .
+am aici o poză a unui loc din kentucky .
+acestea sunt reziduuri , cei 99 % rămași după ce s @-@ a consumat partea care se arde acum .
+se cheamă uraniu sărăcit .
+acoperă nevoile de energie ale statelor unite pentru sute de ani .
+iar prin simpla filtrare a apei de mare într @-@ un proces necostisitor am avea destul combustibil pentru întreaga viață a planetei .
+așadar ne așteaptă o mulțime de dificultăți , dar este un exemplu din multe sute și sute de idei de care avem nevoie pentru a avansa .
+hai să ne gândim , cum am putea să ne evaluăm ?
+cum ar trebui să arate carnetul nostru de note ?
+ei bine , hai să vedem unde trebuie să ajungem , iar apoi să ne uităm la pașii intermediari .
+pentru 2050 ați auzit multă lume vorbind despre această reducere de 80 % .
+este foarte important să ajungem acolo .
+iar cei 20 la sută vor fi consumați de ce se întâmplă în țări sărace și în continuare de agricultură .
+să sperăm că vom fi curățat silvicultura , cimentul .
+pentru a ajunge la cei 80 la sută , țările dezvoltate , incluzând țări ca și china , vor trebui să @-@ și modifice producția de electricitate în întregime .
+cealaltă notă este dacă aplicăm această tehnologie cu emisii zero , dacă am introdus @-@ o în toate țările dezvoltate și suntem în curs de a o duce în restul lumii .
+asta este super important .
+acesta este un element cheie în completarea carnetului de note .
+facem un pas înapoi : cum ar trebui să arate carnetul de note din 2020 ?
+ei bine , din nou ar trebui să aibă două elemente .
+ar trebui aplicăm aceste măsuri de eficientizare pentru a începe să avem reduceri .
+cu cât emitem mai puțin , cu atât mai mică va fi suma de co2 și , astfel , temperatura mai scăzută .
+dar într @-@ un fel , nota pe care o primim , făcând lucruri care nu ne duc până la reducerile mari , este doar în mod egal sau poate chiar puțin mai puțin importantă decât cealaltă , care este porția de inovație a acestor progrese .
+aceste progrese trebuie aduse la viteză maximă și asta putem măsura în raport cu companiile , proiectele pilot și reglementările care au fost schimbate .
+s @-@ au scris multe cărți excelente pe tema aceasta .
+cartea lui al gore , „ alegerea noastră ” și cartea lui david mackay , „ energie durabilă — fără înfierbântare ” .
+ele iau totul la mână și creează o structură așa încât lumea să poată discuta despre aceste lucruri , pentru că avem nevoie de o susținere largă pentru asta .
+trebuie ca multe lucruri să fie puse cap la cap .
+este o dorință .
+e o dorință foarte concretă ca noi să inventăm această tehnologie .
+dacă aș putea să @-@ mi aleg doar o dorință pentru următorii 50 de ani , aș putea alege cine să fie președinte , aș putea alege un vaccin , lucru care mă pasionează , sau aș putea să aleg asta : energie la jumătate de preț , fără co2 .
+eu dorința asta aș alege @-@ o .
+are impactul cel mai mare .
+dacă nu ni se îndeplinește această dorință , diviziunea între oamenii care gândesc pe termen scurt și pe termen lung va fi îngrozitoare , între statele unite și china , între țările sărace și cele bogate , și în mod special viața acelor două miliarde de oameni va fi mult mai rea .
+ce trebuie să facem ?
+ce vă rog pe dumneavoastră să faceți mai departe și să puneți în mișcare ?
+avem nevoie de mai multe fonduri de cercetare .
+când țările se întrunesc , de exemplu la copenhaga , n @-@ ar trebui să discute doar despre co2 .
+ar trebui să discute despre acest plan de inovații .
+v @-@ ar surprinde cât de ridicol de mici sunt cheltuielile pentru aceste cercetări inovatoare .
+e nevoie și de stimulii de piață , de taxa pe co2 , de bursa emisiilor , încât să se facă auzit semnalul prețurilor .
+trebuie să răspândim mesajul .
+trebuie ca această conversație să devină mai rațională , mai inteligibilă , incluzând măsurile pe care le ia guvernul .
+este o dorință importantă , dar pe care cred că o putem îndeplini .
+vă mulțumesc .
+vă mulțumesc .
+chris anderson : mulțumesc. mulțumesc .
+mulțumesc. ca să înțeleg mai bine despre terrapower , în primul rând , poți oferi o idee despre scala investițiilor ?
+bill gates : pentru a face software @-@ ul , a cumpăra supercomputerul , a angaja oameni de știință competenți , ceea ce am și făcut , sunt doar zeci de milioane .
+chiar și după ce ne testăm materialele într @-@ un reactor rusesc , pentru a fi siguri că materialele noastre funcționează cum trebuie , vom ajunge abia la sute de milioane .
+partea dificilă este construcția reactorului pilot , găsirea celor câteva miliarde , a autorităților , a amplasamentului construcția efectivă a primului dintre acestea .
+după ce @-@ l construiești pe primul , dacă merge ca în reclamă , atunci e clar ca lumina zilei , pentru că economia , densitatea energetică , sunt foarte diferite de cele obișnuite din domeniul nuclear .
+ca : ca să înțelegem cum trebuie , asta presupune construirea în pământ , la adâncime , a unui fel de coloană verticală de combustibil nuclear , de acest tip de uraniu consumat , iar apoi procesul începe de sus și cumva merge în jos ?
+bg : așa este. astăzi tot timpul trebuie să realimentezi reactorul , încât sunt mulți oameni și multe dispozitive care pot greși , în acel loc unde deschizi și miști obiecte înăuntru și în afară .
+asta nu e bine .
+dacă ai combustibil foarte ieftin pe care poți să @-@ l lași acolo 60 de ani — îl putem asemăna cu un buștean — îl așezi și nu ai aceleași complexități .
+doar stă acolo și arde timp de 60 de ani , iar apoi e gata .
+ca : este o centrală nucleară care este și propria soluție de eliminare a deșeurilor .
+bg : da. ei bine , ceea ce se întâmplă cu reziduurile , le poți lăsa acolo — există mult mai puține reziduuri în modul acesta — iar apoi le poți chiar lua și pune în altul să ardă acolo .
+iar noi începem cu reziduurile care există astăzi , aflate acum în bazine de răcire sau la uscat în rezervoare lângă reactoare .
+de la acest combustibil pornim .
+lucrul ce reprezintă o problemă pentru aceste reactoare este chiar materia primă pentru ale noastre și reducem volumul de deșeuri considerabil prin acest proces .
+ca : dar în discuțiile cu diferiți oameni din toată lumea în legătură cu posibilitățile , unde ai găsit cel mai mare interes pentru a se face ceva concret ?
+bg : nu am ales un loc precis și există toate aceste reguli de divulgare legate de domeniul nuclear .
+ne interesează mult , încât oamenii din companie s @-@ au dus în rusia , india , china .
+eu m @-@ am întâlnit aici cu ministrul energiei și am vorbit despre locul acestei idei în agenda energetică .
+sunt optimist. să știți că francezii și japonezii au făcut câte ceva .
+aceasta este o variantă a ceva ce s @-@ a făcut deja .
+este o dezvoltare importantă , dar e ca un reactor rapid și multe țări le @-@ au construit , așa că oricare din țările care au construit un reactor rapid poate fi cea în care va fi construit primul dintre ele .
+ca : ce părere ai , când și cu ce probabilitate se va realiza concret ?
+bg : pentru unul dintre generatoarele electrice de mari dimensiuni care e foarte ieftin avem 20 de ani să @-@ l inventăm și apoi 20 de ani să @-@ l implementăm .
+cam acesta e termenul limită pe care modelele de mediu ne @-@ au arătat că trebuie să @-@ l respectăm .
+iar terrapower , dacă lucrurile merg bine , ceea ce e o dorință mare , ar putea să respecte ușor termenul .
+acum există , din fericire , zeci de companii , avem nevoie să fie sute , care , de asemenea , dacă cercetarea lor merge bine , dacă finanțarea pentru reactoarele lor pilot merge bine , pot să concureze pentru asta .
+și e cel mai bine dacă reușesc mai multe , pentru că atunci am putea combina lucrurile .
+avem nevoie ca măcar una să reușească .
+ca : ca schimbări posibile pe scară largă , este aceasta cea mai mare pe care o cunoști ?
+bg : o revoluție energetică este cel mai important lucru .
+ar fi fost chiar și fără limitările de mediu , dar limitările de mediu o fac cu atât mai semnificativă .
+în domeniul nuclear mai sunt și alți inovatori .
+știți , nu le cunoaștem munca la fel de bine ca pe aceasta , dar există cei care merg pe modularitate , care e o altă cale .
+există și un reactor de tip lichid , care pare puțin dificil , dar poate și ei spun la fel despre noi .
+așa că există o varietate .
+frumusețea este că o moleculă de uraniu are de un milion de ori mai multă energie decât , să spunem , una de cărbune .
+deci dacă putem rezolva părțile negative , adică în esență radiația , atunci amprenta ecologică , costul , potențialul , ca efect asupra terenului și așa mai departe , uraniul aproape că formează o clasă de unul singur .
+ca : dar dacă nu va funcționa ?
+va trebui să începem să luăm măsuri de urgență pentru a menține temperatura pământului stabilă ?
+bg : dacă ajungem în situația asta e ca și când ai mânca prea mult și ești pe punctul de a avea un atac de cord .
+atunci ce faci ? se poate să ai nevoie de chirurgie cardiacă sau așa ceva .
+există o direcție de cercetare în ceea ce se cheamă geoinginerie , care cuprinde diferite tehnici de a amâna încălzirea cu 20 sau 30 de ani , până ne organizăm .
+dar asta e doar o poliță de asigurare .
+sperăm să nu avem nevoie de ea .
+unii spun chiar că nici măcar nu ar trebui să lucrăm la polița de asigurare , pentru că ne @-@ ar putea face leneși , că vom continua să mâncăm pentru că știm că ne va salva chirurgia cardiacă .
+nu cred că asta este înțelept , având în vedere importanța problemei , dar există în geoinginerie discuția aceasta , dacă n @-@ ar trebui să ținem polița în buzunar în caz că lucrurile se precipită sau dacă această inovație merge mult mai încet decât ne așteptăm .
+ca : scepticii schimbării climei : într @-@ o propoziție sau două , ce le @-@ ai spune pentru a @-@ i convinge că greșesc ?
+bg : din nefericire , scepticii țin de diferite tabere .
+cei care au argumente științifice sunt foarte puțini .
+spun că există efecte de reacție inversă negativă legate de norii care modifică lucrurile ?
+există foarte , foarte puține lucruri pe care le pot spune .
+au o șansă dintr @-@ un milion să aibă dreptate .
+problema principală aici este cam ca la sida .
+faci greșeala acum și plătești pentru ea mult mai târziu .
+când ai tot felul de probleme urgente , ideea e să suporți durerea acum pentru a avea un câștig mai târziu , iar durerea este oarecum incertă .
+de fapt avem raportul ipcc , care nu reflectă cazul cel mai rău , și există oameni în lumea bogată care se uită la ipcc și spun : lasă , nu chiar e așa mare lucru .
+de fapt tocmai incertitudinea ar trebui să ne motiveze spre asta .
+dar visul meu aici este să obținem un randament economic și simultan să respectăm și limitele de co2 , și atunci scepticii vor spune : bine , nu îmi pasă că nu emite co2 , ba chiar parcă mi @-@ aș dori să emită co2 , dar am s @-@ o accept pentru că este mai ieftin decât înainte .
+ca : deci acesta ar fi răspunsul tău la argumentul lui bjorn lomborg , care spune că dacă se consumă atâta energie pentru a rezolva problema co2 , nu ne mai rămâne pentru celelalte țeluri , de a încerca să scăpăm lumea de sărăcie , malarie și altele , că ne irosim prostește resursele alocând bani pentru asta când sunt lucruri mai bune de făcut .
+bg : de fapt cheltuielile pentru partea de cercetare și dezvoltare — să spunem că statele unite ar trebui să cheltuiască cu 10 miliarde pe an mai mult decât acum — nu sunt chiar atât de dramatice .
+n @-@ ar rămâne alte lucruri neacoperite .
+lucrul pe care cheltuiești mult , iar aici oamenii rezonabili pot să nu fie de acord , este când încerci să finanțezi ceva neeconomic .
+asta , pentru mine , este în mare parte risipă , în afară de situația când ești aproape gata și doar finanțezi curba de învățare și urmează să devină foarte ieftin .
+cred că ar trebui să încercăm mai multe lucruri care au potențialul să fie mult mai ieftine .
+dacă ajungem la compromisul de a face energia super scumpă , atunci bogații pot să @-@ și permită asta .
+oricare dintre noi de aici ar putea să plătească de cinci ori mai mult pe energie fără a ne schimba stilul de viață .
+dezastruos este pentru cei două miliarde .
+și chiar lomborg s @-@ a schimbat .
+poziția lui acum este : de ce nu se discută mai mult despre cercetare ?
+din cauza lucrurilor din trecut el este în continuare asociat cu tabăra scepticilor , dar și @-@ a dat seama că este o tabără destul de singuratică , așa că pune problema cercetării .
+e o fărâmă de ceva corect , cred .
+partea de cercetare și dezvoltare , este o nebunie cât de prost finanțată este .
+ca : bill , presupun că vorbesc în numele celor mai mulți de aici când spun că îți urez să ți se împlinească dorința. îți mulțumesc foarte mult .
+bg : mulțumesc !
+vreau să vă împărtășesc o descoperire făcută acum câteva luni , în timp ce scriam un articol pentru italian wired .
+când scriu , am întotdeauna dicționarul la îndemână .
+dar deja terminasem de scris articolul și mi @-@ am dat seama că niciodată nu am căutat cuvântul &apos; &apos; dizabilitate &apos; &apos; în dicționar .
+să vă citesc definiția .
+&apos; &apos; dizabilitate &apos; &apos; , substantiv : &apos; &apos; infirm , neajutorat , nefolositor , distrus , stagnat , mutilat , rănit , schilodit , olog , epuizat , extenuat , slăbit , impotent , castrat , paralizat , handicapat , senil , ramolit , imobilizat , zdrobit , distrus , obosit , surmenat , exclus .
+vezi și rănit , inutil și slab .
+antonime : sănătos , puternic , capabil .
+am citit lista unui prieten și la început am râs .
+era absurdă .
+după ce am trecut de &apos; &apos; schilodit &apos; &apos; , m @-@ a lăsat vocea și a trebuit să mă opresc ca să @-@ mi revin din șocul emoțional produs de aceste cuvinte .
+era dicționarul meu vechi .
+m @-@ am gândit că , poate , a fost tipărit mai demult .
+dar a ieșit din tipar la începutul anilor &apos; 80 , când începeam școala primară și începeam să înțeleg unde mă încadrez în afara familiei și cum mă raportez la ceilalți copii și la lumea din jurul meu .
+slavă domnului că pe atunci nu foloseam un dicționar .
+după această definiție , se pare că m @-@ am născut într @-@ o lume care credea că cineva ca mine nu are nicio trăsătură pozitivă .
+dar astăzi , sunt recunoscătoare pentru oportunitățile și aventurile pe care mi le @-@ a procurat viața .
+așa că , am căutat imediat în ediția online din 2009 , sperând să găsesc o modificare majoră .
+iată versiunea nouă a definiției .
+din păcate , nu e cu nimic mai bună .
+ultimele 2 cuvinte , de sub &apos; &apos; aproape antonime &apos; &apos; , sunt tulburătoare : &apos; &apos; întreg &apos; &apos; și &apos; &apos; viguros &apos; &apos; .
+nu doar cuvintele sunt problema .
+contează ce credem despre oamenii pe care @-@ i numim în acest fel .
+e vorba de valorile din spatele cuvintelor și cum le construim .
+limba noastră ne afectează gândirea și felul în care vedem lumea și pe ceilalți oameni .
+de fapt , multe societăți antice , inclusiv grecii și romanii , credeau că un blestem emis pe cale orală era foarte puternic , deoarece atunci când îl spuneai cu voce tare , îl făceai să existe .
+deci ce realitate vrem să creăm ?
+o persoană care are limitări sau o persoană puternică ?
+prin simplul fapt că numim un om , un copil , s @-@ ar putea să stopăm puterea pe care o are .
+nu ar fi mai bine să @-@ i deschidem o ușă ?
+un asemenea om care mi @-@ a deschis o ușă a fost doctorul meu din copilărie , de la institutul a.i.dupont , din wilmington , delaware .
+numele lui e dr.pizzutillo.
+american de origine italiană , al cărui nume se pare că e prea dificil de pronunțat de americani .
+așa că își spunea dr.p.
+dr.p. purta întotdeauna papioane colorate și avea înclinația necesară pentru a lucra cu copiii .
+iubeam timpul petrecut la spital , cu excepția ședințelor de terapie fizică. trebuia să fac nenumărate exerciții cu aceste benzi elastice groase , de diferite culori , ca să @-@ mi întrețin mușchii de la picioare .
+uram din tot sufletul acele benzi .
+le uram .
+deși aveam 5 ani , deja încercam să @-@ l conving pe dr.p. să mă lase să renunț la acele exerciții , bineînțeles , fără niciun succes .
+într @-@ o zi , a venit la ședința mea ...
+... erau niște ședințe dure și epuizante ...
+și mi @-@ a spus : &apos; &apos; aimee , ești o fetiță atât de puternică , &apos; &apos; &apos; &apos; încât cred că o să rupi una din aceste benzi . &apos; &apos; &apos; &apos; când o s @-@ o rupi , o să @-@ ți dau 100 de dolari . &apos; &apos; acesta era șiretlicul doctorului pizzutillo ca să mă convingă să fac exercițiile care nu @-@ mi plăceau , sperând că voi fi cea mai bogată fetiță de 5 ani de la etajul doi al spitalului .
+dar ceea ce a făcut el a fost să transforme o obligație zilnică într @-@ o experiență nouă și promițătoare .
+și mă întreb și astăzi în ce măsură faptul că mi @-@ a zis că sunt o fetiță puternică a influențat felul în care mă văd astăzi , ca o persoană puternică și atletică .
+acesta e un exemplu al felului în care adulții care dețin puterea pot declanșa puterea unui copil .
+dar prin acele definiții ale dicționarului , limba noastră nu ne permite să creăm realitatea pe care cu toții o vrem , posibilitatea ca un individ să se considere capabil .
+limba noastră nu e la curent cu schimbările societății , multe dintre ele fiind produse de tehnologie .
+bineînțeles că , dintr @-@ un punct de vedere medical , picioarele mele , operația cu laser pentru deficiența de vedere , protezele de titan pentru genunchi și șold , care le permit oamenilor să @-@ și pună în valoare abilitățile și să depășească limitele impuse de natură asupra lor , ca să nu mai vorbim de platformele de socializare online , care le permit oamenilor să se autodefinească ,
+astfel încât să se poată alătura unor grupuri pe care ei le aleg .
+poate că tehnologia ne dezvăluie acum mai clar ceea ce a fost întotdeauna adevărat .
+faptul că fiecare om are ceva rar și puternic de oferit societății și că abilitatea omului de a se adapta e cel mai mare câștig al nostru .
+capacitatea omului de a se adapta e un lucru interesant , pentru că oamenii vor mereu să le vorbesc despre depășirea adversităților și vă voi face o mărturisire .
+nu mi @-@ a plăcut niciodată această expresie și am răspuns cu ezitare la întrebările oamenilor despre ea .
+cred că am început să înțeleg de ce .
+implicită în problema depășirii adversității e și ideea că succesul sau fericirea înseamnă depășirea cu succes a unei experiențe grele , fără să fii rămas marcat de aceasta , ca și cum succesele mele din viață provin din capacitatea de a ocoli presupusele dificultăți ale unei vieți cu proteze , sau ceea ce alții văd ca dizabilitatea mea .
+dar , de fapt , ne schimbăm. suntem bineînțeles marcați de o provocare fizică sau emoțională .
+vreau să sugerez că acesta e un lucru bun .
+adversitatea nu e un obstacol pe care trebuie să @-@ l depășim , ca să ne putem trăi viața în continuare .
+face parte din viața noastră .
+cred că e un fel de umbră a mea .
+uneori , o văd destul de mult , alteori mai puțin , dar e întotdeauna cu mine .
+nu încerc să diminuez impactul luptei unei persoane cu adversitatea .
+în viață există adversitate și provocări pentru fiecare dintre noi , dar întrebarea nu e dacă vei întâlni această adversitate , ci felul în care vei reacționa la ea .
+așa că datoria noastră nu e numai să @-@ i protejăm de adversitate pe cei pe care @-@ i iubim , ci și să @-@ i pregătim să se lupte cu ea .
+le facem un deserviciu copiilor , când îi facem să se simtă incapabili de a se adapta .
+există o diferență importantă între faptul medical că am suferit o amputare și opinia subiectivă a societății , dacă am sau nu o dizabilitate .
+și ca să fiu sinceră , singura dizabilitate reală cu care m @-@ am confruntat a fost faptul că lumea crede că pot fi descrisă prin acele definiții .
+din dorința noastră de a @-@ i proteja pe cei pe care @-@ i iubim , spunându @-@ le adevărul despre diagnostic , sau diagnosticul despre calitatea viitoare a vieții lor , trebuie să avem grijă să nu fim primii care facem pe cineva să se simtă inferior .
+faptul că vezi doar ce e în neregulă cu tine poate fi mult mai dăunător decât patologia însăși .
+deoarece nu tratăm persoana în totalitatea ei și nu îi recunoaștem rezistența , îi transmitem un alt rău peste celelalte probleme pe care le are .
+practic evaluăm importanța acelui om în societate .
+așa că trebuie să vedem prin patologie lucrurile de care este capabil un om .
+și , mai ales , se formează un parteneriat între acele deficiențe percepute și cea mai mare abilitate creatoare a noastră .
+nu trebuie să devalorizăm sau să negăm aceste momente dificile , să le evităm sau să le trecem cu vederea , ci să găsim oportunitățile pe care le prezintă adversitățile .
+ideea pe care vreau s @-@ o subliniez este nu numai să depășim adversitatea , dar și să ne deschidem la ea , să o îmbrățișăm , să o facem knock @-@ out , ca să folosesc un termen sportiv , poate chiar să dansăm cu ea .
+și poate că vom vedea adversitatea ca pe ceva natural , consistent și util , ceva care nu ne mai trage în jos .
+în acest an , charles darwin împlinește 200 de ani , iar acum 150 de ani , când scria despre evoluție , darwin a ilustrat un adevăr despre caracterul uman .
+ca să parafrazez , nu cea mai puternică specie supraviețuiește și nici cea mai inteligentă , ci aceea care se poate adapta la schimbare .
+conflictul generează creație .
+din lucrările lui darwin , printre altele , putem să vedem că abilitatea omului de a supraviețui și de a înflori este impulsionată de lupta spiritului uman , de la conflict la transformare .
+încă o dată , transformarea , adaptarea este cel mai mare atribut al omului .
+și poate că , până când suntem testați , nu știm de ce suntem capabili .
+poate că asta ne dă adversitatea : un simț al sinelui , cunoașterea propriei noastre puteri .
+așa că ne putem face singuri un cadou .
+putem redefini adversitatea ca ceva mai mult decât niște vremuri grele .
+o putem vedea ca pe o schimbare .
+adversitatea e schimbarea la care încă nu ne @-@ am adaptat .
+cred că cea mai mare adversitate pe care am creat @-@ o este ideea de normalitate .
+cine este normal ?
+nu există normalitate .
+există trăsături comune , tipice , dar nu și normale .
+și chiar ați vrea să cunoașteți o asemenea persoană banală ?
+nu cred .
+dacă putem să schimbăm această paradigmă din aspirația spre normalitate la posibilitate sau forță , ca să spunem un pic mai mult , putem elibera forța a multor copii și îi putem îndemna să @-@ și folosească abilitățile valoroase în comunitate .
+antropologii ne spun că singurul lucru pe care noi , oamenii , l @-@ am cerut de la membrii comunității a fost să fie de folos , să poată contribui .
+s @-@ a descoperit că oamenii de neanderthal , în urmă cu 60.000 de ani , îi cărau pe cei bătrâni și pe cei cu deficiențe fizice și poate pentru că experiența lor de a supraviețui s @-@ a dovedit a fi valoroasă pentru comunitate .
+ei nu @-@ i vedeau pe acești oameni ca fiind infirmi sau nefolositori .
+erau considerați rari și valoroși .
+cu câțiva ani în urmă , eram într @-@ o piață din orașul meu natal , în acea zonă roșie din ne statului pennsylvania , și mă uitam la o cutie de roșii .
+era vară. eram în pantaloni scurți .
+am auzit vocea unui bărbat în spatele meu : &apos; &apos; măi să fie , dacă nu e chiar aimee mullins . &apos; &apos; m @-@ am întors și am văzut un bătrân pe care nu @-@ l cunoșteam .
+i @-@ am spus : &apos; &apos; mă scuzați. ne cunoaștem ? nu @-@ mi amintesc . &apos; &apos; mi @-@ a spus : &apos; &apos; n @-@ ai cum să mă fii ținut minte &apos; &apos; .
+&apos; &apos; când ne @-@ am cunoscut , tocmai o ajutam pe mama ta să nască &apos; &apos; .
+deci el era .
+și mi @-@ am adus aminte .
+acel bărbat era dr.kean , un om pe care @-@ l știam doar din poveștile mamei mele , deoarece , ca de obicei , am venit pe lume cu o întârziere de două săptămâni .
+și doctorul mamei mele plecase în vacanță .
+așa că cel care a ajutat la aducerea mea pe lume era un străin pentru părinții mei .
+și pentru că m @-@ am născut fără tibii și pentru că aveam picioarele răsucite și doar câteva degete la picioare , el a trebuit să le dea veștile proaste .
+mi @-@ a spus : &apos; &apos; a trebuit să le zic părinților tăi &apos; &apos; &apos; &apos; că nu vei merge niciodată &apos; &apos; &apos; &apos; și că nu vei avea niciodată mobilitatea pe care o au alți copii , &apos; &apos; &apos; &apos; sau o viață independentă &apos; &apos; .
+&apos; &apos; dar tu mi @-@ ai demonstrat că m @-@ am înșelat . &apos; &apos; ce e mai extraordinar e faptul că a păstrat articolele din ziar în care am apărut , încă din copilărie .
+când am câștigat concursul de ortografie în clasa a doua , când am fost cu ceilalți cercetași în parada de halloween , când am luat bursă la facultate sau victoriile mele sportive .
+el le dădea exemplu studenților rezidenți , studenților de medicină de la școlile hahnemann și hershey .
+și numea acest curs &apos; &apos; factorul x &apos; &apos; , potențialul voinței umane .
+niciun diagnostic nu putea sta în calea puterii voinței , ca determinant în calitatea vieții cuiva .
+și dr.kean mi @-@ a mai spus : &apos; &apos; din experiența mea , dacă nu i se spune contrariul , &apos; &apos; &apos; &apos; și dacă i se oferă și cel mai mic sprijin , &apos; &apos; &apos; &apos; dacă este lăsat să facă ce vrea , un copil va face performanță &apos; &apos; .
+dr.kean a făcut acea schimbare în mentalitate .
+el a înțeles că există o diferență între diagnosticul medicului și felul în care cineva reacționează la el .
+și mentalitatea mea s @-@ a schimbat de @-@ a lungul timpului .
+dacă m @-@ ai fi întrebat la 15 ani dacă aș da protezele în schimbul unor picioare din carne și os , nu aș fi ezitat nicio secundă .
+pe vremea aceea , aspiram la acel tip de normalitate .
+dacă mă întrebi azi , nu sunt atât de sigură .
+și asta &apos; &apos; mulțumită &apos; &apos; experiențelor pe care le @-@ am avut cu ele și nu &apos; &apos; în ciuda lor &apos; &apos; .
+poate că această schimbare din mine s @-@ a produs pentru că am fost expusă la mai mulți oameni care mi @-@ au deschis uși decât cei care mi le @-@ au închis în față .
+așa că , vedeți , nu aveți nevoie decât de o persoană ca să aveți revelația propriei puteri , și sunteți pe drumul cel bun .
+dacă îi poți oferi cuiva cheia propriei sale puteri , spiritul uman este atât de receptiv ... dacă poți face asta și îi deschizi cuiva o ușă la un moment crucial , îl educi așa cum trebuie .
+îl înveți să @-@ și deschidă singur ușile .
+de fapt , cuvântul &apos; &apos; a educa &apos; &apos; are rădăcina &apos; &apos; educe &apos; &apos; .
+înseamnă să pui în prim @-@ plan ce e în interior , să scoți în valoare potențialul .
+așa că , repet , ce potențial vrem să scoatem în evidență ?
+s @-@ a făcut un studiu de caz în marea britanie , în anii &apos; 60 , când au trecut de la școlile clasice la cele cu clase diferențiate. e vorba de categorisirea elevilor .
+sunt separați elevii cu a , cu b , cu c , cu d etc.
+elevii cu a aveau o programă mai grea , cei mai buni profesori etc.
+timp de trei luni , studenții cu note de d au primit a , li s @-@ a spus că sunt de a , li s @-@ a spus că sunt deștepți .
+după această perioadă de trei luni , aveau performanțe de nota a .
+reversul medaliei a fost că studenților cu a li s @-@ a spus că sunt de nota d .
+și asta s @-@ a întâmplat după cele trei luni .
+unii mai erau în școală. alții renunțaseră la studii .
+partea crucială a acestui studiu e că și profesorii au fost păcăliți .
+ei nu știau că s @-@ a schimbat ceva .
+li s @-@ a spus care studenți au a și care au d .
+și i @-@ au tratat corespunzător .
+cred că singurul handicap este un spirit zdrobit , care nu mai are speranță .
+nu mai vede frumusețea .
+nu mai are curiozitatea naturală a copilului și capacitatea înnăscută de a @-@ și imagina .
+dacă , în schimb , putem determina spiritul unui om să @-@ și păstreze speranța , să vadă frumusețea din sine și din alții , să fie curios și plin de imaginație , înseamnă că ne folosim puterea așa cum trebuie .
+când un spirit are acele calități , putem să creăm noi realități și noi moduri de a fi .
+vreau să vă las cu o poezie , scrisă de un poet persan din sec.14 , pe nume hafiz , pe care mi @-@ a spus @-@ o prietenul meu jacques dembois .
+poezia se numește &apos; &apos; dumnezeul care știe doar patru cuvinte &apos; &apos; .
+&apos; &apos; fiecare copil l @-@ a cunoscut pe dumnezeu . &apos; &apos; &apos; &apos; nu dumnezeu al cuvintelor , &apos; &apos; &apos; &apos; nu dumnezeu al interdicțiilor , &apos; &apos; &apos; &apos; ci un dumnezeu care știe doar patru cuvinte și le tot repetă , &apos; &apos; &apos; &apos; spunând : vino , dansează cu mine &apos; &apos; .
+&apos; &apos; vino și dansează cu mine . &apos; &apos; vă mulțumesc .
