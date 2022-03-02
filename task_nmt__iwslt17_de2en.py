@@ -1,8 +1,5 @@
 #! -*- coding: utf-8 -*-
-# bert做Seq2Seq任务，采用UNILM方案
-# 介绍链接：https://kexue.fm/archives/6933
-# 数据集：https://github.com/CLUEbenchmark/CLGE 中的CSL数据集
-# 补充了评测指标bleu、rouge-1、rouge-2、rouge-l
+# bert做NMT任务，采用UNILM方案
 from __future__ import print_function
 import os
 os.environ['TF_KERAS']= '1'
@@ -28,9 +25,10 @@ batch_size = 32
 epochs = 8
 
 # bert配置
-config_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/bert_config.json'
-checkpoint_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/bert_model.ckpt'
-dict_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/vocab.txt'
+#muli-language BERT pretrained model
+config_path = '/models/multi_cased_L-12_H-768_A-12/bert_config.json'
+checkpoint_path = '/models/multi_cased_L-12_H-768_A-12/bert_model.ckpt'
+dict_path = '/models/multi_cased_L-12_H-768_A-12/vocab.txt'
 
 
 
@@ -127,70 +125,62 @@ autotitle = AutoTitle(start_id=None, end_id=tokenizer._token_end_id, maxlen=64) 
 
 
 class Evaluator(keras.callbacks.Callback):
-    """评估与保存
+    """evaluation and save model
     """
     def __init__(self):
         self.lowest = 1e10
 
     def on_epoch_end(self, epoch, logs=None):
-        # 保存最优
+        # save the best model
         if logs['loss'] <= self.lowest:
             self.lowest = logs['loss']
             model.save_weights('./iwslt2017_de2en_model/best_model_deen.weights')
 
+#train
+if __name__ == '__main__':
 
-#if __name__ == '__main__':
-
-#     evaluator = Evaluator()
-#     train_generator = data_generator(train_data, batch_size)
+     evaluator = Evaluator()
+     train_generator = data_generator(train_data, batch_size)
      # d = train_generator.forfit()
      # print(d.__next__())
      # print(d.__next__())
 
-#     model.fit(
-#         train_generator.forfit(),
-#         steps_per_epoch=len(train_generator),
-#         epochs=epochs,
-#         callbacks=[evaluator]
-#     )
+     model.fit(
+         train_generator.forfit(),
+         steps_per_epoch=len(train_generator),
+         epochs=epochs,
+         callbacks=[evaluator]
+     )
 #
-#else:
-
-#     model.load_weights('./iwslt2017_de2en_model/best_model_deen.weights')
+else:
+     model.load_weights('./iwslt2017_de2en_model/best_model_deen.weights')
 
 # '''''''''''''''''''''test'''''''''''''''''
 model.load_weights('./iwslt2017_de2en_model/best_model_deen.weights')
-#enss = []
-#for (de,en) in valid_data:
-#    ens = autotitle.generate(de,topk=4)
-#    enss.append(ens)
-
-ens = autotitle.generate("Wir müssen einen weiblichen Diskurs entwickeln, der die folgenden Werte nicht nur würdigt, sondern auch umsetzt: Gnade anstatt Rache, Zusammenarbeit anstatt Konkurrenz, Einschluss anstatt Ausschluss.",topk=4)
-print(ens)
-
-#import codecs
-#def write_trans_result(filename):
-#    with codecs.open(filename,'w') as f:
-#        f.write('\n'.join(enss))
-#write_trans_result('datasets/iwslt2017/ende/dev2010.en.trans')
+enss = []
+for (de,en) in valid_data:
+    ens = autotitle.generate(de,topk=4)
+    enss.append(ens)
+import codecs
+def write_trans_result(filename):
+    with codecs.open(filename,'w') as f:
+        f.write('\n'.join(enss))
+write_trans_result('datasets/iwslt2017/ende/dev2010.en.trans')
 
 
 #---------------------get source file-------------
-#import codecs
-#def get_src(filename1,filename2):
+import codecs
+def get_src(filename1,filename2):
 #     """加载数据
 #     单条格式：(标题, 正文)
 #     """
-#     D = []
-#     with open(filename1) as f:
-#         for l in f:
-#             title, content = l.strip().split('\t')
-#             D.append(content)
-#     with open(filename2,'w') as f1:
-#         f1.write('\n'.join(D))
+     D = []
+     with open(filename1) as f:
+         for l in f:
+             title, content = l.strip().split('\t')
+             D.append(content)
+     with open(filename2,'w') as f1:
+         f1.write('\n'.join(D))
 
-#get_src('datasets/iwslt2017/ende/dev2010_deen.tsv','datasets/iwslt2017/ende/dev2010.src.en')
-#en2de BLEU:5.09
-#de2en BLEU:14.18
-#德语、荷兰-日耳曼语系
-#法语、西班牙、葡萄牙、罗马尼亚-拉丁语系
+get_src('datasets/iwslt2017/ende/dev2010_deen.tsv','datasets/iwslt2017/ende/dev2010.src.en')
+
