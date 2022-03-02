@@ -185,7 +185,4 @@ def get_src(filename1,filename2):
          f1.write('\n'.join(D))
 
 get_src('datasets/iwslt2017/ende/dev2010_deen.tsv','datasets/iwslt2017/ende/dev2010.src.en')
-#en2de BLEU:5.09
-#de2en BLEU:14.18
-#德语、荷兰-日耳曼语系
-#法语、西班牙、葡萄牙、罗马尼亚-拉丁语系
+
