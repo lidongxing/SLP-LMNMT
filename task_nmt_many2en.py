@@ -1,8 +1,6 @@
 #! -*- coding: utf-8 -*-
-# bert做Seq2Seq任务，采用UNILM方案
-# 介绍链接：https://kexue.fm/archives/6933
-# 数据集：https://github.com/CLUEbenchmark/CLGE 中的CSL数据集
-# 补充了评测指标bleu、rouge-1、rouge-2、rouge-l
+# take bert for NMT task and employ the UNILM seq2seq method
+#refer to bert4keras：https://github.com/bojone/bert4keras
 from __future__ import print_function
 import os
 os.environ['TF_KERAS']= '1'
@@ -25,21 +23,22 @@ import tensorflow as tf
 from keras import losses
 
 
-# 基本参数
+# hpyer-parameters
 maxlen = 128
 batch_size = 32
 epochs = 8
 
-# bert配置
-config_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/bert_config.json'
-checkpoint_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/bert_model.ckpt'
-dict_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/vocab.txt'
+# bert config
+#multi-language BERT pretrained model
+config_path = '/models/multi_cased_L-12_H-768_A-12/bert_config.json'
+checkpoint_path = '/models/multi_cased_L-12_H-768_A-12/bert_model.ckpt'
+dict_path = '/models/multi_cased_L-12_H-768_A-12/vocab.txt'
 
 
 
 def load_data(filename):
-    """加载数据
-    单条格式：(标题, 正文)
+    """load data
+    item：(it, en)
     """
     D = []
     with open(filename, encoding='utf-8') as f:
@@ -49,24 +48,24 @@ def load_data(filename):
     return D
 
 import random
-# 加载数据集
+# load datasets
 train_data = load_data('datasets/iwslt2017/corpus_iwslt2017.tsv')
 random.shuffle(train_data)
-valid_data = load_data('datasets/iwslt2017/ennl/dev2010_nlen.tsv')
-# test_data = load_data('datasets/csl_title_public/test.tsv')
+valid_data = load_data('data/ennl/dev2010_nlen.tsv')
 
-# 加载并精简词表，建立分词器
+
+# load dict and tokenize
 token_dict, keep_tokens = load_vocab(
     dict_path=dict_path,
     simplified=True,
     startswith=['[PAD]', '[UNK]', '[CLS]', '[SEP]'],
 )
 # tokenizer = Tokenizer(token_dict, do_lower_case=True)
-# 建立分词器
+# build tokenization
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
 
 class data_generator(DataGenerator):
-    """数据生成器
+    """data generator
     """
     def __iter__(self, random=False):
         batch_token_input_ids, batch_segment_ids,batch_labels,batch_token_output_ids = [], [],[],[]
@@ -93,25 +92,24 @@ class data_generator(DataGenerator):
 
 
 
-#strategy = tf.distribute.MirroredStrategy()  # 建立单机多卡策略
-# with strategy.scope():  # 调用该策略
+#strategy = tf.distribute.MirroredStrategy()
+# with strategy.scope():
 bert = build_transformer_model(
         config_path,
-        checkpoint_path=None,  # 此时可以不加载预训练权重
+        checkpoint_path=None, 
         with_pool = True,
         with_nsp=True,
         application='unilm',
         return_keras_model=False
     )
 
-model = bert.model  # 这个才是keras模型
+model = bert.model
 # print(f'>>>> model:{model}, inputs:{model.inputs}, outputs:{model.outputs}')
-
 # print( "model:",model, "inputs:",model.inputs, "outputs:",model.outputs)
 encoder = keras.models.Model(model.inputs, model.outputs[0])
 seq2seq = keras.models.Model(model.inputs, model.outputs[1])
 # outputs = TotalLoss([2, 3])(model.inputs + model.outputs)
-# print(f'>>>> outputs:{outputs}') # 这行日志打不出来
+# print(f'>>>> outputs:{outputs}') 
 label_output = keras.layers.Lambda(lambda x: x[0], name='label-token')(model.outputs)
 label_output_findall= keras.layers.Dense(
     units=4,
@@ -131,10 +129,10 @@ model.compile(optimizer=optimizer,\
             loss_weights={'label_output':0.1,'MLM-Activation':10})
 model.summary()
 # plot_model(model,to_file='slp_model.png',show_shapes=True)
-bert.load_weights_from_checkpoint(checkpoint_path) #必须最后才加载预训练权重c
+bert.load_weights_from_checkpoint(checkpoint_path)
 
 class AutoTitle(AutoRegressiveDecoder):
-    """seq2seq解码器
+    """seq2seq decoder
     """
     @AutoRegressiveDecoder.wraps(default_rtype='probas')
     def predict(self, inputs, output_ids, states):
@@ -148,10 +146,8 @@ class AutoTitle(AutoRegressiveDecoder):
         max_c_len = maxlen - self.maxlen
         token_ids, segment_ids = tokenizer.encode(text, maxlen=max_c_len)
         # src = model.predict([token_ids, segment_ids])[0]
-        # print('2222222222222222222222222')
         # print(src)
-        output_ids = self.beam_search([token_ids, segment_ids],topk=topk)  # 基于beam search
-        # print('000000000000000000000')
+        output_ids = self.beam_search([token_ids, segment_ids],topk=topk)  # topk=beam size
         # print(self.src_lang)
         return tokenizer.decode(output_ids),self.src_lang
 
@@ -160,42 +156,39 @@ autotitle = AutoTitle(start_id=None, end_id=tokenizer._token_end_id, maxlen=64)
 
 
 class Evaluator(keras.callbacks.Callback):
-    """评估与保存
+    """evaluate and save the model
     """
     def __init__(self):
         self.lowest = 1e10
 
     def on_epoch_end(self, epoch, logs=None):
-        # 保存最优
+        # save the best model
         if logs['loss'] <= self.lowest:
             self.lowest = logs['loss']
             model.save_weights('./iwslt2017_many2en_models/best_model_many2en.weights')
 
-#if __name__ == '__main__':
+if __name__ == '__main__':
 
-#    evaluator = Evaluator()
-#    train_generator = data_generator(train_data, batch_size)
+    evaluator = Evaluator()
+    train_generator = data_generator(train_data, batch_size)
     # d = train_generator.forfit()
     # print(d.__next__())
     # print(d.__next__())
 
-#    model.fit(
-#        train_generator.forfit(),
-#        steps_per_epoch=len(train_generator),
-#        epochs=epochs,
-#        callbacks=[evaluator]
-#    )
-#else:
-
-#    model.load_weights('./iwslt2017_many2en_models/best_model_many2en.weights')
+    model.fit(
+        train_generator.forfit(),
+        steps_per_epoch=len(train_generator),
+        epochs=epochs,
+        callbacks=[evaluator]
+    )
+else:
+    model.load_weights('./iwslt2017_many2en_models/best_model_many2en.weights')
 # '''''''''''''''''''''test'''''''''''''''''
 model.load_weights('./iwslt2017_many2en_models/best_model_many2en.weights')
 enss = []
 for (es,en) in valid_data:
     ens = autotitle.generate(es,topk=4)
     enss.append(ens[0])
-#ens = autotitle.generate("Trebuie să dezvoltăm un discurs feminin care nu doar onorează, ci și implementează milă în loc de răzbunare, colaborare în loc de competiție, incluziune în loc de excludere.",topk=4)
-#print(ens)
 import codecs
 def write_trans_result(filename):
     with codecs.open(filename,'w') as f:
@@ -204,19 +197,13 @@ write_trans_result('datasets/iwslt2017/ennl/dev2010.manytoen.en.trans2')
 
 
 #---------------------get source file-------------
-#import codecs
-#def get_src(filename1,filename2):
-#     """加载数据
-#     单条格式：(标题, 正文)
-#     """
-#    D = []
-#    with open(filename1) as f:
-#        for l in f:
-#            title, content = l.strip().split('\t')
-#            D.append(title)
-#    with open(filename2,'w') as f1:
-#        f1.write('\n'.join(D))
-#
-#get_src('datasets/iwslt2017/ennl/test2010_nlen.tsv','datasets/iwslt2017/ennl/test2010_many2nl.nl.src')
-#en2de BLEU:4.87
-#de2en BLEU:13.23
+import codecs
+def get_src(filename1,filename2):
+    D = []
+    with open(filename1) as f:
+        for l in f:
+            title, content = l.strip().split('\t')
+            D.append(title)
+    with open(filename2,'w') as f1:
+        f1.write('\n'.join(D))
+get_src('datasets/iwslt2017/ennl/test2010_nlen.tsv','datasets/iwslt2017/ennl/test2010_many2nl.nl.src')
