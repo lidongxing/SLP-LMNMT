@@ -1,5 +1,6 @@
 #! -*- coding: utf-8 -*-
-# bert做NMT任务，采用UNILM方案
+# take bert for NMT task and employ the UNILM seq2seq method
+# refer to bert4keras：https://github.com/bojone/bert4keras
 from __future__ import print_function
 import os
 os.environ['TF_KERAS']= '1'
@@ -19,13 +20,13 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 import tensorflow as tf
 
 
-# 基本参数
+# hpyer-parameters
 maxlen = 200
 batch_size = 32
 epochs = 8
 
-# bert配置
-#muli-language BERT pretrained model
+# bert config
+# multi-language BERT pretrained model
 config_path = '/models/multi_cased_L-12_H-768_A-12/bert_config.json'
 checkpoint_path = '/models/multi_cased_L-12_H-768_A-12/bert_model.ckpt'
 dict_path = '/models/multi_cased_L-12_H-768_A-12/vocab.txt'
@@ -33,8 +34,8 @@ dict_path = '/models/multi_cased_L-12_H-768_A-12/vocab.txt'
 
 
 def load_data(filename):
-    """加载数据
-    单条格式：(标题, 正文)
+    """load data
+    item：(it, en)
     """
     D = []
     with open(filename, encoding='utf-8') as f:
@@ -44,12 +45,12 @@ def load_data(filename):
     return D
 
 
-# 加载数据集
+# load datasets
 train_data = load_data('datasets/iwslt2017/ende/corpus_deen.tsv')
 valid_data = load_data('datasets/iwslt2017/ende/dev2010_deen.tsv')
 #test_data = load_data('datasets/iwslt2016/test_lowcased.tsv')
 
-# 加载并精简词表，建立分词器
+# load dict and tokenize
 token_dict, keep_tokens = load_vocab(
     dict_path=dict_path,
     simplified=True,
@@ -59,7 +60,7 @@ token_dict, keep_tokens = load_vocab(
 tokenizer = Tokenizer(token_dict, do_lower_case=True)
 
 class data_generator(DataGenerator):
-    """数据生成器
+    """data generator
     """
     def __iter__(self, random=False):
         batch_token_ids, batch_segment_ids = [], []
@@ -77,25 +78,24 @@ class data_generator(DataGenerator):
 
 
 class CrossEntropy(Loss):
-    """交叉熵作为loss，并mask掉输入部分
+    """cross-entropy as loss
     """
     def compute_loss(self, inputs, mask=None):
         y_true, y_mask, y_pred = inputs
-        y_true = y_true[:, 1:]  # 目标token_ids
-        y_mask = y_mask[:, 1:]  # segment_ids，刚好指示了要预测的部分
-        y_pred = y_pred[:, :-1]  # 预测序列，错开一位
+        y_true = y_true[:, 1:]  # target token_ids
+        y_mask = y_mask[:, 1:]  # segment_ids
+        y_pred = y_pred[:, :-1]  # predicted sequence
         loss = K.sparse_categorical_crossentropy(y_true, y_pred)
         loss = K.sum(loss * y_mask) / K.sum(y_mask)
         return loss
 
-# strategy = tf.distribute.MirroredStrategy()  # 建立单机多卡策略
-#
-# with strategy.scope():  # 调用该策略
+# strategy = tf.distribute.MirroredStrategy()  # build a single-machine multi-card strategy
+# with strategy.scope():  # call the strategy
 model = build_transformer_model(
     config_path,
     checkpoint_path,
     application='unilm',
-    # keep_tokens=keep_tokens,  # 只保留keep_tokens中的字，精简原字表
+    # keep_tokens=keep_tokens
 )
 
 output = CrossEntropy(2)(model.inputs + model.outputs)
@@ -104,7 +104,7 @@ model.compile(optimizer=Adam(1e-5))
 model.summary()
 
 class AutoTitle(AutoRegressiveDecoder):
-    """seq2seq解码器
+    """seq2seq decoder
     """
     @AutoRegressiveDecoder.wraps(default_rtype='probas')
     def predict(self, inputs, output_ids, states):
@@ -117,7 +117,7 @@ class AutoTitle(AutoRegressiveDecoder):
         max_c_len = maxlen - self.maxlen
         token_ids, segment_ids = tokenizer.encode(text, maxlen=max_c_len)
         output_ids = self.beam_search([token_ids, segment_ids],
-                                      topk=topk)  # 基于beam search
+                                      topk=topk)  # topk=beam size
         return tokenizer.decode(output_ids)
 
 
@@ -171,9 +171,6 @@ write_trans_result('datasets/iwslt2017/ende/dev2010.en.trans')
 #---------------------get source file-------------
 import codecs
 def get_src(filename1,filename2):
-#     """加载数据
-#     单条格式：(标题, 正文)
-#     """
      D = []
      with open(filename1) as f:
          for l in f:
