@@ -20,7 +20,7 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 import tensorflow as tf
 
 
-# 基本参数
+# hpyer-parameters
 maxlen = 200
 batch_size = 32
 epochs = 8
