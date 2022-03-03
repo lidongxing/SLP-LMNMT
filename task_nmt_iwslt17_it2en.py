@@ -1,6 +1,6 @@
 #! -*- coding: utf-8 -*-
-# bert做NMT任务，采用UNILM方案
-#参考bert4keras：https://github.com/bojone/bert4keras
+# take bert for NMT task and employ the UNILM seq2seq method
+#refer to bert4keras：https://github.com/bojone/bert4keras
 from __future__ import print_function
 import os
 os.environ['TF_KERAS']= '1'
