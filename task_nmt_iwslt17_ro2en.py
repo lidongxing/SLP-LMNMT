@@ -1,8 +1,6 @@
 #! -*- coding: utf-8 -*-
-# bert做Seq2Seq任务，采用UNILM方案
-# 介绍链接：https://kexue.fm/archives/6933
-# 数据集：https://github.com/CLUEbenchmark/CLGE 中的CSL数据集
-# 补充了评测指标bleu、rouge-1、rouge-2、rouge-l
+# take bert for NMT task and employ the UNILM seq2seq method
+# refer to bert4keras：https://github.com/bojone/bert4keras
 from __future__ import print_function
 import os
 os.environ['TF_KERAS']= '1'
@@ -22,21 +20,22 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 import tensorflow as tf
 
 
-# 基本参数
+# hpyer-parameters
 maxlen = 200
 batch_size = 32
 epochs = 8
 
-# bert配置
-config_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/bert_config.json'
-checkpoint_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/bert_model.ckpt'
-dict_path = '/data/lidongxing/bert4keras-master/models/multi_cased_L-12_H-768_A-12/vocab.txt'
+# bert config
+#multi-language BERT pretrained model
+config_path = '/models/multi_cased_L-12_H-768_A-12/bert_config.json'
+checkpoint_path = '/models/multi_cased_L-12_H-768_A-12/bert_model.ckpt'
+dict_path = '/models/multi_cased_L-12_H-768_A-12/vocab.txt'
 
 
 
 def load_data(filename):
-    """加载数据
-    单条格式：(标题, 正文)
+    """load data
+    item：(ro, en)
     """
     D = []
     with open(filename, encoding='utf-8') as f:
@@ -46,12 +45,12 @@ def load_data(filename):
     return D
 
 
-# 加载数据集
-train_data = load_data('datasets/iwslt2017/enro/corpus_roen.tsv')
-valid_data = load_data('datasets/iwslt2017/enro/test2010_roen.tsv')
-#test_data = load_data('datasets/iwslt2016/test_lowcased.tsv')
+# load datasets
+train_data = load_data('data/enro/corpus_roen.tsv')
+valid_data = load_data('data/enro/test2010_roen.tsv')
+test_data = load_data('data/enro/test2010_roen.tsv')
 
-# 加载并精简词表，建立分词器
+# load dict and tokenize
 token_dict, keep_tokens = load_vocab(
     dict_path=dict_path,
     simplified=True,
@@ -61,7 +60,7 @@ token_dict, keep_tokens = load_vocab(
 tokenizer = Tokenizer(token_dict, do_lower_case=True)
 
 class data_generator(DataGenerator):
-    """数据生成器
+    """data generator
     """
     def __iter__(self, random=False):
         batch_token_ids, batch_segment_ids = [], []
@@ -79,25 +78,22 @@ class data_generator(DataGenerator):
 
 
 class CrossEntropy(Loss):
-    """交叉熵作为loss，并mask掉输入部分
+    """cross-entropy as loss
     """
     def compute_loss(self, inputs, mask=None):
         y_true, y_mask, y_pred = inputs
-        y_true = y_true[:, 1:]  # 目标token_ids
-        y_mask = y_mask[:, 1:]  # segment_ids，刚好指示了要预测的部分
-        y_pred = y_pred[:, :-1]  # 预测序列，错开一位
+        y_true = y_true[:, 1:]  # target token_ids
+        y_mask = y_mask[:, 1:]  # segment_ids
+        y_pred = y_pred[:, :-1]  # predicted sequence
         loss = K.sparse_categorical_crossentropy(y_true, y_pred)
         loss = K.sum(loss * y_mask) / K.sum(y_mask)
         return loss
 
-# strategy = tf.distribute.MirroredStrategy()  # 建立单机多卡策略
-#
-# with strategy.scope():  # 调用该策略
 model = build_transformer_model(
     config_path,
     checkpoint_path,
     application='unilm',
-    # keep_tokens=keep_tokens,  # 只保留keep_tokens中的字，精简原字表
+    # keep_tokens=keep_tokens
 )
 
 output = CrossEntropy(2)(model.inputs + model.outputs)
@@ -106,7 +102,7 @@ model.compile(optimizer=Adam(1e-5))
 model.summary()
 
 class AutoTitle(AutoRegressiveDecoder):
-    """seq2seq解码器
+    """seq2seq decoder
     """
     @AutoRegressiveDecoder.wraps(default_rtype='probas')
     def predict(self, inputs, output_ids, states):
@@ -119,7 +115,7 @@ class AutoTitle(AutoRegressiveDecoder):
         max_c_len = maxlen - self.maxlen
         token_ids, segment_ids = tokenizer.encode(text, maxlen=max_c_len)
         output_ids = self.beam_search([token_ids, segment_ids],
-                                      topk=topk)  # 基于beam search
+                                      topk=topk)  # topk=beam size
         return tokenizer.decode(output_ids)
 
 
@@ -127,71 +123,58 @@ autotitle = AutoTitle(start_id=None, end_id=tokenizer._token_end_id, maxlen=64) 
 
 
 class Evaluator(keras.callbacks.Callback):
-    """评估与保存
+    """evaluate and save the model
     """
     def __init__(self):
         self.lowest = 1e10
 
     def on_epoch_end(self, epoch, logs=None):
-        # 保存最优
+        # save the best model
         if logs['loss'] <= self.lowest:
             self.lowest = logs['loss']
-            model.save_weights('./iwslt2017_ro2en_model/best_model_deen.weights')
+            model.save_weights('./iwslt2017_ro2en_model/best_model_roen.weights')
 
+# train
+if __name__ == '__main__':
 
-#if __name__ == '__main__':
-
-#     evaluator = Evaluator()
-#     train_generator = data_generator(train_data, batch_size)
+     evaluator = Evaluator()
+     train_generator = data_generator(train_data, batch_size)
      # d = train_generator.forfit()
      # print(d.__next__())
      # print(d.__next__())
 
-#     model.fit(
-#         train_generator.forfit(),
-#         steps_per_epoch=len(train_generator),
-#         epochs=epochs,
-#         callbacks=[evaluator]
-#     )
+     model.fit(
+         train_generator.forfit(),
+         steps_per_epoch=len(train_generator),
+         epochs=epochs,
+         callbacks=[evaluator]
+     )
 #
-#else:
-
-#     model.load_weights('./iwslt2017_ro2en_model/best_model_deen.weights')
+else:
+     model.load_weights('./iwslt2017_ro2en_model/best_model_roen.weights')
 
 # '''''''''''''''''''''test'''''''''''''''''
-model.load_weights('./iwslt2017_ro2en_model/best_model_deen.weights')
-#enss = []
-#for (de,en) in valid_data:
+model.load_weights('./iwslt2017_ro2en_model/best_model_roen.weights')
+enss = []
+for (de,en) in valid_data:
+    ens = autotitle.generate(de,topk=4)
+    enss.append(ens)
 
-#    ens = autotitle.generate(de,topk=4)
-#    enss.append(ens)
-
-ens = autotitle.generate("Trebuie să dezvoltăm un discurs feminin care nu doar onorează, ci și implementează milă în loc de răzbunare, colaborare în loc de competiție, incluziune în loc de excludere.",topk=4)
-print(ens)
-
-#import codecs
-#def write_trans_result(filename):
-#    with codecs.open(filename,'w') as f:
-#        f.write('\n'.join(enss))
-#write_trans_result('datasets/iwslt2017/enro/test2010.en.trans')
+import codecs
+def write_trans_result(filename):
+    with codecs.open(filename,'w') as f:
+        f.write('\n'.join(enss))
+write_trans_result('datasets/iwslt2017/enro/test2010.en.trans')
 
 
 #---------------------get source file-------------
-#import codecs
-#def get_src(filename1,filename2):
-#     """加载数据
-#     单条格式：(标题, 正文)
-#     """
-#     D = []
-#     with open(filename1) as f:
-#         for l in f:
-#             title, content = l.strip().split('\t')
-#             D.append(content)
-#     with open(filename2,'w') as f1:
-#         f1.write('\n'.join(D))
-
-#get_src('datasets/iwslt2017/enro/dev2010_roen.tsv','datasets/iwslt2017/enro/dev2010.src.en')
-#en2de BLEU:5.09
-#de2en BLEU:14.18
-#德语、荷兰-日耳曼语系
-#法语、西班牙、葡萄牙、罗马尼亚-拉丁语系
+import codecs
+def get_src(filename1,filename2):
+     D = []
+     with open(filename1) as f:
+         for l in f:
+             title, content = l.strip().split('\t')
+             D.append(content)
+     with open(filename2,'w') as f1:
+         f1.write('\n'.join(D))
+get_src('datasets/iwslt2017/enro/dev2010_roen.tsv','datasets/iwslt2017/enro/dev2010.src.en')
