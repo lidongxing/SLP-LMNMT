@@ -1,6 +1,6 @@
 #! -*- coding: utf-8 -*-
-# bert做NMT任务，采用UNILM方案
-#参考bert4keras：https://github.com/bojone/bert4keras
+# take bert for NMT task and employ the UNILM seq2seq method
+# refer to bert4keras：https://github.com/bojone/bert4keras
 from __future__ import print_function
 import os
 os.environ['TF_KERAS']= '1'
@@ -35,7 +35,7 @@ dict_path = '/models/multi_cased_L-12_H-768_A-12/vocab.txt'
 
 def load_data(filename):
     """load data
-    item：(it, en)
+    item：(nl, en)
     """
     D = []
     with open(filename, encoding='utf-8') as f:
@@ -133,7 +133,7 @@ class Evaluator(keras.callbacks.Callback):
         # save the best model
         if logs['loss'] <= self.lowest:
             self.lowest = logs['loss']
-            model.save_weights('./iwslt2017_nl2en_model/best_model_deen.weights')
+            model.save_weights('./iwslt2017_nl2en_model/best_model_nlen.weights')
 
 #train
 if __name__ == '__main__':
@@ -152,10 +152,10 @@ if __name__ == '__main__':
      )
 #
 else:
-     model.load_weights('./iwslt2017_nl2en_model/best_model_deen.weights')
+     model.load_weights('./iwslt2017_nl2en_model/best_model_nlen.weights')
 
 # '''''''''''''''''''''test'''''''''''''''''
-model.load_weights('./iwslt2017_nl2en_model/best_model_deen.weights')
+model.load_weights('./iwslt2017_nl2en_model/best_model_nlen.weights')
 enss = []
 for (de,en) in valid_data:
     ens = autotitle.generate(de,topk=4)
