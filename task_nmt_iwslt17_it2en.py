@@ -133,7 +133,7 @@ class Evaluator(keras.callbacks.Callback):
         # save the best model
         if logs['loss'] <= self.lowest:
             self.lowest = logs['loss']
-            model.save_weights('./iwslt2017_it2en_model/best_model_deen.weights')
+            model.save_weights('./iwslt2017_it2en_model/best_model_iten.weights')
 
 #train
 if __name__ == '__main__':
@@ -152,10 +152,10 @@ if __name__ == '__main__':
      )
 #
 else:
-     model.load_weights('./iwslt2017_it2en_model/best_model_deen.weights')
+     model.load_weights('./iwslt2017_it2en_model/best_model_iten.weights')
 
 # '''''''''''''''''''''test'''''''''''''''''
-model.load_weights('./iwslt2017_it2en_model/best_model_deen.weights')
+model.load_weights('./iwslt2017_it2en_model/best_model_iten.weights')
 enss = []
 for (de,en) in valid_data:
     ens = autotitle.generate(de,topk=4)
